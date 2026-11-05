@@ -1,0 +1,998 @@
+[
+  {
+    "name": "Another Round!",
+    "slug": "another-round",
+    "confidence": 1.0,
+    "votes": 9
+  },
+  {
+    "name": "Artwork: Evolving Pulsation",
+    "slug": "artwork-evolving-pulsation",
+    "confidence": 1.0,
+    "votes": 3
+  },
+  {
+    "name": "Artwork: Taxidermied Ferity",
+    "slug": "artwork-taxidermied-ferity",
+    "confidence": 1.0,
+    "votes": 3
+  },
+  {
+    "name": "Ashen Constellation's Blessing",
+    "slug": "ashen-constellations-blessing",
+    "confidence": 1.0,
+    "votes": 7
+  },
+  {
+    "name": "Automated Joints",
+    "slug": "automated-joints",
+    "confidence": 1.0,
+    "votes": 6
+  },
+  {
+    "name": "Awe",
+    "slug": "awe",
+    "confidence": 1.0,
+    "votes": 3
+  },
+  {
+    "name": "Baekja Water Dropper",
+    "slug": "baekja-water-dropper",
+    "confidence": 1.0,
+    "votes": 19
+  },
+  {
+    "name": "Barbed Lasso",
+    "slug": "barbed-lasso",
+    "confidence": 1.0,
+    "votes": 10
+  },
+  {
+    "name": "Beak-shaped Necklace",
+    "slug": "beak-shaped-necklace",
+    "confidence": 1.0,
+    "votes": 3
+  },
+  {
+    "name": "Black Sheet Music",
+    "slug": "black-sheet-music",
+    "confidence": 1.0,
+    "votes": 6
+  },
+  {
+    "name": "Blood-Red Mane",
+    "slug": "blood-red-mane",
+    "confidence": 1.0,
+    "votes": 4
+  },
+  {
+    "name": "Blood-red Mane",
+    "slug": "blood-red-mane",
+    "confidence": 1.0,
+    "votes": 2
+  },
+  {
+    "name": "Bloody Flesh, Fleshy Blood",
+    "slug": "bloody-flesh-fleshy-blood",
+    "confidence": 1.0,
+    "votes": 2
+  },
+  {
+    "name": "Bloody Mist",
+    "slug": "bloody-mist",
+    "confidence": 1.0,
+    "votes": 9
+  },
+  {
+    "name": "Bridle",
+    "slug": "bridle",
+    "confidence": 1.0,
+    "votes": 3
+  },
+  {
+    "name": "Burning Fate",
+    "slug": "burning-fate",
+    "confidence": 1.0,
+    "votes": 8
+  },
+  {
+    "name": "Carousel Figurine",
+    "slug": "carousel-figurine",
+    "confidence": 1.0,
+    "votes": 2
+  },
+  {
+    "name": "Cask Spirits",
+    "slug": "cask-spirits",
+    "confidence": 1.0,
+    "votes": 6
+  },
+  {
+    "name": "Cask spirits",
+    "slug": "cask-spirits",
+    "confidence": 1.0,
+    "votes": 3
+  },
+  {
+    "name": "Chalice of Trickle-down",
+    "slug": "chalice-of-trickle-down",
+    "confidence": 0.88,
+    "votes": 7
+  },
+  {
+    "name": "Clappity Clap!",
+    "slug": "clappity-clap",
+    "confidence": 1.0,
+    "votes": 9
+  },
+  {
+    "name": "Cleanup Agent Gear Set C",
+    "slug": "cleanup-agent-gear-set-c",
+    "confidence": 1.0,
+    "votes": 8
+  },
+  {
+    "name": "combustion gloves",
+    "slug": "combustion-gloves",
+    "confidence": 0.7,
+    "votes": 7
+  },
+  {
+    "name": "Contaminated Needle & Thread",
+    "slug": "contaminated-needle-and-thread",
+    "confidence": 1.0,
+    "votes": 22
+  },
+  {
+    "name": "Contaminated needle & thread",
+    "slug": "contaminated-needle-and-thread",
+    "confidence": 1.0,
+    "votes": 3
+  },
+  {
+    "name": "Coupled Oscillation",
+    "slug": "coupled-oscillation",
+    "confidence": 1.0,
+    "votes": 9
+  },
+  {
+    "name": "Coveting Thorn\n(Optional)",
+    "slug": "coveting-thorn-optional",
+    "confidence": 0.68,
+    "votes": 13
+  },
+  {
+    "name": "CQC Manual",
+    "slug": "cqc-manual",
+    "confidence": 1.0,
+    "votes": 9
+  },
+  {
+    "name": "CQc manual",
+    "slug": "cqc-manual",
+    "confidence": 1.0,
+    "votes": 2
+  },
+  {
+    "name": "Crushed Wooden Manacle",
+    "slug": "crushed-wooden-manacle",
+    "confidence": 1.0,
+    "votes": 19
+  },
+  {
+    "name": "Darkflame Smoking Pipe",
+    "slug": "darkflame-smoking-pipe",
+    "confidence": 1.0,
+    "votes": 13
+  },
+  {
+    "name": "darkflame smoking pipe",
+    "slug": "darkflame-smoking-pipe",
+    "confidence": 1.0,
+    "votes": 3
+  },
+  {
+    "name": "desperado",
+    "slug": "desperado",
+    "confidence": 1.0,
+    "votes": 3
+  },
+  {
+    "name": "Dry-to-the-Bone Breast",
+    "slug": "dry-to-the-bone-breast",
+    "confidence": 1.0,
+    "votes": 13
+  },
+  {
+    "name": "Dry-to-the-Bone Breast",
+    "slug": "dry-to-the-bone-breast",
+    "confidence": 1.0,
+    "votes": 3
+  },
+  {
+    "name": "Ebony Brooch",
+    "slug": "ebony-brooch",
+    "confidence": 1.0,
+    "votes": 2
+  },
+  {
+    "name": "embers",
+    "slug": "embers",
+    "confidence": 0.7,
+    "votes": 7
+  },
+  {
+    "name": "Emergency Investigator Badge",
+    "slug": "emergency-investigator-badge",
+    "confidence": 0.9,
+    "votes": 9
+  },
+  {
+    "name": "Employee Card",
+    "slug": "employee-card",
+    "confidence": 1.0,
+    "votes": 4
+  },
+  {
+    "name": "Enh. Tattoos - The Middle",
+    "slug": "enh-tattoos-the-middle",
+    "confidence": 1.0,
+    "votes": 5
+  },
+  {
+    "name": "Enhancer Mk.4",
+    "slug": "enhancer-mk-4",
+    "confidence": 1.0,
+    "votes": 11
+  },
+  {
+    "name": "Enhancer mk.4",
+    "slug": "enhancer-mk-4",
+    "confidence": 1.0,
+    "votes": 3
+  },
+  {
+    "name": "Enrapturing Trance",
+    "slug": "enrapturing-trance",
+    "confidence": 1.0,
+    "votes": 5
+  },
+  {
+    "name": "Enrapturing Trance",
+    "slug": "enrapturing-trance",
+    "confidence": 1.0,
+    "votes": 7
+  },
+  {
+    "name": "Entanglement Override Sequencer",
+    "slug": "entanglement-override-sequencer",
+    "confidence": 1.0,
+    "votes": 8
+  },
+  {
+    "name": "ENTER: The B.B.",
+    "slug": "enter-the-b-b",
+    "confidence": 1.0,
+    "votes": 5
+  },
+  {
+    "name": "Etched CLock Hands",
+    "slug": "etched-clock-hands",
+    "confidence": 1.0,
+    "votes": 2
+  },
+  {
+    "name": "Exquisite Artwork",
+    "slug": "exquisite-artwork",
+    "confidence": 1.0,
+    "votes": 3
+  },
+  {
+    "name": "Faded Watch Case",
+    "slug": "faded-watch-case",
+    "confidence": 1.0,
+    "votes": 2
+  },
+  {
+    "name": "False Halo",
+    "slug": "false-halo",
+    "confidence": 1.0,
+    "votes": 19
+  },
+  {
+    "name": "Filial Love",
+    "slug": "filial-love",
+    "confidence": 0.92,
+    "votes": 11
+  },
+  {
+    "name": "Flagroot Cane Sword",
+    "slug": "flagroot-cane-sword",
+    "confidence": 1.0,
+    "votes": 19
+  },
+  {
+    "name": "Flower in the Mirror",
+    "slug": "flower-in-the-mirror",
+    "confidence": 1.0,
+    "votes": 4
+  },
+  {
+    "name": "Fluorescent Lamp",
+    "slug": "fluorescent-lamp",
+    "confidence": 1.0,
+    "votes": 10
+  },
+  {
+    "name": "For the Capo",
+    "slug": "for-the-capo",
+    "confidence": 1.0,
+    "votes": 10
+  },
+  {
+    "name": "Frozen Cries",
+    "slug": "frozen-cries",
+    "confidence": 1.0,
+    "votes": 11
+  },
+  {
+    "name": "Gear Shrapnel",
+    "slug": "gear-shrapnel",
+    "confidence": 1.0,
+    "votes": 12
+  },
+  {
+    "name": "gear shrapnel",
+    "slug": "gear-shrapnel",
+    "confidence": 1.0,
+    "votes": 3
+  },
+  {
+    "name": "Gift",
+    "slug": "gift",
+    "confidence": 1.0,
+    "votes": 14
+  },
+  {
+    "name": "Glyph of Glass Shards",
+    "slug": "glyph-of-glass-shards",
+    "confidence": 1.0,
+    "votes": 9
+  },
+  {
+    "name": "Glyph of Glass Shards",
+    "slug": "glyph-of-glass-shards",
+    "confidence": 1.0,
+    "votes": 3
+  },
+  {
+    "name": "Guiding Gas Lamp",
+    "slug": "guiding-gas-lamp",
+    "confidence": 1.0,
+    "votes": 2
+  },
+  {
+    "name": "Hardblood Glaive",
+    "slug": "hardblood-glaive",
+    "confidence": 1.0,
+    "votes": 2
+  },
+  {
+    "name": "Hardwood Liquor Cup",
+    "slug": "hardwood-liquor-cup",
+    "confidence": 1.0,
+    "votes": 3
+  },
+  {
+    "name": "Harestride",
+    "slug": "harestride",
+    "confidence": 0.67,
+    "votes": 4
+  },
+  {
+    "name": "Harestride",
+    "slug": "harestride",
+    "confidence": 1.0,
+    "votes": 3
+  },
+  {
+    "name": "harmonics",
+    "slug": "harmonics",
+    "confidence": 1.0,
+    "votes": 3
+  },
+  {
+    "name": "Harmonics",
+    "slug": "harmonics",
+    "confidence": 1.0,
+    "votes": 3
+  },
+  {
+    "name": "Haunted Shoes",
+    "slug": "haunted-shoes",
+    "confidence": 1.0,
+    "votes": 2
+  },
+  {
+    "name": "Hearts-Powered Jewel",
+    "slug": "hearts-powered-jewel",
+    "confidence": 1.0,
+    "votes": 6
+  },
+  {
+    "name": "Hemorrhagic Shock",
+    "slug": "hemorrhagic-shock",
+    "confidence": 1.0,
+    "votes": 8
+  },
+  {
+    "name": "High-risk Operational Gear",
+    "slug": "high-risk-operational-gear",
+    "confidence": 0.8,
+    "votes": 8
+  },
+  {
+    "name": "Hoarfrost Footprint",
+    "slug": "hoarfrost-footprint",
+    "confidence": 1.0,
+    "votes": 13
+  },
+  {
+    "name": "Hoarfrost footprint",
+    "slug": "hoarfrost-footprint",
+    "confidence": 1.0,
+    "votes": 2
+  },
+  {
+    "name": "Hot ‘n Juicy Drumstick",
+    "slug": "hot-n-juicy-drumstick",
+    "confidence": 1.0,
+    "votes": 12
+  },
+  {
+    "name": "Impending Wave",
+    "slug": "impending-wave",
+    "confidence": 1.0,
+    "votes": 6
+  },
+  {
+    "name": "Jolly Plushie",
+    "slug": "jolly-plushie",
+    "confidence": 1.0,
+    "votes": 14
+  },
+  {
+    "name": "Kaleidoscope",
+    "slug": "kaleidoscope",
+    "confidence": 1.0,
+    "votes": 2
+  },
+  {
+    "name": "La Manchaland All-day Pass",
+    "slug": "la-manchaland-all-day-pass",
+    "confidence": 1.0,
+    "votes": 2
+  },
+  {
+    "name": "Leaked Enkephalin",
+    "slug": "leaked-enkephalin",
+    "confidence": 1.0,
+    "votes": 11
+  },
+  {
+    "name": "Little and To-Be-Naughty Plushie",
+    "slug": "little-and-to-be-naughty-plushie",
+    "confidence": 1.0,
+    "votes": 3
+  },
+  {
+    "name": "Lucky Pouch",
+    "slug": "lucky-pouch",
+    "confidence": 1.0,
+    "votes": 6
+  },
+  {
+    "name": "Lucky pouch",
+    "slug": "lucky-pouch",
+    "confidence": 1.0,
+    "votes": 3
+  },
+  {
+    "name": "Made-to-order",
+    "slug": "made-to-order",
+    "confidence": 1.0,
+    "votes": 2
+  },
+  {
+    "name": "Magical Girl's Lovely Gift",
+    "slug": "magical-girls-lovely-gift",
+    "confidence": 1.0,
+    "votes": 7
+  },
+  {
+    "name": "Mental Corruption Boosting Gas",
+    "slug": "mental-corruption-boosting-gas",
+    "confidence": 1.0,
+    "votes": 5
+  },
+  {
+    "name": "Metronome",
+    "slug": "metronome",
+    "confidence": 1.0,
+    "votes": 3
+  },
+  {
+    "name": "Microprecision Time Accelerator",
+    "slug": "microprecision-time-accelerator",
+    "confidence": 1.0,
+    "votes": 8
+  },
+  {
+    "name": "Miniature Ferris Wheel",
+    "slug": "miniature-ferris-wheel",
+    "confidence": 1.0,
+    "votes": 2
+  },
+  {
+    "name": "Misaligned Transistor",
+    "slug": "misaligned-transistor",
+    "confidence": 1.0,
+    "votes": 8
+  },
+  {
+    "name": "Moon in the Water",
+    "slug": "moon-in-the-water",
+    "confidence": 1.0,
+    "votes": 4
+  },
+  {
+    "name": "Nagel und Hammer Scriptures",
+    "slug": "nagel-und-hammer-scriptures",
+    "confidence": 1.0,
+    "votes": 4
+  },
+  {
+    "name": "Nagel und Hammer Scriptures",
+    "slug": "nagel-und-hammer-scriptures",
+    "confidence": 1.0,
+    "votes": 2
+  },
+  {
+    "name": "Ohra Bond",
+    "slug": "ohra-bond",
+    "confidence": 1.0,
+    "votes": 19
+  },
+  {
+    "name": "Omnivibro-octovecti-bell",
+    "slug": "omnivibro-octovecti-bell",
+    "confidence": 1.0,
+    "votes": 9
+  },
+  {
+    "name": "Operation authorization card",
+    "slug": "operation-authorization-card",
+    "confidence": 1.0,
+    "votes": 2
+  },
+  {
+    "name": "Oscillating Bracelet",
+    "slug": "oscillating-bracelet",
+    "confidence": 1.0,
+    "votes": 3
+  },
+  {
+    "name": "Patrolling Flashlight",
+    "slug": "patrolling-flashlight",
+    "confidence": 1.0,
+    "votes": 4
+  },
+  {
+    "name": "Pink Bouquet",
+    "slug": "pink-bouquet",
+    "confidence": 1.0,
+    "votes": 6
+  },
+  {
+    "name": "Pocket Watch : Type E",
+    "slug": "pocket-watch-type-e",
+    "confidence": 1.0,
+    "votes": 8
+  },
+  {
+    "name": "Pocket Watch : Type Y",
+    "slug": "pocket-watch-type-y",
+    "confidence": 1.0,
+    "votes": 8
+  },
+  {
+    "name": "Portable Battery Socket",
+    "slug": "portable-battery-socket",
+    "confidence": 1.0,
+    "votes": 4
+  },
+  {
+    "name": "Prestige Card",
+    "slug": "prestige-card",
+    "confidence": 0.68,
+    "votes": 13
+  },
+  {
+    "name": "PrestIGE Card",
+    "slug": "prestige-card",
+    "confidence": 0.67,
+    "votes": 2
+  },
+  {
+    "name": "Purloined Flame",
+    "slug": "purloined-flame",
+    "confidence": 1.0,
+    "votes": 5
+  },
+  {
+    "name": "Raincloud",
+    "slug": "raincloud",
+    "confidence": 1.0,
+    "votes": 4
+  },
+  {
+    "name": "re-ignition plug",
+    "slug": "re-ignition-plug",
+    "confidence": 0.7,
+    "votes": 7
+  },
+  {
+    "name": "Red Necktie",
+    "slug": "red-necktie",
+    "confidence": 0.67,
+    "votes": 2
+  },
+  {
+    "name": "Red Tassel",
+    "slug": "red-tassel",
+    "confidence": 1.0,
+    "votes": 17
+  },
+  {
+    "name": "Red tassel",
+    "slug": "red-tassel",
+    "confidence": 1.0,
+    "votes": 2
+  },
+  {
+    "name": "Reverberation",
+    "slug": "reverberation",
+    "confidence": 1.0,
+    "votes": 3
+  },
+  {
+    "name": "Ruin",
+    "slug": "ruin",
+    "confidence": 1.0,
+    "votes": 5
+  },
+  {
+    "name": "Ruin",
+    "slug": "ruin",
+    "confidence": 1.0,
+    "votes": 7
+  },
+  {
+    "name": "rules of the middle",
+    "slug": "rules-of-the-middle",
+    "confidence": 1.0,
+    "votes": 3
+  },
+  {
+    "name": "Rules of the Middle",
+    "slug": "rules-of-the-middle",
+    "confidence": 1.0,
+    "votes": 5
+  },
+  {
+    "name": "Rules of the middle",
+    "slug": "rules-of-the-middle",
+    "confidence": 1.0,
+    "votes": 2
+  },
+  {
+    "name": "Rusted Clock hands",
+    "slug": "rusted-clock-hands",
+    "confidence": 1.0,
+    "votes": 2
+  },
+  {
+    "name": "Rusted Hilt",
+    "slug": "rusted-hilt",
+    "confidence": 1.0,
+    "votes": 3
+  },
+  {
+    "name": "Searing Brass",
+    "slug": "searing-brass",
+    "confidence": 1.0,
+    "votes": 3
+  },
+  {
+    "name": "searing hammer",
+    "slug": "searing-hammer",
+    "confidence": 1.0,
+    "votes": 2
+  },
+  {
+    "name": "Shadow Bamboo Hat",
+    "slug": "shadow-bamboo-hat",
+    "confidence": 1.0,
+    "votes": 7
+  },
+  {
+    "name": "Shadow Bamboo Hat",
+    "slug": "shadow-bamboo-hat",
+    "confidence": 1.0,
+    "votes": 3
+  },
+  {
+    "name": "Shadow Monster",
+    "slug": "shadow-monster",
+    "confidence": 1.0,
+    "votes": 14
+  },
+  {
+    "name": "Shadowlurking",
+    "slug": "shadowlurking",
+    "confidence": 1.0,
+    "votes": 3
+  },
+  {
+    "name": "Sharp Needle & Thread",
+    "slug": "sharp-needle-and-thread",
+    "confidence": 1.0,
+    "votes": 21
+  },
+  {
+    "name": "Sharp Needle & Thread",
+    "slug": "sharp-needle-and-thread",
+    "confidence": 0.75,
+    "votes": 3
+  },
+  {
+    "name": "Shatterbound Cannon",
+    "slug": "shatterbound-cannon",
+    "confidence": 0.68,
+    "votes": 13
+  },
+  {
+    "name": "Silver Watch Case",
+    "slug": "silver-watch-case",
+    "confidence": 1.0,
+    "votes": 2
+  },
+  {
+    "name": "Smoking Gunpowder",
+    "slug": "smoking-gunpowder",
+    "confidence": 1.0,
+    "votes": 10
+  },
+  {
+    "name": "Snake Slough",
+    "slug": "snake-slough",
+    "confidence": 0.84,
+    "votes": 16
+  },
+  {
+    "name": "Someone's Azure Blade",
+    "slug": "someones-azure-blade",
+    "confidence": 1.0,
+    "votes": 3
+  },
+  {
+    "name": "Someone's Dropped Employee Card",
+    "slug": "someones-dropped-employee-card",
+    "confidence": 0.82,
+    "votes": 9
+  },
+  {
+    "name": "Soothe the Dead",
+    "slug": "soothe-the-dead",
+    "confidence": 1.0,
+    "votes": 4
+  },
+  {
+    "name": "Sorrowful Exhale\n(Optional)",
+    "slug": "sorrowful-exhale-optional",
+    "confidence": 0.72,
+    "votes": 13
+  },
+  {
+    "name": "Sour Liquor Aroma",
+    "slug": "sour-liquor-aroma",
+    "confidence": 1.0,
+    "votes": 3
+  },
+  {
+    "name": "Spent Use, Forming Hate",
+    "slug": "spent-use-forming-hate",
+    "confidence": 1.0,
+    "votes": 9
+  },
+  {
+    "name": "Spicebush, glasses and mailed letter",
+    "slug": "spicebush-glasses-and-mailed-letter",
+    "confidence": 1.0,
+    "votes": 3
+  },
+  {
+    "name": "Spiderweb Entangled in Red",
+    "slug": "spiderweb-entangled-in-red",
+    "confidence": 1.0,
+    "votes": 5
+  },
+  {
+    "name": "Spiked Combat Boots",
+    "slug": "spiked-combat-boots",
+    "confidence": 1.0,
+    "votes": 11
+  },
+  {
+    "name": "Spiked combat boots",
+    "slug": "spiked-combat-boots",
+    "confidence": 1.0,
+    "votes": 3
+  },
+  {
+    "name": "Staticky Two-way Radio",
+    "slug": "staticky-two-way-radio",
+    "confidence": 1.0,
+    "votes": 2
+  },
+  {
+    "name": "Swift command",
+    "slug": "swift-command",
+    "confidence": 1.0,
+    "votes": 5
+  },
+  {
+    "name": "Sword Sharpened with Tears",
+    "slug": "sword-sharpened-with-tears",
+    "confidence": 1.0,
+    "votes": 2
+  },
+  {
+    "name": "T-1 Perpetual Motion Machine",
+    "slug": "t-1-perpetual-motion-machine",
+    "confidence": 1.0,
+    "votes": 8
+  },
+  {
+    "name": "T-5 Perpetual Motion Machine",
+    "slug": "t-5-perpetual-motion-machine",
+    "confidence": 1.0,
+    "votes": 8
+  },
+  {
+    "name": "Tango Marinade",
+    "slug": "tango-marinade",
+    "confidence": 1.0,
+    "votes": 22
+  },
+  {
+    "name": "Tango Marinade",
+    "slug": "tango-marinade",
+    "confidence": 1.0,
+    "votes": 3
+  },
+  {
+    "name": "The Book of the Homeland Swordplay",
+    "slug": "the-book-of-the-homeland-swordplay",
+    "confidence": 1.0,
+    "votes": 19
+  },
+  {
+    "name": "The End of All Evil",
+    "slug": "the-end-of-all-evil",
+    "confidence": 1.0,
+    "votes": 3
+  },
+  {
+    "name": "The Family's Resentment",
+    "slug": "the-familys-resentment",
+    "confidence": 1.0,
+    "votes": 6
+  },
+  {
+    "name": "The Family's Resentment",
+    "slug": "the-familys-resentment",
+    "confidence": 1.0,
+    "votes": 2
+  },
+  {
+    "name": "The Measure of Frost",
+    "slug": "the-measure-of-frost",
+    "confidence": 1.0,
+    "votes": 2
+  },
+  {
+    "name": "The Unchosen",
+    "slug": "the-unchosen",
+    "confidence": 1.0,
+    "votes": 2
+  },
+  {
+    "name": "The Unchosen",
+    "slug": "the-unchosen",
+    "confidence": 1.0,
+    "votes": 2
+  },
+  {
+    "name": "Token of Victory",
+    "slug": "token-of-victory",
+    "confidence": 1.0,
+    "votes": 2
+  },
+  {
+    "name": "Trash Crab Brain Wine",
+    "slug": "trash-crab-brain-wine",
+    "confidence": 1.0,
+    "votes": 7
+  },
+  {
+    "name": "Trauma Shield",
+    "slug": "trauma-shield",
+    "confidence": 1.0,
+    "votes": 7
+  },
+  {
+    "name": "trial extraction: A.B.s",
+    "slug": "trial-extraction-a-b-s",
+    "confidence": 0.7,
+    "votes": 7
+  },
+  {
+    "name": "Trial Extraction : Lantern",
+    "slug": "trial-extraction-lantern",
+    "confidence": 0.91,
+    "votes": 10
+  },
+  {
+    "name": "Trial extraction : Lantern",
+    "slug": "trial-extraction-lantern",
+    "confidence": 1.0,
+    "votes": 3
+  },
+  {
+    "name": "Tributary Cigar",
+    "slug": "tributary-cigar",
+    "confidence": 1.0,
+    "votes": 2
+  },
+  {
+    "name": "Twigs",
+    "slug": "twigs",
+    "confidence": 1.0,
+    "votes": 11
+  },
+  {
+    "name": "Twigs",
+    "slug": "twigs",
+    "confidence": 1.0,
+    "votes": 3
+  },
+  {
+    "name": "Uniform - Liu Assoc.",
+    "slug": "uniform-liu-assoc",
+    "confidence": 1.0,
+    "votes": 3
+  },
+  {
+    "name": "walking bass",
+    "slug": "walking-bass",
+    "confidence": 1.0,
+    "votes": 3
+  },
+  {
+    "name": "Wound Clerid",
+    "slug": "wound-clerid",
+    "confidence": 1.0,
+    "votes": 3
+  }
+]

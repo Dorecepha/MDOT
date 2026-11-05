@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "assets",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "4178", "--directory", "_import/work"],
+      "port": 4178
+    },
+    {
+      "name": "site",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "4179", "--directory", "site"],
+      "port": 4179
+    }
+  ]
+}

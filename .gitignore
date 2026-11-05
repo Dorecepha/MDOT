@@ -1,0 +1,22 @@
+# Raw Google Sheets exports — 112 MB each, re-downloadable (see PLAN.md §6)
+_import/raw/
+
+# Intermediate extraction output
+_import/work/
+
+# Node / Astro
+node_modules/
+dist/
+.astro/
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+
+# OS cruft
+Thumbs.db
+desktop.ini
+.DS_Store

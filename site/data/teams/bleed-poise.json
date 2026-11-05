@@ -1,0 +1,1385 @@
+{
+  "slug": "bleed-poise",
+  "name": "Bleed+Poise",
+  "tab": "Bleed+Poise",
+  "collection": "comfortable",
+  "statuses": [
+    "Bleed",
+    "Poise"
+  ],
+  "guidemaker": "Vladsault",
+  "difficulty": "Easy",
+  "difficultyLevel": 1,
+  "lastUpdated": "25th of October 2026",
+  "teamCode": "H4sIAAAAAAAAChXMoQ6AIBRA0Z+yGi48lOfmgDGDWTd0BiN8vlhPOFIpTQuarHe2MqBb8kjrzIOudnJ3+fnIioOrsRPVejHJYPQNM1I79ySSxZnCmXQNCzCOH1/z2o1gAAAA",
+  "credits": "Guidemaker:\nVladsault.\nFootage:\nMystic, Vladsault, Nia, Vaksi, Yaz, Yorshka, Spiral",
+  "description": "This guide is for the Bleed+Poise double status team. This guide is made with specifically 60 adversity MDE runs in mind, though of course it can still be used in MDE runs with less or no adversity.\nThis team has 2 different loadout sections based on preference and available IDs, you can choose the version that you prefer.",
+  "footage": [
+    {
+      "contributor": "vladsault",
+      "label": "No Commentary\n(Current Team) [MD7]",
+      "url": "https://youtu.be/0PbhbX_P9Nw",
+      "secretBossGifts": 1,
+      "avatar": "avatars/vladsault.png"
+    },
+    {
+      "contributor": "Yaz",
+      "label": "No Commentary\n(Current Team) [MD7]",
+      "url": "https://youtu.be/ciZPa0NIPuw?si=bZEVxc7Qzy7avPRe",
+      "secretBossGifts": 1,
+      "avatar": "avatars/yaz.png"
+    },
+    {
+      "contributor": "Yorshka",
+      "label": "No Commentary\n(Current Team) [MD7]",
+      "url": "https://youtu.be/28Eg3WnRevY",
+      "secretBossGifts": 1,
+      "avatar": "avatars/yorshka.png"
+    },
+    {
+      "contributor": "Spiral",
+      "label": "No Commentary\n(Current Team) [MD7]",
+      "url": "https://youtu.be/4xZ7LJScnZ0",
+      "secretBossGifts": 1,
+      "avatar": "avatars/spiral.png"
+    },
+    {
+      "contributor": "Vaksi",
+      "label": "No Commentary\n(Old Triple Slot Team) [MD7]",
+      "url": "https://youtu.be/Dj4rq-s8HeQ?si=E4j2_p1uiD3KPLvZ",
+      "secretBossGifts": 1,
+      "avatar": "avatars/vaksi.png"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Preferred Team (and loadout)",
+      "row": 19,
+      "kind": "roster",
+      "cards": [
+        {
+          "raw": "Blade of the House of Spiders Ryoshu",
+          "id": "blade-of-the-house-of-spiders-ryoshu",
+          "resolved": true,
+          "name": "Blade of the House of Spiders Ryoshu",
+          "nickname": "Blade of the House of Spiders Ryoshu",
+          "statuses": [
+            "Bleed",
+            "Burn",
+            "Poise"
+          ],
+          "portrait": "identities/blade-of-the-house-of-spiders-ryoshu.png",
+          "role": "Erasing You, Erasing Every HoS ID",
+          "notes": [
+            "She will be the main focus of the team since she will always start with 3 slots.",
+            "Since there are 4 Nursefather sacs, she will also get 4 additional coins in skill 3-2."
+          ],
+          "banner": {
+            "slug": "season-7-pass",
+            "label": "Season 7 Limbus Pass",
+            "level": null,
+            "src": "banners/season-7-pass.png"
+          },
+          "uptie": {
+            "slug": "uptie-4",
+            "label": "IV",
+            "level": 4,
+            "src": "upties/uptie-4.png"
+          }
+        },
+        {
+          "raw": "LCD Ishmael",
+          "id": "lcd-ishmael",
+          "resolved": true,
+          "name": "LCD OSIR Team Ishmael",
+          "nickname": "LCD Ishmael",
+          "statuses": [
+            "Bleed",
+            "Poise"
+          ],
+          "portrait": "identities/lcd-ishmael.png",
+          "role": "The Best BL ID",
+          "notes": [
+            "While she is obviously outshined by Ryoshu, she will be the second best ID in this team in regards to damage and clashing."
+          ],
+          "banner": {
+            "slug": "season-7-pass",
+            "label": "Season 7 Limbus Pass",
+            "level": null,
+            "src": "banners/season-7-pass.png"
+          },
+          "uptie": {
+            "slug": "uptie-4",
+            "label": "IV",
+            "level": 4,
+            "src": "upties/uptie-4.png"
+          }
+        },
+        {
+          "raw": "Blade Lineage Mentor Meursault",
+          "id": "blade-lineage-mentor-meursault",
+          "resolved": true,
+          "name": "Blade Lineage Mentor Meursault",
+          "nickname": "Blade Lineage Mentor Meursault",
+          "statuses": [
+            "Bleed",
+            "Poise"
+          ],
+          "portrait": "identities/blade-lineage-mentor-meursault.png",
+          "role": "To Claim Their Bones",
+          "notes": [
+            "Beware that he only counts as Bleed+Poise ID if you have the Shadow-vested Bladesinger EGO equipped on him."
+          ],
+          "banner": {
+            "slug": "season-3-pass",
+            "label": "Season 3 Limbus Pass",
+            "level": null,
+            "src": "banners/season-3-pass.png"
+          },
+          "uptie": {
+            "slug": "uptie-4",
+            "label": "IV",
+            "level": 4,
+            "src": "upties/uptie-4.png"
+          }
+        },
+        {
+          "raw": "Blade Lineage Faust",
+          "id": "blade-lineage-faust",
+          "resolved": true,
+          "name": "Blade Lineage Salsu Faust",
+          "nickname": "Blade Lineage Faust",
+          "statuses": [
+            "Bleed",
+            "Poise"
+          ],
+          "portrait": "identities/blade-lineage-faust.png",
+          "role": "BL Filler",
+          "notes": [
+            "Exists here to be the 3rd BL ID and activate the BL gifts."
+          ],
+          "banner": {
+            "slug": "season-3-pass",
+            "label": "Season 3 Limbus Pass",
+            "level": null,
+            "src": "banners/season-3-pass.png"
+          },
+          "uptie": {
+            "slug": "uptie-4",
+            "label": "IV",
+            "level": 4,
+            "src": "upties/uptie-4.png"
+          }
+        },
+        {
+          "raw": "Twinhook Gregor",
+          "id": "twinhook-gregor",
+          "resolved": true,
+          "name": "Twinhook Pirates First Mate Gregor",
+          "nickname": "Twinhook Gregor",
+          "statuses": [
+            "Bleed",
+            "Poise"
+          ],
+          "portrait": "identities/twinhook-gregor.png",
+          "role": "Bloise Filler",
+          "notes": [
+            "Gregor IDs don't interfere with HoS IDs so he is the best option as a Bleed+Poise ID except the BLs and Ryoshu."
+          ],
+          "banner": {
+            "slug": "season-3-pass",
+            "label": "Season 3 Limbus Pass",
+            "level": null,
+            "src": "banners/season-3-pass.png"
+          },
+          "uptie": {
+            "slug": "uptie-4",
+            "label": "IV",
+            "level": 4,
+            "src": "upties/uptie-4.png"
+          }
+        }
+      ],
+      "notes": [
+        "Important: Don't forget to check the skill replacement warning section, so that you don't brick your run.",
+        "Only 5 IDs are used so that Ryoshu starts with 3 skill slots from turn 1.\nWarning: You need to have at least 6 HoS sacs to be able to start with 3 slots. If you can only do 3 to 5 sacs, use 6 IDs instead. If you cannot do even 3 sacs, use 7 IDs (or a different team).",
+        "— She will be the main focus of the team since she will always start with 3 slots.\n— Since there are 4 Nursefather sacs, she will also get 4 additional coins in skill 3-2.",
+        "— While she is obviously outshined by Ryoshu, she will be the second best ID in this team in regards to damage and clashing.",
+        "— Beware that he only counts as Bleed+Poise ID if you have the Shadow-vested Bladesinger EGO equipped on him.",
+        "— Gregor IDs don't interfere with HoS IDs so he is the best option as a Bleed+Poise ID except the BLs and Ryoshu."
+      ]
+    },
+    {
+      "heading": "Floor 1 Sacs",
+      "row": 34,
+      "kind": "roster",
+      "cards": [
+        {
+          "raw": "Index Nursefather Yi Sang",
+          "id": "index-nursefather-yi-sang",
+          "resolved": true,
+          "name": "The House of Spiders: The Index Nursefather Yi Sang",
+          "nickname": "Index Nursefather Yi Sang",
+          "statuses": [
+            "Sinking",
+            "Poise"
+          ],
+          "portrait": "identities/index-nursefather-yi-sang.png",
+          "role": null,
+          "notes": [],
+          "banner": {
+            "slug": "season-7-pass",
+            "label": "Season 7 Limbus Pass",
+            "level": null,
+            "src": "banners/season-7-pass.png"
+          },
+          "uptie": {
+            "slug": "uptie-1",
+            "label": "I",
+            "level": 1,
+            "src": "upties/uptie-1.png"
+          }
+        },
+        {
+          "raw": "Index Apprentice Don QUixote",
+          "id": "index-apprentice-don-quixote",
+          "resolved": true,
+          "name": "The Index Proxy - Effloresced E.G.O::Procuration Don Quixote",
+          "nickname": "Index Apprentice Don Quixote",
+          "statuses": [
+            "Sinking",
+            "Poise"
+          ],
+          "portrait": "identities/index-apprentice-don-quixote.png",
+          "role": null,
+          "notes": [],
+          "banner": {
+            "slug": "season-7-pass",
+            "label": "Season 7 Limbus Pass",
+            "level": null,
+            "src": "banners/season-7-pass.png"
+          },
+          "uptie": {
+            "slug": "uptie-1",
+            "label": "I",
+            "level": 1,
+            "src": "upties/uptie-1.png"
+          }
+        },
+        {
+          "raw": "Ring Nursefather Hong Lu",
+          "id": "ring-nursefather-hong-lu",
+          "resolved": true,
+          "name": "The House of Spiders: The Ring Nursefather Hong Lu",
+          "nickname": "Ring Nursefather Hong Lu",
+          "statuses": [
+            "Bleed",
+            "Charge"
+          ],
+          "portrait": "identities/ring-nursefather-hong-lu.png",
+          "role": null,
+          "notes": [],
+          "banner": {
+            "slug": "season-7-pass",
+            "label": "Season 7 Limbus Pass",
+            "level": null,
+            "src": "banners/season-7-pass.png"
+          },
+          "uptie": {
+            "slug": "uptie-1",
+            "label": "I",
+            "level": 1,
+            "src": "upties/uptie-1.png"
+          }
+        },
+        {
+          "raw": "Thumb Apprentice Heathcliff",
+          "id": "thumb-apprentice-heathcliff",
+          "resolved": true,
+          "name": "The House of Spiders: The Thumb Apprentice Heathcliff",
+          "nickname": "Thumb Apprentice Heathcliff",
+          "statuses": [
+            "Burn",
+            "Tremor"
+          ],
+          "portrait": "identities/thumb-apprentice-heathcliff.png",
+          "role": null,
+          "notes": [],
+          "banner": {
+            "slug": "season-7-pass",
+            "label": "Season 7 Limbus Pass",
+            "level": null,
+            "src": "banners/season-7-pass.png"
+          },
+          "uptie": {
+            "slug": "uptie-1",
+            "label": "I",
+            "level": 1,
+            "src": "upties/uptie-1.png"
+          }
+        },
+        {
+          "raw": "Thumb Nursefather Rodion",
+          "id": "thumb-nursefather-rodion",
+          "resolved": true,
+          "name": "The House of Spiders: The Thumb Nursefather Rodion",
+          "nickname": "Thumb Nursefather Rodion",
+          "statuses": [
+            "Burn",
+            "Tremor"
+          ],
+          "portrait": "identities/thumb-nursefather-rodion.png",
+          "role": null,
+          "notes": [],
+          "banner": {
+            "slug": "season-7-pass",
+            "label": "Season 7 Limbus Pass",
+            "level": null,
+            "src": "banners/season-7-pass.png"
+          },
+          "uptie": {
+            "slug": "uptie-1",
+            "label": "I",
+            "level": 1,
+            "src": "upties/uptie-1.png"
+          }
+        },
+        {
+          "raw": "Pinky Apprentice Sinclair",
+          "id": "pinky-apprentice-sinclair",
+          "resolved": true,
+          "name": "The House of Spiders: The Pinky Apprentice Sinclair",
+          "nickname": "Pinky Apprentice Sinclair",
+          "statuses": [
+            "Bleed",
+            "Poise"
+          ],
+          "portrait": "identities/pinky-apprentice-sinclair.png",
+          "role": null,
+          "notes": [],
+          "banner": {
+            "slug": "season-7-pass",
+            "label": "Season 7 Limbus Pass",
+            "level": null,
+            "src": "banners/season-7-pass.png"
+          },
+          "uptie": {
+            "slug": "uptie-1",
+            "label": "I",
+            "level": 1,
+            "src": "upties/uptie-1.png"
+          }
+        },
+        {
+          "raw": "Middle Nursefather Outis",
+          "id": "middle-nursefather-outis",
+          "resolved": true,
+          "name": "The House of Spiders: The Middle Nursefather Outis",
+          "nickname": "Middle Nursefather Outis",
+          "statuses": [
+            "Bleed",
+            "Burn"
+          ],
+          "portrait": "identities/middle-nursefather-outis.png",
+          "role": null,
+          "notes": [],
+          "banner": {
+            "slug": "season-7-pass",
+            "label": "Season 7 Limbus Pass",
+            "level": null,
+            "src": "banners/season-7-pass.png"
+          },
+          "uptie": {
+            "slug": "uptie-1",
+            "label": "I",
+            "level": 1,
+            "src": "upties/uptie-1.png"
+          }
+        }
+      ],
+      "notes": [
+        "Explanation: The new ego gift \"Spiderweb Entangled in Red\" that we are gift searching from the start allows for killed sinners to stay dead even between floors. This makes it so that to buff Ryoshu you only need to kill the HoS IDs once in floor 1 and Ryoshu will be buffed for the rest of the run. You can do this by fielding the IDs together with Ryoshu and killing them through Ryoshu's evade skill. After killing these IDs, you can go back to using the team above as you normally would use a team.\nWarning: Since the ego gift makes it so that all allies stay dead if they die once, if anyone from the main team above dies you need to remember to revive them in the shop."
+      ]
+    },
+    {
+      "heading": "Substitutes",
+      "row": 51,
+      "kind": "roster",
+      "cards": [
+        {
+          "raw": "hornet Meursault",
+          "id": "hornet-meursault",
+          "resolved": true,
+          "name": "Lobotomy E.G.O::Hornet【Alteration】Meursault",
+          "nickname": "Hornet Meursault",
+          "statuses": [
+            "Bleed",
+            "Burn"
+          ],
+          "portrait": "identities/hornet-meursault.png",
+          "role": null,
+          "notes": [
+            "A very good bleed ID with AOE, if you don't have the 3 BL IDs to activate BL gifts and you have less than 6 HoS sacs you can use him for some nice AOE damage."
+          ],
+          "banner": {
+            "slug": "walpurgis-night",
+            "label": "Walpurgis Night",
+            "level": null,
+            "src": "banners/walpurgis-night.png"
+          },
+          "uptie": {
+            "slug": "uptie-4",
+            "label": "IV",
+            "level": 4,
+            "src": "upties/uptie-4.png"
+          }
+        },
+        {
+          "raw": "Heishou Pack - Si Branch Rodion",
+          "id": "heishou-pack-si-branch-rodion",
+          "resolved": true,
+          "name": "Heishou Pack - Si Branch Rodion",
+          "nickname": "Heishou Pack - Si Branch Rodion",
+          "statuses": [
+            "Rupture",
+            "Poise"
+          ],
+          "portrait": "identities/heishou-pack-si-branch-rodion.png",
+          "role": null,
+          "notes": [
+            "Only an option if you don't have 6 HoS sacs and thus need to use a 6th ID, though even then you would be losing Thumb Rodion sac, so only go for it if you don't have both."
+          ],
+          "banner": {
+            "slug": "season-6-pass",
+            "label": "Season 6 Limbus Pass",
+            "level": null,
+            "src": "banners/season-6-pass.png"
+          },
+          "uptie": {
+            "slug": "uptie-4",
+            "label": "IV",
+            "level": 4,
+            "src": "upties/uptie-4.png"
+          }
+        },
+        {
+          "raw": "Shi Faust",
+          "id": "shi-faust",
+          "resolved": true,
+          "name": "Shi Assoc. East Section 3 Faust",
+          "nickname": "Shi Faust",
+          "statuses": [
+            "Bleed",
+            "Poise"
+          ],
+          "portrait": "identities/shi-faust.png",
+          "role": null,
+          "notes": [
+            "A decent Bleed+Poise substitute if you don't have Twinhook Gregor or need a 6th ID."
+          ],
+          "banner": {
+            "slug": "standard-fare",
+            "label": "Standard Fare",
+            "level": null,
+            "src": "banners/standard-fare.png"
+          },
+          "uptie": {
+            "slug": "uptie-4",
+            "label": "IV",
+            "level": 4,
+            "src": "upties/uptie-4.png"
+          }
+        },
+        {
+          "raw": "S Corp. hong Lu",
+          "id": "s-corp-hong-lu",
+          "resolved": true,
+          "name": "S Corp. Ch'unokkun Hong Lu",
+          "nickname": "S Corp. Hong Lu",
+          "statuses": [
+            "Bleed",
+            "Poise"
+          ],
+          "portrait": "identities/s-corp-hong-lu.png",
+          "role": null,
+          "notes": [
+            "He actually counts as a BL ID with the Mnestic Experience fusion gift, so he can be used instead of BL Faust if you want to, though then you would lose a Nursefather sac (Ring Hong Lu)."
+          ],
+          "banner": {
+            "slug": "season-7-pass",
+            "label": "Season 7 Limbus Pass",
+            "level": null,
+            "src": "banners/season-7-pass.png"
+          },
+          "uptie": {
+            "slug": "uptie-4",
+            "label": "IV",
+            "level": 4,
+            "src": "upties/uptie-4.png"
+          }
+        },
+        {
+          "raw": "Pequod Heathcliff",
+          "id": "pequod-heathcliff",
+          "resolved": true,
+          "name": "The Pequod Harpooneer Heathcliff",
+          "nickname": "Pequod Heathcliff",
+          "statuses": [
+            "Bleed",
+            "Poise"
+          ],
+          "portrait": "identities/pequod-heathcliff.png",
+          "role": null,
+          "notes": [
+            "A decent Bleed+Poise substitute if you don't have Twinhook Gregor or need a 6th ID."
+          ],
+          "banner": {
+            "slug": "season-3-pass",
+            "label": "Season 3 Limbus Pass",
+            "level": null,
+            "src": "banners/season-3-pass.png"
+          },
+          "uptie": {
+            "slug": "uptie-4",
+            "label": "IV",
+            "level": 4,
+            "src": "upties/uptie-4.png"
+          }
+        },
+        {
+          "raw": "Pequod Ishmael",
+          "id": "pequod-ishmael",
+          "resolved": true,
+          "name": "The Pequod Captain Ishmael",
+          "nickname": "Pequod Ishmael",
+          "statuses": [
+            "Bleed",
+            "Burn",
+            "Poise"
+          ],
+          "portrait": "identities/pequod-ishmael.png",
+          "role": null,
+          "notes": [],
+          "banner": {
+            "slug": "season-3-pass",
+            "label": "Season 3 Limbus Pass",
+            "level": null,
+            "src": "banners/season-3-pass.png"
+          },
+          "uptie": {
+            "slug": "uptie-4",
+            "label": "IV",
+            "level": 4,
+            "src": "upties/uptie-4.png"
+          }
+        },
+        {
+          "raw": "Pequod Yi Sang",
+          "id": "pequod-yi-sang",
+          "resolved": true,
+          "name": "The Pequod First Mate Yi Sang",
+          "nickname": "Pequod Yi Sang",
+          "statuses": [
+            "Bleed",
+            "Poise"
+          ],
+          "portrait": "identities/pequod-yi-sang.png",
+          "role": null,
+          "notes": [],
+          "banner": {
+            "slug": "season-3-pass",
+            "label": "Season 3 Limbus Pass",
+            "level": null,
+            "src": "banners/season-3-pass.png"
+          },
+          "uptie": {
+            "slug": "uptie-4",
+            "label": "IV",
+            "level": 4,
+            "src": "upties/uptie-4.png"
+          }
+        }
+      ],
+      "notes": [
+        "Note: While substituting IDs, keep in mind to always have 5 bleed and 5 poise IDs total in the field so that you don't lose the conditional ego gift activations.",
+        "— A very good bleed ID with AOE, if you don't have the 3 BL IDs to activate BL gifts and you have less than 6 HoS sacs you can use him for some nice AOE damage.",
+        "— Only an option if you don't have 6 HoS sacs and thus need to use a 6th ID, though even then you would be losing Thumb Rodion sac, so only go for it if you don't have both.",
+        "— A decent Bleed+Poise substitute if you don't have Twinhook Gregor or need a 6th ID.",
+        "— He actually counts as a BL ID with the Mnestic Experience fusion gift, so he can be used instead of BL Faust if you want to, though then you would lose a Nursefather sac (Ring Hong Lu).",
+        "— A decent Bleed+Poise substitute if you don't have Twinhook Gregor or need a 6th ID."
+      ]
+    },
+    {
+      "heading": "Skill Replacement WarnING (Important)",
+      "row": 65,
+      "kind": "roster",
+      "cards": [
+        {
+          "raw": "Pequod Heathcliff",
+          "id": "pequod-heathcliff",
+          "resolved": true,
+          "name": "The Pequod Harpooneer Heathcliff",
+          "nickname": "Pequod Heathcliff",
+          "statuses": [
+            "Bleed",
+            "Poise"
+          ],
+          "portrait": "identities/pequod-heathcliff.png",
+          "role": null,
+          "notes": [
+            "Skill 3 doesn't gain poise, thus it doesn't count as a poise skill (it will still get the coin power though).",
+            "Keep at least 1 Skill 2 to not lose the ego gift effects."
+          ],
+          "banner": {
+            "slug": "season-3-pass",
+            "label": "Season 3 Limbus Pass",
+            "level": null,
+            "src": "banners/season-3-pass.png"
+          },
+          "uptie": {
+            "slug": "uptie-4",
+            "label": "IV",
+            "level": 4,
+            "src": "upties/uptie-4.png"
+          }
+        }
+      ],
+      "notes": [
+        "This section is added as a warning, specifically about skill replacement. In MD, you can replace skill 1s and skill 2s with skill 3s through the shop, which is usually beneficial. However, for some IDs, replacing a skill completely (replacing all skill 1s with skill 3s for example) will deactivate some conditional fusion gifts, because they depend on the skills and not the IDs. This page lists all IDs in this team that can be affected by this.",
+        "—Skill 3 doesn't gain poise, thus it doesn't count as a poise skill (it will still get the coin power though).\n—Keep at least 1 Skill 2 to not lose the ego gift effects."
+      ]
+    },
+    {
+      "heading": "GRACES",
+      "row": 79,
+      "kind": "prose",
+      "notes": [
+        "For 60 adversity runs, it is better to simply take everything ++, especially since it ends up being starlight positive anyway, especially if you rotate the backups for rest bonus."
+      ]
+    },
+    {
+      "heading": "EGO GIFTS",
+      "row": 88,
+      "kind": "gifts",
+      "gifts": [
+        {
+          "gift": "wound-clerid",
+          "name": "Wound Clerid",
+          "sha": "58c9ec4f8fd382ef7dfa43c5185ad88d0eb6c6c3b2515a01273d64a5fc7275aa",
+          "tier": 2,
+          "resolved": true,
+          "ingredients": [],
+          "group": "starting"
+        },
+        {
+          "gift": "little-and-to-be-naughty-plushie",
+          "name": "Little and To-Be-Naughty Plushie",
+          "sha": "b85daaa7fd885bdebd46535e1f3335d88acd096a5e8585b6b924b264bf540444",
+          "tier": 2,
+          "resolved": true,
+          "ingredients": [],
+          "group": "starting"
+        },
+        {
+          "gift": "awe",
+          "name": "Awe",
+          "sha": "649d92525fb695a4c9b79e3b1c2cf6e0c5b1eb6756e9fa9136a5eaa95e20d0f8",
+          "tier": 2,
+          "resolved": true,
+          "ingredients": [],
+          "group": "starting"
+        },
+        {
+          "gift": "prestige-card",
+          "name": "Prestige Card",
+          "sha": "b4e5b0e9fd93069e4cf7b1a948f2f64af2e0e1543a4c7318935e007641c26566",
+          "tier": 3,
+          "resolved": true,
+          "ingredients": [],
+          "group": "search"
+        },
+        {
+          "gift": "frozen-cries",
+          "name": "Frozen Cries",
+          "sha": "f285add851cbce41edb0a4a706b793f575d95dcbb9398151abbb6a582800cc7f",
+          "tier": 2,
+          "resolved": true,
+          "ingredients": [],
+          "group": "search"
+        },
+        {
+          "gift": "spiderweb-entangled-in-red",
+          "name": "Spiderweb Entangled in Red",
+          "sha": "06cf2727d42bf2d655b8f0f8edcd88ebc5ca702bb5dac24e292167fae4d62394",
+          "tier": 3,
+          "resolved": true,
+          "ingredients": [],
+          "group": "search"
+        }
+      ],
+      "notes": [
+        "For this team, the most important EGO gifts are the tier 4 fusion ego gifts of Bleed and Poise, alongside the important BL gifts and fusion gifts from Yield My Flesh to Claim Their Bones and Mnestic Experience packs.\nAdditionally, if you aren't sure about generally useful ego gifts, you can check this page.",
+        "You could also start with the poise ego gifts, but I found the bleed ego gifts to be more useful at the start.",
+        "You will need a lot of Cost to be able to get all of the required EGO gifts so it is best to take Prestige Card for that. Frozen Cries is taken so that we can get Haunted Shoes in floor 1 and fuse it into Hoarfrost Footprint. Spiderweb Entangled in Red is taken in floor 1 so that we can sacrifice the HoS IDs in the first floor."
+      ]
+    },
+    {
+      "heading": "FLOORS TO PICk",
+      "row": 106,
+      "kind": "floors",
+      "floors": [
+        {
+          "kind": "floor",
+          "marker": null,
+          "label": "Floor 1",
+          "pack": "Automated Factory",
+          "packSlug": "automated-factory",
+          "gifts": [
+            {
+              "gift": "hoarfrost-footprint",
+              "name": "Hoarfrost Footprint",
+              "sha": "c9c8e672d77b481b0ba37e86c47c6901e9a2050ac4c9a2d9c5057969abe37d4f",
+              "tier": 4,
+              "resolved": true,
+              "ingredients": [
+                {
+                  "gift": null,
+                  "name": null,
+                  "sha": "37c837f114ead108d961656f270884ecb8e7d27869cfc523c2a4820c42da70f6",
+                  "tier": 2,
+                  "resolved": false
+                },
+                {
+                  "gift": "frozen-cries",
+                  "name": "Frozen Cries",
+                  "sha": "f285add851cbce41edb0a4a706b793f575d95dcbb9398151abbb6a582800cc7f",
+                  "tier": 2,
+                  "resolved": true
+                }
+              ]
+            }
+          ],
+          "info": [
+            "Don't forget to kill all HoS sacs in this floor.",
+            "Get Haunted Shoes in this floor and fuse it with Frozen Cries for Hoarfrost Footprint.",
+            "For the next floors, you can focus on poise fusions first."
+          ]
+        },
+        {
+          "kind": "floor",
+          "marker": null,
+          "label": "Floor 2",
+          "pack": "Hell's Chicken",
+          "packSlug": "hells-chicken",
+          "gifts": [
+            {
+              "gift": "tango-marinade",
+              "name": "Tango Marinade",
+              "sha": "f8c21ecf8bc0a2bb96792a938c62ea8f93383f62928096ad0f677baa04ae1e5b",
+              "tier": 3,
+              "resolved": true,
+              "ingredients": []
+            },
+            {
+              "gift": "sharp-needle-and-thread",
+              "name": "Sharp Needle & Thread",
+              "sha": "5127dd63a27de746c7dfc1362b3d31dd425182035b8af8e21e93332ae6767015",
+              "tier": 3,
+              "resolved": true,
+              "ingredients": []
+            },
+            {
+              "gift": "contaminated-needle-and-thread",
+              "name": "Contaminated Needle & Thread",
+              "sha": "cd8313bd4b261f879851a8ca53fe38c5252b9e716861e372bcd1dcbd8763a4ce",
+              "tier": 2,
+              "resolved": true,
+              "ingredients": []
+            },
+            {
+              "gift": "hot-n-juicy-drumstick",
+              "name": "Hot ‘n Juicy Drumstick",
+              "sha": "05f5da4ae1b2e437933d4c299654a3ad102fedc24a3099a070e900f891171c6f",
+              "tier": 3,
+              "resolved": true,
+              "ingredients": []
+            }
+          ],
+          "info": [
+            "Tango and Needle are always useful, though not required.",
+            "Contaminated Needle can allow you to immediately have 99 bleed potency on the enemy which is quite useful. This ego gift is also not required if you don't get it, but useful.",
+            "If you get the chicken event you can use the burn chicken to stack burn with the burn IDs in the team. The rupture chicken can be used as a fusion fodder."
+          ]
+        },
+        {
+          "kind": "floor",
+          "marker": null,
+          "label": "Floors 3-4",
+          "pack": "The Noon of Violet",
+          "packSlug": "the-noon-of-violet",
+          "gifts": [
+            {
+              "gift": "filial-love",
+              "name": "Filial Love",
+              "sha": "6af3a6e3402d08c2811cfbec35f5e8d27ca4b4c2be63e50102ab6f363f8fd4ed",
+              "tier": 2,
+              "resolved": true,
+              "ingredients": []
+            },
+            {
+              "gift": "leaked-enkephalin",
+              "name": "Leaked Enkephalin",
+              "sha": "228e46a16c9029277b9481c9a7f29ef4b3a35301cd5aa828b7d393fa889681ce",
+              "tier": 2,
+              "resolved": true,
+              "ingredients": []
+            }
+          ],
+          "info": [
+            "Filial Love gives +20% damage based on the bleed count of the enemy.",
+            "Leaked Enkephalin is much less of a priority, but it helps with keeping a sinking stack so that you can benefit from sinking related debuff ego gifts without having sinking IDs."
+          ]
+        },
+        {
+          "kind": "floor",
+          "marker": null,
+          "label": "Floor 3",
+          "pack": "Full-Stopped by a Bullet",
+          "packSlug": "full-stopped-by-a-bullet",
+          "gifts": [
+            {
+              "gift": "darkflame-smoking-pipe",
+              "name": "Darkflame Smoking Pipe",
+              "sha": "2c6684f70fffcba8f9f60246fd2e0d2fab8201a7c81354d7150a7d15794817e8",
+              "tier": 3,
+              "resolved": true,
+              "ingredients": []
+            },
+            {
+              "gift": "gear-shrapnel",
+              "name": "Gear Shrapnel",
+              "sha": "f8583d0f0deba8298f8ea378686a541e3c9614f808d507a65666cb803a14c434",
+              "tier": 2,
+              "resolved": true,
+              "ingredients": []
+            },
+            {
+              "gift": "cqc-manual",
+              "name": "CQC Manual",
+              "sha": "a65a09a95e3dc652c36756baca5c1cdbede1272b7176d8089c7edad371610d6e",
+              "tier": 3,
+              "resolved": true,
+              "ingredients": []
+            }
+          ],
+          "info": [
+            "Even though HoS Ryoshu doesn't have a pride pierce skill 3 to benefit more from Darkflame Smoking Pipe, the extra attack power up is still quite nice to have.",
+            "Gear Sharpnel is always useful since it gives some boost to critical damage alongside defense level up and defense power up to all IDs that have poise.",
+            "CQC Manual is always useful if there are any IDs with ammo in the team."
+          ]
+        },
+        {
+          "kind": "floor",
+          "marker": null,
+          "label": "Floors 5 to 10",
+          "pack": "Line 1",
+          "packSlug": "line-1",
+          "gifts": [
+            {
+              "gift": "false-halo",
+              "name": "False Halo",
+              "sha": "4bfb09af110de8c3196225a5c72cd44893b41d4a06f20eb5f3fefbe59c4bff39",
+              "tier": 4,
+              "resolved": true,
+              "ingredients": []
+            },
+            {
+              "gift": "snake-slough",
+              "name": "Snake Slough",
+              "sha": "a4b2357ec3f1e3012872daaa61c4b780281eb724bac8ff0c31938b557895de50",
+              "tier": 2,
+              "resolved": true,
+              "ingredients": []
+            }
+          ],
+          "info": [
+            "False Halo gives +2% damage modifier per hit, up to +6% damage per skill, up to a total of +108% damage if a fight lasts that long. Since the cap of +6% is per skill and not per turn, it scales faster with IDs that have additional attacks.",
+            "Snake Slough gift is less important than False Halo but still useful. It gives 4 defense level up to all allies, and it also gives defense level up buff / 2 offense level up buff (up to 10). So this gift on its own gives 4 defense level up and 2 offense level up and it can scale more if you have other gifts that give defense level up."
+          ]
+        },
+        {
+          "kind": "floor",
+          "marker": null,
+          "label": "Floors 5 to 10",
+          "pack": "Mnestic Experience",
+          "packSlug": "mnestic-experience",
+          "gifts": [
+            {
+              "gift": "the-book-of-the-homeland-swordplay",
+              "name": "The Book of the Homeland Swordplay",
+              "sha": "17f5e0724bb0a7f5e18e12dc9e3070f4fceb9c486c130ad06660d5d91c12d354",
+              "tier": 4,
+              "resolved": true,
+              "ingredients": [
+                {
+                  "gift": null,
+                  "name": null,
+                  "sha": "a0e5d8f82a971cec312d2ab71538e335b148194777d77cb1b6a11971ba82b016",
+                  "tier": 1,
+                  "resolved": false
+                },
+                {
+                  "gift": "red-tassel",
+                  "name": "Red Tassel",
+                  "sha": "b6480ee3debd889ea27d890d6136c2728047e992ce27cdf3024120c9d4a781f9",
+                  "tier": 3,
+                  "resolved": true
+                },
+                {
+                  "gift": null,
+                  "name": null,
+                  "sha": "01c53fccb5722fa25ff6c916ba4a76e6f115b99d83ce3c4112b205a444eef16e",
+                  "tier": 1,
+                  "resolved": false
+                }
+              ]
+            },
+            {
+              "gift": "crushed-wooden-manacle",
+              "name": "Crushed Wooden Manacle",
+              "sha": "cf6d64415c356e0475770ce2478bb275eb41c5facc91e841ccebd2c1d5289b66",
+              "tier": 2,
+              "resolved": true,
+              "ingredients": []
+            },
+            {
+              "gift": "ohra-bond",
+              "name": "Ohra Bond",
+              "sha": "aa9178da3eafa88379c140698c2b931fd3d0791f32d8feb25c47fb70202c1ce7",
+              "tier": 3,
+              "resolved": true,
+              "ingredients": []
+            },
+            {
+              "gift": "baekja-water-dropper",
+              "name": "Baekja Water Dropper",
+              "sha": "f0736d8ed832d9af148b72a6373a13b5bedd353d622438a7cda54c90edeb91bd",
+              "tier": 3,
+              "resolved": true,
+              "ingredients": []
+            },
+            {
+              "gift": "flagroot-cane-sword",
+              "name": "Flagroot Cane Sword",
+              "sha": "bb0bac548763f17255fa3cb70ac9429680eb098873e109fbe8f367058bcccb2e",
+              "tier": 2,
+              "resolved": true,
+              "ingredients": []
+            }
+          ],
+          "info": [
+            "The Book of the Homeland Swordplay is an important fusion gift for up to +55% slash damage and +2 offense level up on slash skills. For BL IDs, it gives +1 coin power, +15% crit damage and makes S Corp. Hong Lu count as a Blade Lineage ID.",
+            "Crushed Wooden Manacle inflicts 1 defense level down next turn on hit using a slash skill (2 times per skill) while also giving up to +12% damage to all allies based on speed difference, which doubles and becomes +24% damage if the enemy has bind.",
+            "Ohra Bond inflicts 1 bind next turn on the enemy on crit (2 times per turn), gives 1 poise on hit against enemies that have bind (2 times per turn), inflicts up to 5 offense level down on enemies based on bind if all enemies have bleed, and if all enemies have bind all allies gain 3 poise.",
+            "Baekja Water Dropper gives 2 damage up and 2 protection to allies that have assist defence, while also giving 2 haste and up to +30% damage based on speed difference to the #1 slotted ID.",
+            "Flagroot Cane Sword gives 1 slash damage up next turn if an ally wasn't hit by an enemy, and if they were hit by an enemy it gives 4 poise and 1 crit damage up this turn and next turn."
+          ]
+        },
+        {
+          "kind": "floor",
+          "marker": null,
+          "label": "Floors 5 to 10",
+          "pack": "Yield My Flesh to Claim Their Bones BokGak",
+          "packSlug": "yield-my-flesh-to-claim-their-bones-bokgak",
+          "gifts": [
+            {
+              "gift": "cultivation",
+              "name": "Cultivation",
+              "sha": "1b9d49eb8994b6aa4fc348ac289814740d8c8c20df8a0b6aac72d81c4d3b1234",
+              "tier": 4,
+              "resolved": false,
+              "ingredients": [
+                {
+                  "gift": null,
+                  "name": null,
+                  "sha": "e71ba4d59f4d88140a7e3594c9342059ca5e0f8ca0d628189629a12ed96e25ff",
+                  "tier": 3,
+                  "resolved": false
+                },
+                {
+                  "gift": null,
+                  "name": null,
+                  "sha": "efe60e36e626f7aae3513ca14c884082c9afc9b222b4a69974da566614875a7b",
+                  "tier": 3,
+                  "resolved": false
+                }
+              ]
+            },
+            {
+              "gift": "red-tassel",
+              "name": "Red Tassel",
+              "sha": "b6480ee3debd889ea27d890d6136c2728047e992ce27cdf3024120c9d4a781f9",
+              "tier": 3,
+              "resolved": true,
+              "ingredients": []
+            },
+            {
+              "gift": "ragged-bamboo-hat",
+              "name": "Ragged Bamboo Hat",
+              "sha": "b39578aad491f984ed7ec3210a1c37697d3a7668c82e17c54fd9b0ae85d93780",
+              "tier": 4,
+              "resolved": false,
+              "ingredients": []
+            },
+            {
+              "gift": "old-dopo-robe",
+              "name": "Old Dopo Robe",
+              "sha": "6e3c69a106ac9c82e979af7c7c95317e522f66482eb0febbc7798210be353cfd",
+              "tier": 4,
+              "resolved": false,
+              "ingredients": []
+            },
+            {
+              "gift": "rusted-hilt",
+              "name": "Rusted Hilt",
+              "sha": "217b7599d32cffd03844c338ffbef63e54fe0889da7068d5bb1547f6b3fc4514",
+              "tier": 3,
+              "resolved": true,
+              "ingredients": []
+            },
+            {
+              "gift": "hardwood-liquor-cup",
+              "name": "Hardwood Liquor Cup",
+              "sha": "ba14daf0949434c353ae827059f83ad9fbc683b2f60fa106005c9e08e0fd2d9d",
+              "tier": 3,
+              "resolved": true,
+              "ingredients": []
+            }
+          ],
+          "info": [
+            "Red Tassel is very important for Mnestic Experience fusion so make sure to get it.",
+            "Cultivation fusion gives +2 slash power up and +35% damage to all allies.",
+            "Ragged Bamboo Hat gives +50% slash damage to all allies and makes BL IDs always crit, and Old Dopo Robe gives additional +50% slash damage to all allies and buffs BL Meursault.",
+            "Rusted Hilt gives +1 slash power up to all allies and Hardwood Liquor Cup gives 1 protection and some SP if you lose a clash, these two are less of a priority."
+          ]
+        },
+        {
+          "kind": "floor",
+          "marker": null,
+          "label": "Floors 5 to 10",
+          "pack": "lcb regular check-up bokgak",
+          "packSlug": "lcb-regular-check-up-bokgak",
+          "gifts": [
+            {
+              "gift": "high-risk-operational-gear",
+              "name": "High-risk Operational Gear",
+              "sha": "2834be0842510d5df5cdad622b410b13dea5186c86eedd0ed114b81f49ffcedb",
+              "tier": 4,
+              "resolved": true,
+              "ingredients": [
+                {
+                  "gift": "operation-authorization-card",
+                  "name": "Operation authorization card",
+                  "sha": "d8af4662f3494e4b308fca458a05479663aefb36693a11f4c1799a2d8a22d9e8",
+                  "tier": 3,
+                  "resolved": true
+                },
+                {
+                  "gift": null,
+                  "name": null,
+                  "sha": "5df902be6088c2eb994b6cc03c17e74265dbdf68bac42616f80c1276a895ef55",
+                  "tier": 3,
+                  "resolved": false
+                }
+              ]
+            },
+            {
+              "gift": "combustion-gloves",
+              "name": "combustion gloves",
+              "sha": "81460fd1288e2aae79cd04f587ab0f7dc3e14fda3e16bb3ce345371f60e21bc9",
+              "tier": 3,
+              "resolved": true,
+              "ingredients": []
+            },
+            {
+              "gift": "re-ignition-plug",
+              "name": "re-ignition plug",
+              "sha": "526e78529334eeee91b794522474a001899ba76f58b4621d9e666b3181f7c02d",
+              "tier": 3,
+              "resolved": true,
+              "ingredients": []
+            },
+            {
+              "gift": "embers",
+              "name": "embers",
+              "sha": "62159a66937f0f12757a96d10780630481d6ca79d39f2e0d6db17cbc12eaac72",
+              "tier": 3,
+              "resolved": true,
+              "ingredients": []
+            },
+            {
+              "gift": "trial-extraction-a-b-s",
+              "name": "trial extraction: A.B.s",
+              "sha": "03d43c24e20b20d30edf51e50e7ec438c21cf62219440c5639f57db08cf37a31",
+              "tier": 3,
+              "resolved": true,
+              "ingredients": []
+            },
+            {
+              "gift": "modified-extraction-aedd",
+              "name": "Modified Extraction: Aedd",
+              "sha": "f310e9bf2f07d6deb0413091d83e6c201f5f03a250ad37807d06dd0012c63528",
+              "tier": 3,
+              "resolved": false,
+              "ingredients": []
+            },
+            {
+              "gift": "someones-dropped-employee-card",
+              "name": "Someone's Dropped Employee Card",
+              "sha": "1afdc4073b2e7b9c21475657bc0a0c5f0a5cf827829da3ed0156fd43cff29052",
+              "tier": 4,
+              "resolved": true,
+              "ingredients": []
+            }
+          ],
+          "info": [
+            "High-Risk Operational Gear and Someone's Dropped Employee Card are beneficial gifts for Limbus Company IDs but both of these are optional since they are keywordless, and it is fine to skip them.",
+            "4 beneficial ego gifts for burn, with some damage and clashing buffs for the sinners and debuffs for the enemies.",
+            "Modified Extraction: AEDD is an ego gift that can benefit all IDs and give them some offense level."
+          ]
+        },
+        {
+          "kind": "floor",
+          "marker": null,
+          "label": "Floors 5 to 10",
+          "pack": "line 2",
+          "packSlug": "line-2",
+          "gifts": [
+            {
+              "gift": "bridle",
+              "name": "Bridle",
+              "sha": "cc88d0fe4c68140086192a33285cc718acc7b9486026cc9139a266acdfb03783",
+              "tier": 4,
+              "resolved": false,
+              "ingredients": []
+            },
+            {
+              "gift": "metronome",
+              "name": "Metronome",
+              "sha": "fcf4aba91f9b24d2fb2c7302e52e32e74e7b31bde50a82f29037789a8b940ab6",
+              "tier": 2,
+              "resolved": false,
+              "ingredients": []
+            }
+          ],
+          "info": [
+            "Bridle is a useful ego gift since it can give up to 50% more HP to all of your IDs when upgraded.",
+            "Metronome is only mildly useful and not as important to get compared to Bridle.",
+            "Since Bridle is a keywordless tier 4 ego gift it can be up to luck to get it in the shop or through clear rewards. While missing this ego gift is not an issue, it is definitely better to get it than not."
+          ]
+        },
+        {
+          "kind": "floor",
+          "marker": null,
+          "label": "Floors 5 to 10",
+          "pack": "Miracle in District 20 BokGak",
+          "packSlug": "miracle-in-district-20-bokgak",
+          "gifts": [
+            {
+              "gift": "gift",
+              "name": "Gift",
+              "sha": "32ef04570fd76cb5c5b4c00815ef5565cb84eb6df964aaf4914233a1058685eb",
+              "tier": 4,
+              "resolved": true,
+              "ingredients": [
+                {
+                  "gift": null,
+                  "name": null,
+                  "sha": "e8034495ddc7cac384cb444d2bcc90b45b79c8f7ed97991e26b58d9c45d9d49d",
+                  "tier": 3,
+                  "resolved": false
+                },
+                {
+                  "gift": null,
+                  "name": null,
+                  "sha": "43417021c08a35688851035893809d4a29037a61a48b8e3e55f443d56eaa48fa",
+                  "tier": 1,
+                  "resolved": false
+                }
+              ]
+            },
+            {
+              "gift": "jolly-plushie",
+              "name": "Jolly Plushie",
+              "sha": "ba2bf74686ea7ac69914483b8b5573e31ff30b9b62cce9f3feb5f8eb0922ea9d",
+              "tier": 4,
+              "resolved": true,
+              "ingredients": [
+                {
+                  "gift": null,
+                  "name": null,
+                  "sha": "373a568f19fc1bb111470a1ec73e820a300b1e1ed6f7eaccc94c5664bc684dc2",
+                  "tier": 3,
+                  "resolved": false
+                },
+                {
+                  "gift": null,
+                  "name": null,
+                  "sha": "7b39ebc3cb0eba2097fa1acaec525a3a044593de1c4808ee975cf80f3cb794d8",
+                  "tier": 2,
+                  "resolved": false
+                },
+                {
+                  "gift": null,
+                  "name": null,
+                  "sha": "7849ad1fc8036bec4604afa958a73145a54b96499818a04066261f5a73c94088",
+                  "tier": 1,
+                  "resolved": false
+                }
+              ]
+            },
+            {
+              "gift": "shadow-monster",
+              "name": "Shadow Monster",
+              "sha": "1f239eaab15ffd4644bd2acecb3ddab175da75893c96c183bf4690f4cb66fb15",
+              "tier": 3,
+              "resolved": true,
+              "ingredients": [
+                {
+                  "gift": null,
+                  "name": null,
+                  "sha": "6ee93112c8a1d5ae48dcd243ee68a79fba10a891eaca21ec1497c220d6701bd1",
+                  "tier": 2,
+                  "resolved": false
+                },
+                {
+                  "gift": null,
+                  "name": null,
+                  "sha": "f7563a5b240667ddfac9a78f5219a632dfda5f2f80394a5e07cc8744251cf5b5",
+                  "tier": 1,
+                  "resolved": false
+                }
+              ]
+            }
+          ],
+          "info": [
+            "3 fusion EGO gifts that are quite good for all teams.",
+            "Most important EGO gifts to get here are Gift and Jolly Plushie.",
+            "Since the fusions use some keywordless ego gifts, it can be up to luck to get them. Missing these ego gifts is fine but it is definitely better to get them."
+          ]
+        },
+        {
+          "kind": "checklist",
+          "marker": "810107f51b268e4e45c38c71645c8475604ae6734b085de798a73698fd986252",
+          "label": "List of all of the not pack specific tier 4 fusion ego gifts that you should get before the MDE floors",
+          "pack": null,
+          "packSlug": null,
+          "gifts": [
+            {
+              "gift": "bloody-mist",
+              "name": "Bloody Mist",
+              "sha": "05a8d17f88e4b326b9d37128fdf51e3283873bcc54903f274d61ebc7cb6a3fbe",
+              "tier": 4,
+              "resolved": true,
+              "ingredients": []
+            },
+            {
+              "gift": "hemorrhagic-shock",
+              "name": "Hemorrhagic Shock",
+              "sha": "a07e420e61513cdf1e2e9e57ec1fbfc4f719f6b9d0d6c9c1daa0803c60961c5d",
+              "tier": 4,
+              "resolved": true,
+              "ingredients": []
+            },
+            {
+              "gift": "lucky-pouch",
+              "name": "Lucky Pouch",
+              "sha": "507089c07f66720b42ded7e316e54d707ca3e6e647f826a85decf4a8674f9aaf",
+              "tier": 4,
+              "resolved": true,
+              "ingredients": []
+            },
+            {
+              "gift": "cask-spirits",
+              "name": "Cask Spirits",
+              "sha": "6f0edf50dbb844b636bd2bbd0843006a877cb30be29db688ac99cdb427a818fe",
+              "tier": 4,
+              "resolved": true,
+              "ingredients": []
+            }
+          ],
+          "info": [
+            "By the time you start MDE floors, you should definitely have all of the EGO gifts from the top section, and you can consider getting the ego gifts from bottom section in MDE floors.",
+            "You should also have all of the usual EGO gifts that are good for every team, like Lunar Memory, Downpour, Artistic Sense, Clear Mirror Calm Water, Charge-type Gloves etc. If you aren't sure about useful ego gifts, you can check this page."
+          ]
+        },
+        {
+          "kind": "checklist",
+          "marker": "810107f51b268e4e45c38c71645c8475604ae6734b085de798a73698fd986252",
+          "label": "Highly recommended MDE pack gifts that you should take (also don't forget to check the F11-F15 Packs Sheet)",
+          "pack": null,
+          "packSlug": null,
+          "gifts": [
+            {
+              "gift": "shatterbound-cannon",
+              "name": "Shatterbound Cannon",
+              "sha": "7dae9bf780073d472a1ce89cd3550e34773ba540329beecddcd972304f696cd9",
+              "tier": 4,
+              "resolved": true,
+              "ingredients": []
+            },
+            {
+              "gift": "sorrowful-exhale-optional",
+              "name": "Sorrowful Exhale\n(Optional)",
+              "sha": "3665308fce311b478abda93554cf0b17a3edf37ca1d39fa92de866003e821812",
+              "tier": 4,
+              "resolved": true,
+              "ingredients": []
+            },
+            {
+              "gift": "coveting-thorn-optional",
+              "name": "Coveting Thorn\n(Optional)",
+              "sha": "0f22d319ec2148122f050a935ee0e94ea276261627432bf725fa86fe281664ec",
+              "tier": 4,
+              "resolved": true,
+              "ingredients": []
+            },
+            {
+              "gift": "burning-fate",
+              "name": "Burning Fate",
+              "sha": "c2999840532ede32c57256eef84f03638151afa797b460684a3afa54aa5d5b0a",
+              "tier": 4,
+              "resolved": true,
+              "ingredients": []
+            },
+            {
+              "gift": "the-familys-resentment",
+              "name": "The Family's Resentment",
+              "sha": "f6360327f1fe8d775f7112834918c741743feca172f03a92660ede9a879b56be",
+              "tier": 4,
+              "resolved": true,
+              "ingredients": []
+            },
+            {
+              "gift": "for-the-capo",
+              "name": "For the Capo",
+              "sha": "17ca033fc31885fc4bb31a30b223f9add9d9ae6a1680643a8115efa042d97ac4",
+              "tier": 4,
+              "resolved": true,
+              "ingredients": []
+            }
+          ],
+          "info": []
+        }
+      ],
+      "notes": [
+        "— Don't forget to kill all HoS sacs in this floor.\n— Get Haunted Shoes in this floor and fuse it with Frozen Cries for Hoarfrost Footprint.\n— For the next floors, you can focus on poise fusions first.",
+        "— Tango and Needle are always useful, though not required.\n— Contaminated Needle can allow you to immediately have 99 bleed potency on the enemy which is quite useful. This ego gift is also not required if you don't get it, but useful.\n— If you get the chicken event you can use the burn chicken to stack burn with the burn IDs in the team. The rupture chicken can be used as a fusion fodder.",
+        "— Filial Love gives +20% damage based on the bleed count of the enemy.\n— Leaked Enkephalin is much less of a priority, but it helps with keeping a sinking stack so that you can benefit from sinking related debuff ego gifts without having sinking IDs.",
+        "— Even though HoS Ryoshu doesn't have a pride pierce skill 3 to benefit more from Darkflame Smoking Pipe, the extra attack power up is still quite nice to have.\n— Gear Sharpnel is always useful since it gives some boost to critical damage alongside defense level up and defense power up to all IDs that have poise.\n— CQC Manual is always useful if there are any IDs with ammo in the team.",
+        "The rest of the packs aren't ordered by floor, but they are the 6 packs you should get in floors 5 to 10. All of these floors have the same packs so there is no reason for ordering here.",
+        "— False Halo gives +2% damage modifier per hit, up to +6% damage per skill, up to a total of +108% damage if a fight lasts that long. Since the cap of +6% is per skill and not per turn, it scales faster with IDs that have additional attacks.\n— Snake Slough gift is less important than False Halo but still useful. It gives 4 defense level up to all allies, and it also gives defense level up buff / 2 offense level up buff (up to 10). So this gift on its own gives 4 defense level up and 2 offense level up and it can scale more if you have other gifts that give defense level up."
+      ]
+    }
+  ]
+}

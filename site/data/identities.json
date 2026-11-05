@@ -1,0 +1,3391 @@
+[
+  {
+    "slug": "donquixote-nickname",
+    "sinner": "Donquixote",
+    "name": "donquixote_name",
+    "nickname": "donquixote_nickname",
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "lcb-sinner-don-quixote",
+    "sinner": "Donquixote",
+    "name": "LCB Sinner Don Quixote",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/lcb-sinner-don-quixote.png"
+  },
+  {
+    "slug": "shi-don-quixote",
+    "sinner": "Donquixote",
+    "name": "Shi Assoc. South Section 5 Director Don Quixote",
+    "nickname": "Shi Don Quixote",
+    "statuses": [],
+    "portrait": "identities/shi-don-quixote.png"
+  },
+  {
+    "slug": "n-corp-don-quixote",
+    "sinner": "Donquixote",
+    "name": "N Corp. Mittelhammer Don Quixote",
+    "nickname": "N Corp. Don Quixote",
+    "statuses": [
+      "Bleed",
+      "Tremor"
+    ],
+    "portrait": "identities/n-corp-don-quixote.png"
+  },
+  {
+    "slug": "lantern-don",
+    "sinner": "Donquixote",
+    "name": "Lobotomy E.G.O::Lantern Don Quixote",
+    "nickname": "Lantern Don",
+    "statuses": [],
+    "portrait": "identities/lantern-don.png"
+  },
+  {
+    "slug": "blade-lineage-salsu-don-quixote",
+    "sinner": "Donquixote",
+    "name": "Blade Lineage Salsu Don Quixote",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "w-don-quixote",
+    "sinner": "Donquixote",
+    "name": "W Corp. L3 Cleanup Agent Don Quixote",
+    "nickname": "W Don Quixote",
+    "statuses": [
+      "Rupture",
+      "Charge"
+    ],
+    "portrait": "identities/w-don-quixote.png"
+  },
+  {
+    "slug": "cinq-assoc-south-section-5-director-don-quixote",
+    "sinner": "Donquixote",
+    "name": "Cinq Assoc. South Section 5 Director Don Quixote",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "the-middle-little-sister-don-quixote",
+    "sinner": "Donquixote",
+    "name": "The Middle Little Sister Don Quixote",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/the-middle-little-sister-don-quixote.png"
+  },
+  {
+    "slug": "t-corp-don-quixote",
+    "sinner": "Donquixote",
+    "name": "T Corp. Class 3 Collection Staff Don Quixote",
+    "nickname": "T Corp. Don Quixote",
+    "statuses": [],
+    "portrait": "identities/t-corp-don-quixote.png"
+  },
+  {
+    "slug": "manager-don-quixote",
+    "sinner": "Donquixote",
+    "name": "The Manager of La Manchaland Don Quixote",
+    "nickname": "Manager Don Quixote",
+    "statuses": [],
+    "portrait": "identities/manager-don-quixote.png"
+  },
+  {
+    "slug": "cinq-east-don-quixote",
+    "sinner": "Donquixote",
+    "name": "Cinq Assoc. East Section 3 Don Quixote",
+    "nickname": "Cinq East Don Quixote",
+    "statuses": [
+      "Burn",
+      "Poise"
+    ],
+    "portrait": "identities/cinq-east-don-quixote.png"
+  },
+  {
+    "slug": "qoh-don-quixote",
+    "sinner": "Donquixote",
+    "name": "Lobotomy E.G.O::In the Name of Love and Hate Don Quixote",
+    "nickname": "QOH Don Quixote",
+    "statuses": [
+      "Rupture",
+      "Charge",
+      "Sinking"
+    ],
+    "portrait": "identities/qoh-don-quixote.png"
+  },
+  {
+    "slug": "heishou-pack-wei-branch-don-quixote",
+    "sinner": "Donquixote",
+    "name": "Heishou Pack - Wei Branch Don Quixote",
+    "nickname": null,
+    "statuses": [
+      "Rupture",
+      "Sinking"
+    ],
+    "portrait": "identities/heishou-pack-wei-branch-don-quixote.png"
+  },
+  {
+    "slug": "index-apprentice-don-quixote",
+    "sinner": "Donquixote",
+    "name": "The Index Proxy - Effloresced E.G.O::Procuration Don Quixote",
+    "nickname": "Index Apprentice Don Quixote",
+    "statuses": [
+      "Sinking",
+      "Poise"
+    ],
+    "portrait": "identities/index-apprentice-don-quixote.png"
+  },
+  {
+    "slug": "le-noir-brand-manager-don-quixote",
+    "sinner": "Donquixote",
+    "name": "Haute Couture::Le Noir Brand Manager Don Quixote",
+    "nickname": "Le Noir Brand Manager Don Quixote",
+    "statuses": [
+      "Charge",
+      "Tremor"
+    ],
+    "portrait": "identities/le-noir-brand-manager-don-quixote.png"
+  },
+  {
+    "slug": "ego-donquixote-nickname",
+    "sinner": "Ego Donquixote",
+    "name": "ego_donquixote_name",
+    "nickname": "ego_donquixote_nickname",
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "la-sangre-de-sancho-don-quixote",
+    "sinner": "Ego Donquixote",
+    "name": "La Sangre de Sancho Don Quixote",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/la-sangre-de-sancho-don-quixote.png"
+  },
+  {
+    "slug": "lifetime-stew-don-quixote",
+    "sinner": "Ego Donquixote",
+    "name": "Lifetime Stew Don Quixote",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/lifetime-stew-don-quixote.png"
+  },
+  {
+    "slug": "wishing-cairn-don-quixote",
+    "sinner": "Ego Donquixote",
+    "name": "Wishing Cairn Don Quixote",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/wishing-cairn-don-quixote.png"
+  },
+  {
+    "slug": "electric-screaming-don-quixote",
+    "sinner": "Ego Donquixote",
+    "name": "Electric Screaming Don Quixote",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/electric-screaming-don-quixote.png"
+  },
+  {
+    "slug": "fluid-sac-don-quixote",
+    "sinner": "Ego Donquixote",
+    "name": "Fluid Sac Don Quixote",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/fluid-sac-don-quixote.png"
+  },
+  {
+    "slug": "telepole-don-quixote",
+    "sinner": "Ego Donquixote",
+    "name": "Telepole Don Quixote",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/telepole-don-quixote.png"
+  },
+  {
+    "slug": "red-sheet-don-quixote",
+    "sinner": "Ego Donquixote",
+    "name": "Red Sheet Don Quixote",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/red-sheet-don-quixote.png"
+  },
+  {
+    "slug": "yearning-mircalla-don-quixote",
+    "sinner": "Ego Donquixote",
+    "name": "Yearning-Mircalla Don Quixote",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/yearning-mircalla-don-quixote.png"
+  },
+  {
+    "slug": "in-the-name-of-love-and-hate-don-quixote",
+    "sinner": "Ego Donquixote",
+    "name": "In the Name of Love and Hate Don Quixote",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/in-the-name-of-love-and-hate-don-quixote.png"
+  },
+  {
+    "slug": "ego-faust-nickname",
+    "sinner": "Ego Faust",
+    "name": "ego_faust_name",
+    "nickname": "ego_faust_nickname",
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "representation-emitter-faust",
+    "sinner": "Ego Faust",
+    "name": "Representation Emitter Faust",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/representation-emitter-faust.png"
+  },
+  {
+    "slug": "hex-nail-faust",
+    "sinner": "Ego Faust",
+    "name": "Hex Nail Faust",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/hex-nail-faust.png"
+  },
+  {
+    "slug": "9-2-faust",
+    "sinner": "Ego Faust",
+    "name": "9:2 Faust",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/9-2-faust.png"
+  },
+  {
+    "slug": "lasso-faust",
+    "sinner": "Ego Faust",
+    "name": "Lasso Faust",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/lasso-faust.png"
+  },
+  {
+    "slug": "fluid-sac-faust",
+    "sinner": "Ego Faust",
+    "name": "Fluid Sac Faust",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/fluid-sac-faust.png"
+  },
+  {
+    "slug": "telepole-faust",
+    "sinner": "Ego Faust",
+    "name": "Telepole Faust",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/telepole-faust.png"
+  },
+  {
+    "slug": "thoracalgia-faust",
+    "sinner": "Ego Faust",
+    "name": "Thoracalgia Faust",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/thoracalgia-faust.png"
+  },
+  {
+    "slug": "command-meltdown-faust",
+    "sinner": "Ego Faust",
+    "name": "Command : Meltdown Faust",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/command-meltdown-faust.png"
+  },
+  {
+    "slug": "ardor-blossom-star-faust",
+    "sinner": "Ego Faust",
+    "name": "Ardor Blossom Star Faust",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "everlasting-faust",
+    "sinner": "Ego Faust",
+    "name": "Everlasting Faust",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/everlasting-faust.png"
+  },
+  {
+    "slug": "ego-gregor-nickname",
+    "sinner": "Ego Gregor",
+    "name": "ego_gregor_name",
+    "nickname": "ego_gregor_nickname",
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "suddenly-one-day-gregor",
+    "sinner": "Ego Gregor",
+    "name": "Suddenly, One Day Gregor",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/suddenly-one-day-gregor.png"
+  },
+  {
+    "slug": "legerdemain-gregor",
+    "sinner": "Ego Gregor",
+    "name": "Legerdemain Gregor",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/legerdemain-gregor.png"
+  },
+  {
+    "slug": "lantern-gregor",
+    "sinner": "Ego Gregor",
+    "name": "Lantern Gregor",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/lantern-gregor.png"
+  },
+  {
+    "slug": "bygone-days-gregor",
+    "sinner": "Ego Gregor",
+    "name": "Bygone Days Gregor",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/bygone-days-gregor.png"
+  },
+  {
+    "slug": "aedd-gregor",
+    "sinner": "Ego Gregor",
+    "name": "AEDD Gregor",
+    "nickname": null,
+    "statuses": [
+      "Rupture",
+      "Charge"
+    ],
+    "portrait": "identities/aedd-gregor.png"
+  },
+  {
+    "slug": "solemn-lament-gregor",
+    "sinner": "Ego Gregor",
+    "name": "Solemn Lament Gregor",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/solemn-lament-gregor.png"
+  },
+  {
+    "slug": "christmas-nightmare-gregor",
+    "sinner": "Ego Gregor",
+    "name": "Christmas Nightmare Gregor",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/christmas-nightmare-gregor.png"
+  },
+  {
+    "slug": "garden-of-thorns-gregor",
+    "sinner": "Ego Gregor",
+    "name": "Garden of Thorns Gregor",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/garden-of-thorns-gregor.png"
+  },
+  {
+    "slug": "unbrilliant-glory-gregor",
+    "sinner": "Ego Gregor",
+    "name": "Unbrilliant Glory Gregor",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/unbrilliant-glory-gregor.png"
+  },
+  {
+    "slug": "ego-heathcliff-nickname",
+    "sinner": "Ego Heathcliff",
+    "name": "ego_heathcliff_name",
+    "nickname": "ego_heathcliff_nickname",
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "bodysack-heathcliff",
+    "sinner": "Ego Heathcliff",
+    "name": "Bodysack Heathcliff",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/bodysack-heathcliff.png"
+  },
+  {
+    "slug": "holiday-heathcliff",
+    "sinner": "Ego Heathcliff",
+    "name": "Holiday Heathcliff",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/holiday-heathcliff.png"
+  },
+  {
+    "slug": "aedd-heathcliff",
+    "sinner": "Ego Heathcliff",
+    "name": "AEDD Heathcliff",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/aedd-heathcliff.png"
+  },
+  {
+    "slug": "fell-bullet-heathcliff",
+    "sinner": "Ego Heathcliff",
+    "name": "Fell Bullet Heathcliff",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/fell-bullet-heathcliff.png"
+  },
+  {
+    "slug": "move-in-reg-heathcliff",
+    "sinner": "Ego Heathcliff",
+    "name": "Move-in Reg Heathcliff",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/move-in-reg-heathcliff.png"
+  },
+  {
+    "slug": "telepole-heathcliff",
+    "sinner": "Ego Heathcliff",
+    "name": "Telepole Heathcliff",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/telepole-heathcliff.png"
+  },
+  {
+    "slug": "ya-sunyata-tad-rupam-heathcliff",
+    "sinner": "Ego Heathcliff",
+    "name": "Ya Sunyata Tad Rupam Heathcliff",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/ya-sunyata-tad-rupam-heathcliff.png"
+  },
+  {
+    "slug": "asymmetrical-inertia-heathcliff",
+    "sinner": "Ego Heathcliff",
+    "name": "Asymmetrical Inertia Heathcliff",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/asymmetrical-inertia-heathcliff.png"
+  },
+  {
+    "slug": "binds-heathcliff",
+    "sinner": "Ego Heathcliff",
+    "name": "Binds Heathcliff",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/binds-heathcliff.png"
+  },
+  {
+    "slug": "ego-honglu-nickname",
+    "sinner": "Ego Honglu",
+    "name": "ego_honglu_name",
+    "nickname": "ego_honglu_nickname",
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "land-of-illusion-hong-lu",
+    "sinner": "Ego Honglu",
+    "name": "Land of Illusion Hong Lu",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/land-of-illusion-hong-lu.png"
+  },
+  {
+    "slug": "roseate-desire-hong-lu",
+    "sinner": "Ego Honglu",
+    "name": "Roseate Desire Hong Lu",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/roseate-desire-hong-lu.png"
+  },
+  {
+    "slug": "soda-hong-lu",
+    "sinner": "Ego Honglu",
+    "name": "Soda Hong Lu",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/soda-hong-lu.png"
+  },
+  {
+    "slug": "cavernous-wailing-hong-lu",
+    "sinner": "Ego Honglu",
+    "name": "Cavernous Wailing Hong Lu",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/cavernous-wailing-hong-lu.png"
+  },
+  {
+    "slug": "lasso-hong-lu",
+    "sinner": "Ego Honglu",
+    "name": "Lasso Hong Lu",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/lasso-hong-lu.png"
+  },
+  {
+    "slug": "dimension-shredder-hong-lu",
+    "sinner": "Ego Honglu",
+    "name": "Dimension Shredder Hong Lu",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/dimension-shredder-hong-lu.png"
+  },
+  {
+    "slug": "effervescent-corrosion-hong-lu",
+    "sinner": "Ego Honglu",
+    "name": "Effervescent Corrosion Hong Lu",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/effervescent-corrosion-hong-lu.png"
+  },
+  {
+    "slug": "to-remain-oneself-hong-lu",
+    "sinner": "Ego Honglu",
+    "name": "To Remain Oneself Hong Lu",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/to-remain-oneself-hong-lu.png"
+  },
+  {
+    "slug": "tears-of-the-tarnished-blood-hong-lu",
+    "sinner": "Ego Honglu",
+    "name": "Tears of the Tarnished Blood Hong Lu",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/tears-of-the-tarnished-blood-hong-lu.png"
+  },
+  {
+    "slug": "ego-ishmael-nickname",
+    "sinner": "Ego Ishmael",
+    "name": "ego_ishmael_name",
+    "nickname": "ego_ishmael_nickname",
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "snagharpoon-ishmael",
+    "sinner": "Ego Ishmael",
+    "name": "Snagharpoon Ishmael",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/snagharpoon-ishmael.png"
+  },
+  {
+    "slug": "hundred-footed-death-maggot-ishmael",
+    "sinner": "Ego Ishmael",
+    "name": "Hundred-Footed Death Maggot Ishmael",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/hundred-footed-death-maggot-ishmael.png"
+  },
+  {
+    "slug": "roseate-desire-ishmael",
+    "sinner": "Ego Ishmael",
+    "name": "Roseate Desire Ishmael",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/roseate-desire-ishmael.png"
+  },
+  {
+    "slug": "capote-ishmael",
+    "sinner": "Ego Ishmael",
+    "name": "Capote Ishmael",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/capote-ishmael.png"
+  },
+  {
+    "slug": "bygone-days-ishmael",
+    "sinner": "Ego Ishmael",
+    "name": "Bygone Days Ishmael",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/bygone-days-ishmael.png"
+  },
+  {
+    "slug": "ardor-blossom-star-ishmael",
+    "sinner": "Ego Ishmael",
+    "name": "Ardor Blossom Star Ishmael",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/ardor-blossom-star-ishmael.png"
+  },
+  {
+    "slug": "wingbeat-ishmael",
+    "sinner": "Ego Ishmael",
+    "name": "Wingbeat Ishmael",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/wingbeat-ishmael.png"
+  },
+  {
+    "slug": "christmas-nightmare-ishmael",
+    "sinner": "Ego Ishmael",
+    "name": "Christmas Nightmare Ishmael",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/christmas-nightmare-ishmael.png"
+  },
+  {
+    "slug": "tidal-elegy-ishmael",
+    "sinner": "Ego Ishmael",
+    "name": "Tidal Elegy Ishmael",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/tidal-elegy-ishmael.png"
+  },
+  {
+    "slug": "blind-obsession-ishmael",
+    "sinner": "Ego Ishmael",
+    "name": "Blind Obsession Ishmael",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/blind-obsession-ishmael.png"
+  },
+  {
+    "slug": "ego-meursault-nickname",
+    "sinner": "Ego Meursault",
+    "name": "ego_meursault_name",
+    "nickname": "ego_meursault_nickname",
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "chains-of-others-meursault",
+    "sinner": "Ego Meursault",
+    "name": "Chains of Others Meursault",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/chains-of-others-meursault.png"
+  },
+  {
+    "slug": "screwloose-wallop-meursault",
+    "sinner": "Ego Meursault",
+    "name": "Screwloose Wallop Meursault",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/screwloose-wallop-meursault.png"
+  },
+  {
+    "slug": "regret-meursault",
+    "sinner": "Ego Meursault",
+    "name": "Regret Meursault",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/regret-meursault.png"
+  },
+  {
+    "slug": "electric-screaming-meursault",
+    "sinner": "Ego Meursault",
+    "name": "Electric Screaming Meursault",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/electric-screaming-meursault.png"
+  },
+  {
+    "slug": "pursuance-meursault",
+    "sinner": "Ego Meursault",
+    "name": "Pursuance Meursault",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/pursuance-meursault.png"
+  },
+  {
+    "slug": "capote-meursault",
+    "sinner": "Ego Meursault",
+    "name": "Capote Meursault",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/capote-meursault.png"
+  },
+  {
+    "slug": "shadow-vested-bladesinger",
+    "sinner": "Ego Meursault",
+    "name": "Shadow-vested Bladesinger [着影揮刀]",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "yearning-mircalla-meursault",
+    "sinner": "Ego Meursault",
+    "name": "Yearning-Mircalla Meursault",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/yearning-mircalla-meursault.png"
+  },
+  {
+    "slug": "crushbound-past-meursault",
+    "sinner": "Ego Meursault",
+    "name": "Crushbound Past Meursault",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/crushbound-past-meursault.png"
+  },
+  {
+    "slug": "ego-outis-nickname",
+    "sinner": "Ego Outis",
+    "name": "ego_outis_name",
+    "nickname": "ego_outis_nickname",
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "to-pathos-mathos-outis",
+    "sinner": "Ego Outis",
+    "name": "To Pathos Mathos Outis",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/to-pathos-mathos-outis.png"
+  },
+  {
+    "slug": "ill-go-fer-scissors-how-bout-you-outis",
+    "sinner": "Ego Outis",
+    "name": "I'll Go fer Scissors. How 'Bout You? Outis",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/ill-go-fer-scissors-how-bout-you-outis.png"
+  },
+  {
+    "slug": "ya-sunyata-tad-rupam-outis",
+    "sinner": "Ego Outis",
+    "name": "Ya Sunyata Tad Rupam Outis",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/ya-sunyata-tad-rupam-outis.png"
+  },
+  {
+    "slug": "sunshower-outis",
+    "sinner": "Ego Outis",
+    "name": "Sunshower Outis",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "ebony-stem-outis",
+    "sinner": "Ego Outis",
+    "name": "Ebony Stem Outis",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/ebony-stem-outis.png"
+  },
+  {
+    "slug": "holiday-outis",
+    "sinner": "Ego Outis",
+    "name": "Holiday Outis",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/holiday-outis.png"
+  },
+  {
+    "slug": "dimension-shredder-outis",
+    "sinner": "Ego Outis",
+    "name": "Dimension Shredder Outis",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/dimension-shredder-outis.png"
+  },
+  {
+    "slug": "magic-bullet-outis",
+    "sinner": "Ego Outis",
+    "name": "Magic Bullet Outis",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/magic-bullet-outis.png"
+  },
+  {
+    "slug": "binds-outis",
+    "sinner": "Ego Outis",
+    "name": "Binds Outis",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/binds-outis.png"
+  },
+  {
+    "slug": "ego-rodion-nickname",
+    "sinner": "Ego Rodion",
+    "name": "ego_rodion_name",
+    "nickname": "ego_rodion_nickname",
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "what-is-cast-rodion",
+    "sinner": "Ego Rodion",
+    "name": "What is Cast Rodion",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/what-is-cast-rodion.png"
+  },
+  {
+    "slug": "into-the-sunset-rodion",
+    "sinner": "Ego Rodion",
+    "name": "Into The Sunset Rodion",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "rime-shank-rodion",
+    "sinner": "Ego Rodion",
+    "name": "Rime Shank Rodion",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/rime-shank-rodion.png"
+  },
+  {
+    "slug": "effervescent-corrosion-rodion",
+    "sinner": "Ego Rodion",
+    "name": "Effervescent Corrosion Rodion",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/effervescent-corrosion-rodion.png"
+  },
+  {
+    "slug": "4th-match-flame-rodion",
+    "sinner": "Ego Rodion",
+    "name": "4th Match Flame Rodion",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/4th-match-flame-rodion.png"
+  },
+  {
+    "slug": "pursuance-rodion",
+    "sinner": "Ego Rodion",
+    "name": "Pursuance Rodion",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/pursuance-rodion.png"
+  },
+  {
+    "slug": "hex-nail-rodion",
+    "sinner": "Ego Rodion",
+    "name": "Hex Nail Rodion",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/hex-nail-rodion.png"
+  },
+  {
+    "slug": "sanguine-desire-rodion",
+    "sinner": "Ego Rodion",
+    "name": "Sanguine Desire Rodion",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/sanguine-desire-rodion.png"
+  },
+  {
+    "slug": "indicants-trial-rodion",
+    "sinner": "Ego Rodion",
+    "name": "Indicant's Trial Rodion",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/indicants-trial-rodion.png"
+  },
+  {
+    "slug": "ego-ryoshu-nickname",
+    "sinner": "Ego Ryoshu",
+    "name": "ego_ryoshu_name",
+    "nickname": "ego_ryoshu_nickname",
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "forest-for-the-flames-ryoshu",
+    "sinner": "Ego Ryoshu",
+    "name": "Forest for the Flames Ryoshu",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/forest-for-the-flames-ryoshu.png"
+  },
+  {
+    "slug": "soda-ryoshu",
+    "sinner": "Ego Ryoshu",
+    "name": "Soda Ryoshu",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/soda-ryoshu.png"
+  },
+  {
+    "slug": "red-eyes-ryoshu",
+    "sinner": "Ego Ryoshu",
+    "name": "Red Eyes Ryoshu",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/red-eyes-ryoshu.png"
+  },
+  {
+    "slug": "blind-obsession-ryoshu",
+    "sinner": "Ego Ryoshu",
+    "name": "Blind Obsession Ryoshu",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "4th-match-flame-ryoshu",
+    "sinner": "Ego Ryoshu",
+    "name": "4th Match Flame Ryoshu",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/4th-match-flame-ryoshu.png"
+  },
+  {
+    "slug": "red-eyes-open-ryoshu",
+    "sinner": "Ego Ryoshu",
+    "name": "Red Eyes (Open) Ryoshu",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/red-eyes-open-ryoshu.png"
+  },
+  {
+    "slug": "thoracalgia-ryoshu",
+    "sinner": "Ego Ryoshu",
+    "name": "Thoracalgia Ryoshu",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/thoracalgia-ryoshu.png"
+  },
+  {
+    "slug": "contempt-awe-ryoshu",
+    "sinner": "Ego Ryoshu",
+    "name": "Contempt, Awe Ryoshu",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/contempt-awe-ryoshu.png"
+  },
+  {
+    "slug": "great-trichiliocosm-ryoshu",
+    "sinner": "Ego Ryoshu",
+    "name": "Great Trichiliocosm Ryoshu",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/great-trichiliocosm-ryoshu.png"
+  },
+  {
+    "slug": "ego-sinclair-nickname",
+    "sinner": "Ego Sinclair",
+    "name": "ego_sinclair_name",
+    "nickname": "ego_sinclair_nickname",
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "branch-of-knowledge-sinclair",
+    "sinner": "Ego Sinclair",
+    "name": "Branch of Knowledge Sinclair",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/branch-of-knowledge-sinclair.png"
+  },
+  {
+    "slug": "cavernous-wailing-sinclair",
+    "sinner": "Ego Sinclair",
+    "name": "Cavernous Wailing Sinclair",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "impending-day-sinclair",
+    "sinner": "Ego Sinclair",
+    "name": "Impending Day Sinclair",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/impending-day-sinclair.png"
+  },
+  {
+    "slug": "lifetime-stew-sinclair",
+    "sinner": "Ego Sinclair",
+    "name": "Lifetime Stew Sinclair",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/lifetime-stew-sinclair.png"
+  },
+  {
+    "slug": "hex-nail-sinclair",
+    "sinner": "Ego Sinclair",
+    "name": "Hex Nail Sinclair",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/hex-nail-sinclair.png"
+  },
+  {
+    "slug": "lantern-sinclair",
+    "sinner": "Ego Sinclair",
+    "name": "Lantern Sinclair",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/lantern-sinclair.png"
+  },
+  {
+    "slug": "9-2-sinclair",
+    "sinner": "Ego Sinclair",
+    "name": "9:2 Sinclair",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/9-2-sinclair.png"
+  },
+  {
+    "slug": "harmony-sinclair",
+    "sinner": "Ego Sinclair",
+    "name": "Harmony Sinclair",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "tears-of-the-tarnished-blood-sinclair",
+    "sinner": "Ego Sinclair",
+    "name": "Tears of the Tarnished Blood Sinclair",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/tears-of-the-tarnished-blood-sinclair.png"
+  },
+  {
+    "slug": "ego-yisang-nickname",
+    "sinner": "Ego Yisang",
+    "name": "ego_yisang_name",
+    "nickname": "ego_yisang_nickname",
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "crows-eye-view-yi-sang",
+    "sinner": "Ego Yisang",
+    "name": "Crow's Eye View Yi Sang",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/crows-eye-view-yi-sang.png"
+  },
+  {
+    "slug": "bygone-days-yi-sang",
+    "sinner": "Ego Yisang",
+    "name": "Bygone Days Yi Sang",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/bygone-days-yi-sang.png"
+  },
+  {
+    "slug": "4th-match-flame-yi-sang",
+    "sinner": "Ego Yisang",
+    "name": "4th Match Flame Yi Sang",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/4th-match-flame-yi-sang.png"
+  },
+  {
+    "slug": "wishing-cairn-yi-sang",
+    "sinner": "Ego Yisang",
+    "name": "Wishing Cairn Yi Sang",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/wishing-cairn-yi-sang.png"
+  },
+  {
+    "slug": "dimension-shredder-yi-sang",
+    "sinner": "Ego Yisang",
+    "name": "Dimension Shredder Yi Sang",
+    "nickname": null,
+    "statuses": [
+      "Rupture",
+      "Charge"
+    ],
+    "portrait": "identities/dimension-shredder-yi-sang.png"
+  },
+  {
+    "slug": "fell-bullet-yi-sang",
+    "sinner": "Ego Yisang",
+    "name": "Fell Bullet Yi Sang",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/fell-bullet-yi-sang.png"
+  },
+  {
+    "slug": "sunshower-yi-sang",
+    "sinner": "Ego Yisang",
+    "name": "Sunshower Yi Sang",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/sunshower-yi-sang.png"
+  },
+  {
+    "slug": "great-trichiliocosm-yi-sang",
+    "sinner": "Ego Yisang",
+    "name": "Great Trichiliocosm Yi Sang",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/great-trichiliocosm-yi-sang.png"
+  },
+  {
+    "slug": "faust-nickname",
+    "sinner": "Faust",
+    "name": "faust_name",
+    "nickname": "faust_nickname",
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "lcb-sinner-faust",
+    "sinner": "Faust",
+    "name": "LCB Sinner Faust",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/lcb-sinner-faust.png"
+  },
+  {
+    "slug": "w-corp-l2-cleanup-agent-faust",
+    "sinner": "Faust",
+    "name": "W Corp. L2 Cleanup Agent Faust",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/w-corp-l2-cleanup-agent-faust.png"
+  },
+  {
+    "slug": "lob-corp-remnant-faust",
+    "sinner": "Faust",
+    "name": "Lobotomy Corp. Remnant Faust",
+    "nickname": "Lob Corp. Remnant Faust",
+    "statuses": [
+      "Rupture",
+      "Poise"
+    ],
+    "portrait": "identities/lob-corp-remnant-faust.png"
+  },
+  {
+    "slug": "zwei-assoc-south-section-4-faust",
+    "sinner": "Faust",
+    "name": "Zwei Assoc. South Section 4 Faust",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "wuthering-heights-butler-faust",
+    "sinner": "Faust",
+    "name": "Wuthering Heights Butler Faust",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/wuthering-heights-butler-faust.png"
+  },
+  {
+    "slug": "the-one-who-grips-faust",
+    "sinner": "Faust",
+    "name": "The One Who Grips Faust",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "seven-assoc-south-section-4-faust",
+    "sinner": "Faust",
+    "name": "Seven Assoc. South Section 4 Faust",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/seven-assoc-south-section-4-faust.png"
+  },
+  {
+    "slug": "regret-faust",
+    "sinner": "Faust",
+    "name": "Lobotomy E.G.O::Regret Faust",
+    "nickname": "Regret Faust",
+    "statuses": [],
+    "portrait": "identities/regret-faust.png"
+  },
+  {
+    "slug": "blade-lineage-faust",
+    "sinner": "Faust",
+    "name": "Blade Lineage Salsu Faust",
+    "nickname": "Blade Lineage Faust",
+    "statuses": [
+      "Bleed",
+      "Poise"
+    ],
+    "portrait": "identities/blade-lineage-faust.png"
+  },
+  {
+    "slug": "multicrack-office-rep-faust",
+    "sinner": "Faust",
+    "name": "MultiCrack Office Rep Faust",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/multicrack-office-rep-faust.png"
+  },
+  {
+    "slug": "lce-faust",
+    "sinner": "Faust",
+    "name": "LCE E.G.O::Ardor Blossom Star Faust",
+    "nickname": "LCE Faust",
+    "statuses": [],
+    "portrait": "identities/lce-faust.png"
+  },
+  {
+    "slug": "heishou-pack-mao-branch-adept-faust",
+    "sinner": "Faust",
+    "name": "Heishou Pack - Mao Branch Adept Faust",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/heishou-pack-mao-branch-adept-faust.png"
+  },
+  {
+    "slug": "shi-faust",
+    "sinner": "Faust",
+    "name": "Shi Assoc. East Section 3 Faust",
+    "nickname": "Shi Faust",
+    "statuses": [
+      "Bleed",
+      "Poise"
+    ],
+    "portrait": "identities/shi-faust.png"
+  },
+  {
+    "slug": "index-faust",
+    "sinner": "Faust",
+    "name": "The Index Proselyte:【Paper Slip】Faust",
+    "nickname": "Index Faust",
+    "statuses": [
+      "Sinking",
+      "Poise"
+    ],
+    "portrait": "identities/index-faust.png"
+  },
+  {
+    "slug": "ring-apprentice-faust",
+    "sinner": "Faust",
+    "name": "The Ring Apprentice Faust",
+    "nickname": "Ring Apprentice Faust",
+    "statuses": [
+      "Bleed",
+      "Charge"
+    ],
+    "portrait": "identities/ring-apprentice-faust.png"
+  },
+  {
+    "slug": "dawn-faust",
+    "sinner": "Faust",
+    "name": "Dawn Office Fixer Faust",
+    "nickname": "Dawn Faust",
+    "statuses": [
+      "Burn",
+      "Tremor"
+    ],
+    "portrait": "identities/dawn-faust.png"
+  },
+  {
+    "slug": "floor-name",
+    "sinner": "Floor",
+    "name": "floor_name",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "flat-broke-gamblers",
+    "sinner": "Floor",
+    "name": "Flat-Broke Gamblers",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "the-outcast",
+    "sinner": "Floor",
+    "name": "The Outcast",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "the-forgotten",
+    "sinner": "Floor",
+    "name": "The Forgotten",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "automated-factory",
+    "sinner": "Floor",
+    "name": "Automated Factory",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "the-unloving",
+    "sinner": "Floor",
+    "name": "The Unloving",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "nagel-und-hammer",
+    "sinner": "Floor",
+    "name": "Nagel und Hammer",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "faith-and-erosion",
+    "sinner": "Floor",
+    "name": "Faith & Erosion",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "the-unconfronting",
+    "sinner": "Floor",
+    "name": "The Unconfronting",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "nest-workshop-and-technology",
+    "sinner": "Floor",
+    "name": "Nest, Workshop & Technology",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "falling-flowers",
+    "sinner": "Floor",
+    "name": "Falling Flowers",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "tearful-things",
+    "sinner": "Floor",
+    "name": "Tearful Things",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "the-unchanging",
+    "sinner": "Floor",
+    "name": "The Unchanging",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "lake-world",
+    "sinner": "Floor",
+    "name": "Lake World",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "crawling-abyss",
+    "sinner": "Floor",
+    "name": "Crawling Abyss",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "the-evil-defining",
+    "sinner": "Floor",
+    "name": "The Evil Defining",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "dregs-of-the-manor",
+    "sinner": "Floor",
+    "name": "Dregs of the Manor",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "a-certain-world",
+    "sinner": "Floor",
+    "name": "A Certain World",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "the-heartbreaking",
+    "sinner": "Floor",
+    "name": "The Heartbreaking",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "la-manchaland-re-opening",
+    "sinner": "Floor",
+    "name": "La Manchaland Re-opening",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "the-infinite-procession",
+    "sinner": "Floor",
+    "name": "The Infinite Procession",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "the-dream-ending",
+    "sinner": "Floor",
+    "name": "The Dream Ending",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "four-houses-and-greed",
+    "sinner": "Floor",
+    "name": "Four Houses and Greed",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "the-surrendered-witnessing",
+    "sinner": "Floor",
+    "name": "The Surrendered Witnessing",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "hells-chicken",
+    "sinner": "Floor",
+    "name": "Hell's Chicken",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "s-e-a",
+    "sinner": "Floor",
+    "name": "S.E.A.",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "miracle-in-district-20",
+    "sinner": "Floor",
+    "name": "Miracle in District 20",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "yield-my-flesh-to-claim-their-bones",
+    "sinner": "Floor",
+    "name": "Yield My Flesh to Claim Their Bones",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "timekilling-time",
+    "sinner": "Floor",
+    "name": "Timekilling Time",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "murder-on-the-warp-express",
+    "sinner": "Floor",
+    "name": "Murder on the WARP Express",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "the-noon-of-violet",
+    "sinner": "Floor",
+    "name": "The Noon of Violet",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "line-1",
+    "sinner": "Floor",
+    "name": "Line 1",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "line-2",
+    "sinner": "Floor",
+    "name": "Line 2",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "line-3",
+    "sinner": "Floor",
+    "name": "Line 3",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "line-4-section-3",
+    "sinner": "Floor",
+    "name": "Line 4 Section 3",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "line-4-section-4",
+    "sinner": "Floor",
+    "name": "Line 4 Section 4",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "miracle-in-district-20-bokgak",
+    "sinner": "Floor",
+    "name": "Miracle in District 20 BokGak",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "full-stopped-by-a-bullet",
+    "sinner": "Floor",
+    "name": "Full-Stopped by a Bullet",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "lcb-regular-check-up",
+    "sinner": "Floor",
+    "name": "LCB Regular Check-up",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "yield-my-flesh-to-claim-their-bones-bokgak",
+    "sinner": "Floor",
+    "name": "Yield My Flesh to Claim Their Bones BokGak",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "nocturnal-sweeping",
+    "sinner": "Floor",
+    "name": "Nocturnal Sweeping",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "line-5",
+    "sinner": "Floor",
+    "name": "Line 5",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "hatred-and-despair",
+    "sinner": "Floor",
+    "name": "Hatred and Despair",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "timekilling-time-bokgak",
+    "sinner": "Floor",
+    "name": "Timekilling Time Bokgak",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "spring-cultivation",
+    "sinner": "Floor",
+    "name": "Spring Cultivation",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "murder-on-the-warp-express-bokgak",
+    "sinner": "Floor",
+    "name": "Murder on the WARP Express BokGak",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "sinking-deluge",
+    "sinner": "Floor",
+    "name": "Sinking Deluge",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "the-unconfronting",
+    "sinner": "Floor",
+    "name": "The Unconfronting",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "the-dusk-of-amber",
+    "sinner": "Floor",
+    "name": "The Dusk of Amber",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "charm-wander-doubt",
+    "sinner": "Floor",
+    "name": "Charm, Wander, Doubt",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "textbook",
+    "sinner": "Floor",
+    "name": "Textbook",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "blade-and-artwork",
+    "sinner": "Floor",
+    "name": "Blade and Artwork",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "the-unsevering",
+    "sinner": "Floor",
+    "name": "The Unsevering",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "lcb-regular-check-up-bokgak",
+    "sinner": "Floor",
+    "name": "LCB Regular Check-up BokGak",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "sunk-gloom",
+    "sinner": "Floor",
+    "name": "Sunk Gloom",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "abnormal-seismic-zone",
+    "sinner": "Floor",
+    "name": "Abnormal Seismic Zone",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "sinking-pang",
+    "sinner": "Floor",
+    "name": "Sinking Pang",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "twining-threads",
+    "sinner": "Floor",
+    "name": "Twining Threads",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "bridle-of-infinity",
+    "sinner": "Floor",
+    "name": "Bridle of Infinity",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "the-b-e",
+    "sinner": "Floor",
+    "name": "The B.E.",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "nocturnal-sweeping-bokgak",
+    "sinner": "Floor",
+    "name": "Nocturnal Sweeping Bokgak",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "mnestic-experience",
+    "sinner": "Floor",
+    "name": "Mnestic Experience",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/mnestic-experience.png"
+  },
+  {
+    "slug": "unbound-wrath",
+    "sinner": "Floor",
+    "name": "Unbound Wrath",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "gregor-nickname",
+    "sinner": "Gregor",
+    "name": "gregor_name",
+    "nickname": "gregor_nickname",
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "lcb-sinner-gregor",
+    "sinner": "Gregor",
+    "name": "LCB Sinner Gregor",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/lcb-sinner-gregor.png"
+  },
+  {
+    "slug": "liu-assoc-south-section-6-gregor",
+    "sinner": "Gregor",
+    "name": "Liu Assoc. South Section 6 Gregor",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/liu-assoc-south-section-6-gregor.png"
+  },
+  {
+    "slug": "r-b-sous-chef-gregor",
+    "sinner": "Gregor",
+    "name": "R.B. Sous-chef Gregor",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "rosespanner-gregor",
+    "sinner": "Gregor",
+    "name": "Rosespanner Workshop Fixer Gregor",
+    "nickname": "Rosespanner Gregor",
+    "statuses": [
+      "Rupture",
+      "Charge",
+      "Tremor"
+    ],
+    "portrait": "identities/rosespanner-gregor.png"
+  },
+  {
+    "slug": "kurokumo-clan-captain-gregor",
+    "sinner": "Gregor",
+    "name": "Kurokumo Clan Captain Gregor",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "g-corp-manager-corporal-gregor",
+    "sinner": "Gregor",
+    "name": "G Corp. Manager Corporal Gregor",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "zwei-assoc-south-section-4-gregor",
+    "sinner": "Gregor",
+    "name": "Zwei Assoc. South Section 4 Gregor",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/zwei-assoc-south-section-4-gregor.png"
+  },
+  {
+    "slug": "twinhook-gregor",
+    "sinner": "Gregor",
+    "name": "Twinhook Pirates First Mate Gregor",
+    "nickname": "Twinhook Gregor",
+    "statuses": [
+      "Bleed",
+      "Poise"
+    ],
+    "portrait": "identities/twinhook-gregor.png"
+  },
+  {
+    "slug": "edgar-family-heir-gregor",
+    "sinner": "Gregor",
+    "name": "Edgar Family Heir Gregor",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/edgar-family-heir-gregor.png"
+  },
+  {
+    "slug": "priest-gregor",
+    "sinner": "Gregor",
+    "name": "The Priest of La Manchaland Gregor",
+    "nickname": "Priest Gregor",
+    "statuses": [
+      "Rupture",
+      "Bleed"
+    ],
+    "portrait": "identities/priest-gregor.png"
+  },
+  {
+    "slug": "firefist-gregor",
+    "sinner": "Gregor",
+    "name": "Firefist Office Survivor Gregor",
+    "nickname": "Firefist Gregor",
+    "statuses": [],
+    "portrait": "identities/firefist-gregor.png"
+  },
+  {
+    "slug": "heishou-pack-si-branch-gregor",
+    "sinner": "Gregor",
+    "name": "Heishou Pack - Si Branch Gregor",
+    "nickname": null,
+    "statuses": [
+      "Rupture",
+      "Poise"
+    ],
+    "portrait": "identities/heishou-pack-si-branch-gregor.png"
+  },
+  {
+    "slug": "night-awls-capitano-gregor",
+    "sinner": "Gregor",
+    "name": "Night Awls Capitano Gregor",
+    "nickname": null,
+    "statuses": [
+      "Bleed",
+      "Tremor"
+    ],
+    "portrait": "identities/night-awls-capitano-gregor.png"
+  },
+  {
+    "slug": "lamp-gregor",
+    "sinner": "Gregor",
+    "name": "Lobotomy E.G.O::Lamp Gregor",
+    "nickname": "Lamp Gregor",
+    "statuses": [
+      "Burn",
+      "Sinking"
+    ],
+    "portrait": "identities/lamp-gregor.png"
+  },
+  {
+    "slug": "aedd-gregor",
+    "sinner": "Gregor",
+    "name": "LCE E.G.O::AEDD Gregor",
+    "nickname": "AEDD Gregor",
+    "statuses": [
+      "Rupture",
+      "Charge"
+    ],
+    "portrait": "identities/aedd-gregor.png"
+  },
+  {
+    "slug": "dawn-gregor",
+    "sinner": "Gregor",
+    "name": "Dawn Office Rep Gregor",
+    "nickname": "Dawn Gregor",
+    "statuses": [
+      "Burn",
+      "Tremor"
+    ],
+    "portrait": "identities/dawn-gregor.png"
+  },
+  {
+    "slug": "heathcliff-nickname",
+    "sinner": "Heathcliff",
+    "name": "heathcliff_name",
+    "nickname": "heathcliff_nickname",
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "lcb-sinner-heathcliff",
+    "sinner": "Heathcliff",
+    "name": "LCB Sinner Heathcliff",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/lcb-sinner-heathcliff.png"
+  },
+  {
+    "slug": "shi-assoc-south-section-5-heathcliff",
+    "sinner": "Heathcliff",
+    "name": "Shi Assoc. South Section 5 Heathcliff",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/shi-assoc-south-section-5-heathcliff.png"
+  },
+  {
+    "slug": "n-corp-kleinhammer-heathcliff",
+    "sinner": "Heathcliff",
+    "name": "N Corp. Kleinhammer Heathcliff",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "seven-assoc-south-section-4-heathcliff",
+    "sinner": "Heathcliff",
+    "name": "Seven Assoc. South Section 4 Heathcliff",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "multicrack-office-fixer-heathcliff",
+    "sinner": "Heathcliff",
+    "name": "MultiCrack Office Fixer Heathcliff",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/multicrack-office-fixer-heathcliff.png"
+  },
+  {
+    "slug": "r-corp-heathcliff",
+    "sinner": "Heathcliff",
+    "name": "R Corp. 4th Pack Rabbit Heathcliff",
+    "nickname": "R Corp. Heathcliff",
+    "statuses": [
+      "Bleed",
+      "Charge",
+      "Rupture"
+    ],
+    "portrait": "identities/r-corp-heathcliff.png"
+  },
+  {
+    "slug": "sunshower-heathcliff",
+    "sinner": "Heathcliff",
+    "name": "Lobotomy E.G.O::Sunshower Heathcliff",
+    "nickname": "Sunshower Heathcliff",
+    "statuses": [
+      "Rupture",
+      "Sinking"
+    ],
+    "portrait": "identities/sunshower-heathcliff.png"
+  },
+  {
+    "slug": "pequod-heathcliff",
+    "sinner": "Heathcliff",
+    "name": "The Pequod Harpooneer Heathcliff",
+    "nickname": "Pequod Heathcliff",
+    "statuses": [
+      "Bleed",
+      "Poise"
+    ],
+    "portrait": "identities/pequod-heathcliff.png"
+  },
+  {
+    "slug": "ufi-assoc-south-section-3-heathcliff",
+    "sinner": "Heathcliff",
+    "name": "Öufi Assoc. South Section 3 Heathcliff",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/ufi-assoc-south-section-3-heathcliff.png"
+  },
+  {
+    "slug": "wild-hunt-heathcliff",
+    "sinner": "Heathcliff",
+    "name": "Wild Hunt Heathcliff",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/wild-hunt-heathcliff.png"
+  },
+  {
+    "slug": "fullstop-heathcliff",
+    "sinner": "Heathcliff",
+    "name": "Full-Stop Office Fixer Heathcliff",
+    "nickname": "Fullstop Heathcliff",
+    "statuses": [],
+    "portrait": "identities/fullstop-heathcliff.png"
+  },
+  {
+    "slug": "kurokumo-heathcliff",
+    "sinner": "Heathcliff",
+    "name": "Kurokumo Clan Wakashu Heathcliff",
+    "nickname": "Kurokumo Heathcliff",
+    "statuses": [],
+    "portrait": "identities/kurokumo-heathcliff.png"
+  },
+  {
+    "slug": "w-heathcliff",
+    "sinner": "Heathcliff",
+    "name": "W Corp. L4 Cleanup Agent - CCA Heathcliff",
+    "nickname": "W Heathcliff",
+    "statuses": [
+      "Rupture",
+      "Charge"
+    ],
+    "portrait": "identities/w-heathcliff.png"
+  },
+  {
+    "slug": "heishou-pack-you-branch-adept-heathcliff",
+    "sinner": "Heathcliff",
+    "name": "Heishou Pack - You Branch Adept Heathcliff",
+    "nickname": null,
+    "statuses": [
+      "Rupture",
+      "Burn"
+    ],
+    "portrait": "identities/heishou-pack-you-branch-adept-heathcliff.png"
+  },
+  {
+    "slug": "middle-heathcliff",
+    "sinner": "Heathcliff",
+    "name": "The Middle Big Brother Heathcliff",
+    "nickname": "Middle Heathcliff",
+    "statuses": [
+      "Bleed",
+      "Burn"
+    ],
+    "portrait": "identities/middle-heathcliff.png"
+  },
+  {
+    "slug": "thumb-apprentice-heathcliff",
+    "sinner": "Heathcliff",
+    "name": "The House of Spiders: The Thumb Apprentice Heathcliff",
+    "nickname": "Thumb Apprentice Heathcliff",
+    "statuses": [
+      "Burn",
+      "Tremor"
+    ],
+    "portrait": "identities/thumb-apprentice-heathcliff.png"
+  },
+  {
+    "slug": "le-rouge-king-of-needleworks-heathcliff",
+    "sinner": "Heathcliff",
+    "name": "Haute Couture::Le Rouge King of Needleworks Heathcliff",
+    "nickname": "Le Rouge King of Needleworks Heathcliff",
+    "statuses": [
+      "Bleed",
+      "Charge"
+    ],
+    "portrait": "identities/le-rouge-king-of-needleworks-heathcliff.png"
+  },
+  {
+    "slug": "honglu-nickname",
+    "sinner": "Honglu",
+    "name": "honglu_name",
+    "nickname": "honglu_nickname",
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "lcb-hong-lu",
+    "sinner": "Honglu",
+    "name": "LCB Sinner Hong Lu",
+    "nickname": "LCB Hong Lu",
+    "statuses": [
+      "Rupture",
+      "Sinking"
+    ],
+    "portrait": "identities/lcb-hong-lu.png"
+  },
+  {
+    "slug": "kurokumo-clan-wakashu-hong-lu",
+    "sinner": "Honglu",
+    "name": "Kurokumo Clan Wakashu Hong Lu",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/kurokumo-clan-wakashu-hong-lu.png"
+  },
+  {
+    "slug": "liu-assoc-south-section-5-hong-lu",
+    "sinner": "Honglu",
+    "name": "Liu Assoc. South Section 5 Hong Lu",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "w-hong-lu",
+    "sinner": "Honglu",
+    "name": "W Corp. L2 Cleanup Agent Hong Lu",
+    "nickname": "W Hong Lu",
+    "statuses": [
+      "Rupture",
+      "Charge"
+    ],
+    "portrait": "identities/w-hong-lu.png"
+  },
+  {
+    "slug": "hook-hong-lu",
+    "sinner": "Honglu",
+    "name": "Hook Office Fixer Hong Lu",
+    "nickname": "Hook Hong Lu",
+    "statuses": [],
+    "portrait": "identities/hook-hong-lu.png"
+  },
+  {
+    "slug": "fanghunt-office-fixer-hong-lu",
+    "sinner": "Honglu",
+    "name": "Fanghunt Office Fixer Hong Lu",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/fanghunt-office-fixer-hong-lu.png"
+  },
+  {
+    "slug": "tingtang-gang-gangleader-hong-lu",
+    "sinner": "Honglu",
+    "name": "Tingtang Gang Gangleader Hong Lu",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/tingtang-gang-gangleader-hong-lu.png"
+  },
+  {
+    "slug": "k-corp-class-3-excision-staff-hong-lu",
+    "sinner": "Honglu",
+    "name": "K Corp. Class 3 Excision Staff Hong Lu",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "dieci-assoc-south-section-4-hong-lu",
+    "sinner": "Honglu",
+    "name": "Dieci Assoc. South Section 4 Hong Lu",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/dieci-assoc-south-section-4-hong-lu.png"
+  },
+  {
+    "slug": "yurodivy-hong-lu",
+    "sinner": "Honglu",
+    "name": "District 20 Yurodivy Hong Lu",
+    "nickname": "Yurodivy Hong Lu",
+    "statuses": [],
+    "portrait": "identities/yurodivy-hong-lu.png"
+  },
+  {
+    "slug": "fullstop-hong-lu",
+    "sinner": "Honglu",
+    "name": "Full-Stop Office Rep Hong Lu",
+    "nickname": "Fullstop Hong Lu",
+    "statuses": [],
+    "portrait": "identities/fullstop-hong-lu.png"
+  },
+  {
+    "slug": "r-corp-hong-lu",
+    "sinner": "Honglu",
+    "name": "R Corp. 4th Pack Reindeer Hong Lu",
+    "nickname": "R Corp. Hong Lu",
+    "statuses": [
+      "Sinking",
+      "Charge"
+    ],
+    "portrait": "identities/r-corp-hong-lu.png"
+  },
+  {
+    "slug": "the-lord-of-hongyuan-hong-lu",
+    "sinner": "Honglu",
+    "name": "The Lord of Hongyuan Hong Lu",
+    "nickname": null,
+    "statuses": [
+      "Rupture",
+      "Poise"
+    ],
+    "portrait": "identities/the-lord-of-hongyuan-hong-lu.png"
+  },
+  {
+    "slug": "ring-nursefather-hong-lu",
+    "sinner": "Honglu",
+    "name": "The House of Spiders: The Ring Nursefather Hong Lu",
+    "nickname": "Ring Nursefather Hong Lu",
+    "statuses": [
+      "Bleed",
+      "Charge"
+    ],
+    "portrait": "identities/ring-nursefather-hong-lu.png"
+  },
+  {
+    "slug": "s-corp-hong-lu",
+    "sinner": "Honglu",
+    "name": "S Corp. Ch'unokkun Hong Lu",
+    "nickname": "S Corp. Hong Lu",
+    "statuses": [
+      "Bleed",
+      "Poise"
+    ],
+    "portrait": "identities/s-corp-hong-lu.png"
+  },
+  {
+    "slug": "cinq-east-hong-lu",
+    "sinner": "Honglu",
+    "name": "Cinq Assoc. East Section 3 Hong Lu",
+    "nickname": "Cinq East Hong Lu",
+    "statuses": [
+      "Burn",
+      "Poise"
+    ],
+    "portrait": "identities/cinq-east-hong-lu.png"
+  },
+  {
+    "slug": "le-noir-3f-public-address-room-hong-lu",
+    "sinner": "Honglu",
+    "name": "Haute Couture::Le Noir 3F Public Address Room Hong Lu",
+    "nickname": "Le Noir 3F Public Address Room Hong Lu",
+    "statuses": [
+      "Charge",
+      "Tremor"
+    ],
+    "portrait": "identities/le-noir-3f-public-address-room-hong-lu.png"
+  },
+  {
+    "slug": "ishmael-nickname",
+    "sinner": "Ishmael",
+    "name": "ishmael_name",
+    "nickname": "ishmael_nickname",
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "lcb-sinner-ishmael",
+    "sinner": "Ishmael",
+    "name": "LCB Sinner Ishmael",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/lcb-sinner-ishmael.png"
+  },
+  {
+    "slug": "shi-assoc-south-section-5-ishmael",
+    "sinner": "Ishmael",
+    "name": "Shi Assoc. South Section 5 Ishmael",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "lccb-ishmael",
+    "sinner": "Ishmael",
+    "name": "LCCB Assistant Manager Ishmael",
+    "nickname": "LCCB Ishmael",
+    "statuses": [
+      "Rupture",
+      "Tremor"
+    ],
+    "portrait": "identities/lccb-ishmael.png"
+  },
+  {
+    "slug": "sloshing-ishmael",
+    "sinner": "Ishmael",
+    "name": "Lobotomy E.G.O::Sloshing Ishmael",
+    "nickname": "Sloshing Ishmael",
+    "statuses": [
+      "Rupture",
+      "Tremor"
+    ],
+    "portrait": "identities/sloshing-ishmael.png"
+  },
+  {
+    "slug": "butler-ishmael",
+    "sinner": "Ishmael",
+    "name": "Edgar Family Butler Ishmael",
+    "nickname": "Butler Ishmael",
+    "statuses": [
+      "Sinking",
+      "Poise"
+    ],
+    "portrait": "identities/butler-ishmael.png"
+  },
+  {
+    "slug": "r-corp-ishmael",
+    "sinner": "Ishmael",
+    "name": "R Corp. 4th Pack Reindeer Ishmael",
+    "nickname": "R Corp. Ishmael",
+    "statuses": [
+      "Sinking",
+      "Charge"
+    ],
+    "portrait": "identities/r-corp-ishmael.png"
+  },
+  {
+    "slug": "liu-ishmael",
+    "sinner": "Ishmael",
+    "name": "Liu Assoc. South Section 4 Ishmael",
+    "nickname": "Liu Ishmael",
+    "statuses": [],
+    "portrait": "identities/liu-ishmael.png"
+  },
+  {
+    "slug": "molar-ishmael",
+    "sinner": "Ishmael",
+    "name": "Molar Boatworks Fixer Ishmael",
+    "nickname": "Molar Ishmael",
+    "statuses": [
+      "Sinking",
+      "Tremor"
+    ],
+    "portrait": "identities/molar-ishmael.png"
+  },
+  {
+    "slug": "pequod-ishmael",
+    "sinner": "Ishmael",
+    "name": "The Pequod Captain Ishmael",
+    "nickname": "Pequod Ishmael",
+    "statuses": [
+      "Bleed",
+      "Burn",
+      "Poise"
+    ],
+    "portrait": "identities/pequod-ishmael.png"
+  },
+  {
+    "slug": "zwei-ishmael",
+    "sinner": "Ishmael",
+    "name": "Zwei Assoc. West Section 3 Ishmael",
+    "nickname": "Zwei Ishmael",
+    "statuses": [],
+    "portrait": "identities/zwei-ishmael.png"
+  },
+  {
+    "slug": "kurokumo-clan-captain-ishmael",
+    "sinner": "Ishmael",
+    "name": "Kurokumo Clan Captain Ishmael",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/kurokumo-clan-captain-ishmael.png"
+  },
+  {
+    "slug": "xichun-ishmael",
+    "sinner": "Ishmael",
+    "name": "Family Hierarch Candidate Ishmael",
+    "nickname": "Xichun Ishmael",
+    "statuses": [
+      "Rupture",
+      "Poise"
+    ],
+    "portrait": "identities/xichun-ishmael.png"
+  },
+  {
+    "slug": "jeong-ishmael",
+    "sinner": "Ishmael",
+    "name": "Jeong's Office Rep Ishmael",
+    "nickname": "Jeong Ishmael",
+    "statuses": [
+      "Sinking",
+      "Tremor"
+    ],
+    "portrait": "identities/jeong-ishmael.png"
+  },
+  {
+    "slug": "middle-apprentice-ishmael",
+    "sinner": "Ishmael",
+    "name": "The House of Spiders: The Middle Apprentice Ishmael",
+    "nickname": "Middle Apprentice Ishmael",
+    "statuses": [
+      "Bleed",
+      "Burn"
+    ],
+    "portrait": "identities/middle-apprentice-ishmael.png"
+  },
+  {
+    "slug": "lcd-ishmael",
+    "sinner": "Ishmael",
+    "name": "LCD OSIR Team Ishmael",
+    "nickname": "LCD Ishmael",
+    "statuses": [
+      "Bleed",
+      "Poise"
+    ],
+    "portrait": "identities/lcd-ishmael.png"
+  },
+  {
+    "slug": "boutique-du-rogue-ishmael",
+    "sinner": "Ishmael",
+    "name": "Haute Couture::Boutique du Rouge Ishmael",
+    "nickname": "Boutique Du Rogue Ishmael",
+    "statuses": [
+      "Bleed",
+      "Charge"
+    ],
+    "portrait": "identities/boutique-du-rogue-ishmael.png"
+  },
+  {
+    "slug": "meursault-nickname",
+    "sinner": "Meursault",
+    "name": "meursault_name",
+    "nickname": "meursault_nickname",
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "lcb-sinner-meursault",
+    "sinner": "Meursault",
+    "name": "LCB Sinner Meursault",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/lcb-sinner-meursault.png"
+  },
+  {
+    "slug": "liu-assoc-south-section-6-meursault",
+    "sinner": "Meursault",
+    "name": "Liu Assoc. South Section 6 Meursault",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/liu-assoc-south-section-6-meursault.png"
+  },
+  {
+    "slug": "rosespanner-meursault",
+    "sinner": "Meursault",
+    "name": "Rosespanner Workshop Fixer Meursault",
+    "nickname": "Rosespanner Meursault",
+    "statuses": [
+      "Charge",
+      "Tremor"
+    ],
+    "portrait": "identities/rosespanner-meursault.png"
+  },
+  {
+    "slug": "the-middle-little-brother-meursault",
+    "sinner": "Meursault",
+    "name": "The Middle Little Brother Meursault",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/the-middle-little-brother-meursault.png"
+  },
+  {
+    "slug": "dead-rabbits-boss-meursault",
+    "sinner": "Meursault",
+    "name": "Dead Rabbits Boss Meursault",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/dead-rabbits-boss-meursault.png"
+  },
+  {
+    "slug": "w-meursault",
+    "sinner": "Meursault",
+    "name": "W Corp. L2 Cleanup Agent Meursault",
+    "nickname": "W Meursault",
+    "statuses": [
+      "Rupture",
+      "Charge"
+    ],
+    "portrait": "identities/w-meursault.png"
+  },
+  {
+    "slug": "n-corp-gro-hammer-meursault",
+    "sinner": "Meursault",
+    "name": "N Corp. Großhammer Meursault",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "r-corp-meursault",
+    "sinner": "Meursault",
+    "name": "R Corp. 4th Pack Rhino Meursault",
+    "nickname": "R Corp. Meursault",
+    "statuses": [
+      "Bleed",
+      "Charge"
+    ],
+    "portrait": "identities/r-corp-meursault.png"
+  },
+  {
+    "slug": "blade-lineage-mentor-meursault",
+    "sinner": "Meursault",
+    "name": "Blade Lineage Mentor Meursault",
+    "nickname": null,
+    "statuses": [
+      "Bleed",
+      "Poise"
+    ],
+    "portrait": "identities/blade-lineage-mentor-meursault.png"
+  },
+  {
+    "slug": "dieci-meursault",
+    "sinner": "Meursault",
+    "name": "Dieci Assoc. South Section 4 Director Meursault",
+    "nickname": "Dieci Meursault",
+    "statuses": [],
+    "portrait": "identities/dieci-meursault.png"
+  },
+  {
+    "slug": "cinq-meursault",
+    "sinner": "Meursault",
+    "name": "Cinq Assoc. West Section 3 Meursault",
+    "nickname": "Cinq Meursault",
+    "statuses": [
+      "Rupture",
+      "Poise"
+    ],
+    "portrait": "identities/cinq-meursault.png"
+  },
+  {
+    "slug": "thumb-capo-meursault",
+    "sinner": "Meursault",
+    "name": "The Thumb East Capo IIII Meursault",
+    "nickname": "Thumb Capo Meursault",
+    "statuses": [
+      "Burn",
+      "Tremor"
+    ],
+    "portrait": "identities/thumb-capo-meursault.png"
+  },
+  {
+    "slug": "prince-meursault",
+    "sinner": "Meursault",
+    "name": "The Prince of La Manchaland Meursault",
+    "nickname": "Prince Meursault",
+    "statuses": [
+      "Rupture",
+      "Bleed"
+    ],
+    "portrait": "identities/prince-meursault.png"
+  },
+  {
+    "slug": "hornet-meursault",
+    "sinner": "Meursault",
+    "name": "Lobotomy E.G.O::Hornet【Alteration】Meursault",
+    "nickname": "Hornet Meursault",
+    "statuses": [
+      "Bleed",
+      "Burn"
+    ],
+    "portrait": "identities/hornet-meursault.png"
+  },
+  {
+    "slug": "ring-meursault",
+    "sinner": "Meursault",
+    "name": "The Ring Fauvist Student Meursault",
+    "nickname": "Ring Meursault",
+    "statuses": [
+      "Bleed",
+      "Sinking"
+    ],
+    "portrait": "identities/ring-meursault.png"
+  },
+  {
+    "slug": "outis-nickname",
+    "sinner": "Outis",
+    "name": "outis_name",
+    "nickname": "outis_nickname",
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "lcb-sinner-outis",
+    "sinner": "Outis",
+    "name": "LCB Sinner Outis",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/lcb-sinner-outis.png"
+  },
+  {
+    "slug": "bl-outis",
+    "sinner": "Outis",
+    "name": "Blade Lineage Salsu Outis",
+    "nickname": "BL Outis",
+    "statuses": [],
+    "portrait": "identities/bl-outis.png"
+  },
+  {
+    "slug": "g-corp-head-manager-outis",
+    "sinner": "Outis",
+    "name": "G Corp. Head Manager Outis",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/g-corp-head-manager-outis.png"
+  },
+  {
+    "slug": "cinq-assoc-south-section-4-outis",
+    "sinner": "Outis",
+    "name": "Cinq Assoc. South Section 4 Outis",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "the-ring-pointillist-student-outis",
+    "sinner": "Outis",
+    "name": "The Ring Pointillist Student Outis",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "seven-assoc-south-section-6-director-outis",
+    "sinner": "Outis",
+    "name": "Seven Assoc. South Section 6 Director Outis",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "molar-office-fixer-outis",
+    "sinner": "Outis",
+    "name": "Molar Office Fixer Outis",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/molar-office-fixer-outis.png"
+  },
+  {
+    "slug": "magic-bullet-outis",
+    "sinner": "Outis",
+    "name": "Lobotomy E.G.O::Magic Bullet Outis",
+    "nickname": "Magic Bullet Outis",
+    "statuses": [],
+    "portrait": "identities/magic-bullet-outis.png"
+  },
+  {
+    "slug": "wuthering-heights-chief-butler-outis",
+    "sinner": "Outis",
+    "name": "Wuthering Heights Chief Butler Outis",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/wuthering-heights-chief-butler-outis.png"
+  },
+  {
+    "slug": "w-outis",
+    "sinner": "Outis",
+    "name": "W Corp. L3 Cleanup Captain Outis",
+    "nickname": "W Outis",
+    "statuses": [
+      "Rupture",
+      "Charge"
+    ],
+    "portrait": "identities/w-outis.png"
+  },
+  {
+    "slug": "barber-outis",
+    "sinner": "Outis",
+    "name": "The Barber of La Manchaland Outis",
+    "nickname": "Barber Outis",
+    "statuses": [],
+    "portrait": "identities/barber-outis.png"
+  },
+  {
+    "slug": "heishou-pack-mao-branch-outis",
+    "sinner": "Outis",
+    "name": "Heishou Pack - Mao Branch Outis",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/heishou-pack-mao-branch-outis.png"
+  },
+  {
+    "slug": "t-corp-class-3-vdcu-staff-outis",
+    "sinner": "Outis",
+    "name": "T Corp. Class 3 VDCU Staff Outis",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/t-corp-class-3-vdcu-staff-outis.png"
+  },
+  {
+    "slug": "udjat-outis",
+    "sinner": "Outis",
+    "name": "LCA Udjat Vanguard Team 3 Leader Outis",
+    "nickname": "Udjat Outis",
+    "statuses": [
+      "Sinking",
+      "Tremor"
+    ],
+    "portrait": "identities/udjat-outis.png"
+  },
+  {
+    "slug": "middle-nursefather-outis",
+    "sinner": "Outis",
+    "name": "The House of Spiders: The Middle Nursefather Outis",
+    "nickname": "Middle Nursefather Outis",
+    "statuses": [
+      "Bleed",
+      "Burn"
+    ],
+    "portrait": "identities/middle-nursefather-outis.png"
+  },
+  {
+    "slug": "rodion-nickname",
+    "sinner": "Rodion",
+    "name": "rodion_name",
+    "nickname": "rodion_nickname",
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "lcb-rodion",
+    "sinner": "Rodion",
+    "name": "LCB Sinner Rodion",
+    "nickname": "LCB Rodion",
+    "statuses": [],
+    "portrait": "identities/lcb-rodion.png"
+  },
+  {
+    "slug": "lccb-assistant-manager-rodion",
+    "sinner": "Rodion",
+    "name": "LCCB Assistant Manager Rodion",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "n-corp-mittelhammer-rodion",
+    "sinner": "Rodion",
+    "name": "N Corp. Mittelhammer Rodion",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "zwei-assoc-south-section-5-rodion",
+    "sinner": "Rodion",
+    "name": "Zwei Assoc. South Section 5 Rodion",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "t-corp-class-2-collection-staff-rodion",
+    "sinner": "Rodion",
+    "name": "T Corp. Class 2 Collection Staff Rodion",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/t-corp-class-2-collection-staff-rodion.png"
+  },
+  {
+    "slug": "kurokumo-rodion",
+    "sinner": "Rodion",
+    "name": "Kurokumo Clan Wakashu Rodion",
+    "nickname": "Kurokumo Rodion",
+    "statuses": [
+      "Bleed",
+      "Poise"
+    ],
+    "portrait": "identities/kurokumo-rodion.png"
+  },
+  {
+    "slug": "rosespanner-rodion",
+    "sinner": "Rodion",
+    "name": "Rosespanner Workshop Rep Rodion",
+    "nickname": "Rosespanner Rodion",
+    "statuses": [
+      "Charge",
+      "Tremor"
+    ],
+    "portrait": "identities/rosespanner-rodion.png"
+  },
+  {
+    "slug": "dieci-assoc-south-section-4-rodion",
+    "sinner": "Rodion",
+    "name": "Dieci Assoc. South Section 4 Rodion",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/dieci-assoc-south-section-4-rodion.png"
+  },
+  {
+    "slug": "liu-rodion",
+    "sinner": "Rodion",
+    "name": "Liu Assoc. South Section 4 Director Rodion",
+    "nickname": "Liu Rodion",
+    "statuses": [],
+    "portrait": "identities/liu-rodion.png"
+  },
+  {
+    "slug": "devyat-assoc-north-section-3-rodion",
+    "sinner": "Rodion",
+    "name": "Devyat' Assoc. North Section 3 Rodion",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/devyat-assoc-north-section-3-rodion.png"
+  },
+  {
+    "slug": "princess-rodion",
+    "sinner": "Rodion",
+    "name": "The Princess of La Manchaland Rodion",
+    "nickname": "Princess Rodion",
+    "statuses": [
+      "Rupture",
+      "Bleed"
+    ],
+    "portrait": "identities/princess-rodion.png"
+  },
+  {
+    "slug": "heishou-pack-si-branch-rodion",
+    "sinner": "Rodion",
+    "name": "Heishou Pack - Si Branch Rodion",
+    "nickname": null,
+    "statuses": [
+      "Rupture",
+      "Poise"
+    ],
+    "portrait": "identities/heishou-pack-si-branch-rodion.png"
+  },
+  {
+    "slug": "kod-rodion",
+    "sinner": "Rodion",
+    "name": "Lobotomy E.G.O::The Sword Sharpened with Tears Rodion",
+    "nickname": "KOD Rodion",
+    "statuses": [
+      "Sinking",
+      "Charge"
+    ],
+    "portrait": "identities/kod-rodion.png"
+  },
+  {
+    "slug": "r-corp-rodion",
+    "sinner": "Rodion",
+    "name": "R Corp. 4th Pack Reindeer Rodion",
+    "nickname": "R Corp. Rodion",
+    "statuses": [
+      "Sinking",
+      "Charge"
+    ],
+    "portrait": "identities/r-corp-rodion.png"
+  },
+  {
+    "slug": "ring-rodion",
+    "sinner": "Rodion",
+    "name": "The Ring Fauvist Docent Rodion",
+    "nickname": "Ring Rodion",
+    "statuses": [
+      "Bleed",
+      "Sinking"
+    ],
+    "portrait": "identities/ring-rodion.png"
+  },
+  {
+    "slug": "thumb-nursefather-rodion",
+    "sinner": "Rodion",
+    "name": "The House of Spiders: The Thumb Nursefather Rodion",
+    "nickname": "Thumb Nursefather Rodion",
+    "statuses": [
+      "Burn",
+      "Tremor"
+    ],
+    "portrait": "identities/thumb-nursefather-rodion.png"
+  },
+  {
+    "slug": "alteration-shop-rodion",
+    "sinner": "Rodion",
+    "name": "Haute Couture::Alteration Shop Rodion",
+    "nickname": "Alteration Shop Rodion",
+    "statuses": [
+      "Charge",
+      "Tremor"
+    ],
+    "portrait": "identities/alteration-shop-rodion.png"
+  },
+  {
+    "slug": "ryoshu-nickname",
+    "sinner": "Ryoshu",
+    "name": "ryoshu_name",
+    "nickname": "ryoshu_nickname",
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "lcb-sinner-ryoshu",
+    "sinner": "Ryoshu",
+    "name": "LCB Sinner Ryoshu",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/lcb-sinner-ryoshu.png"
+  },
+  {
+    "slug": "seven-assoc-south-section-6-ryoshu",
+    "sinner": "Ryoshu",
+    "name": "Seven Assoc. South Section 6 Ryoshu",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "lccb-ryoshu",
+    "sinner": "Ryoshu",
+    "name": "LCCB Assistant Manager Ryoshu",
+    "nickname": "LCCB Ryoshu",
+    "statuses": [
+      "Rupture",
+      "Poise",
+      "Tremor"
+    ],
+    "portrait": "identities/lccb-ryoshu.png"
+  },
+  {
+    "slug": "liu-ryoshu",
+    "sinner": "Ryoshu",
+    "name": "Liu Assoc. South Section 4 Ryoshu",
+    "nickname": "Liu Ryoshu",
+    "statuses": [],
+    "portrait": "identities/liu-ryoshu.png"
+  },
+  {
+    "slug": "district-20-yurodivy-ryoshu",
+    "sinner": "Ryoshu",
+    "name": "District 20 Yurodivy Ryoshu",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "kurokumo-clan-wakashu-ryoshu",
+    "sinner": "Ryoshu",
+    "name": "Kurokumo Clan Wakashu Ryoshu",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "r-b-chef-de-cuisine-ryoshu",
+    "sinner": "Ryoshu",
+    "name": "R.B. Chef de Cuisine Ryoshu",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/r-b-chef-de-cuisine-ryoshu.png"
+  },
+  {
+    "slug": "w-ryoshu",
+    "sinner": "Ryoshu",
+    "name": "W Corp. L3 Cleanup Agent Ryoshu",
+    "nickname": "W Ryoshu",
+    "statuses": [],
+    "portrait": "identities/w-ryoshu.png"
+  },
+  {
+    "slug": "butler-ryoshu",
+    "sinner": "Ryoshu",
+    "name": "Edgar Family Chief Butler Ryoshu",
+    "nickname": "Butler Ryoshu",
+    "statuses": [],
+    "portrait": "identities/butler-ryoshu.png"
+  },
+  {
+    "slug": "reap-ryoshu",
+    "sinner": "Ryoshu",
+    "name": "Lobotomy E.G.O::Red Eyes & Penitence Ryoshu",
+    "nickname": "REAP Ryoshu",
+    "statuses": [
+      "Bleed",
+      "Charge"
+    ],
+    "portrait": "identities/reap-ryoshu.png"
+  },
+  {
+    "slug": "heishou-pack-mao-branch-ryoshu",
+    "sinner": "Ryoshu",
+    "name": "Heishou Pack - Mao Branch Ryoshu",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/heishou-pack-mao-branch-ryoshu.png"
+  },
+  {
+    "slug": "n-corp-ryoshu",
+    "sinner": "Ryoshu",
+    "name": "N Corp. E.G.O::Contempt, Awe Ryoshu",
+    "nickname": "N Corp. Ryoshu",
+    "statuses": [
+      "Bleed",
+      "Tremor"
+    ],
+    "portrait": "identities/n-corp-ryoshu.png"
+  },
+  {
+    "slug": "drifting-blade-ryoshu",
+    "sinner": "Ryoshu",
+    "name": "Drifting Blade of Hongyuan Ryoshu",
+    "nickname": "Drifting Blade Ryoshu",
+    "statuses": [
+      "Rupture",
+      "Poise"
+    ],
+    "portrait": "identities/drifting-blade-ryoshu.png"
+  },
+  {
+    "slug": "alriune-ryoshu",
+    "sinner": "Ryoshu",
+    "name": "Lobotomy E.G.O::Faint Aroma & Solitude Ryoshu",
+    "nickname": "Alriune Ryoshu",
+    "statuses": [
+      "Sinking",
+      "Tremor"
+    ],
+    "portrait": "identities/alriune-ryoshu.png"
+  },
+  {
+    "slug": "blade-of-the-house-of-spiders-ryoshu",
+    "sinner": "Ryoshu",
+    "name": "Blade of the House of Spiders Ryoshu",
+    "nickname": null,
+    "statuses": [
+      "Bleed",
+      "Burn",
+      "Poise"
+    ],
+    "portrait": "identities/blade-of-the-house-of-spiders-ryoshu.png"
+  },
+  {
+    "slug": "le-noir-footwear-hall-ryoshu",
+    "sinner": "Ryoshu",
+    "name": "Haute Couture::Le Noir Footwear Hall Ryōshū",
+    "nickname": "Le Noir Footwear Hall Ryoshu",
+    "statuses": [
+      "Charge",
+      "Tremor"
+    ],
+    "portrait": "identities/le-noir-footwear-hall-ryoshu.png"
+  },
+  {
+    "slug": "sinclair-nickname",
+    "sinner": "Sinclair",
+    "name": "sinclair_name",
+    "nickname": "sinclair_nickname",
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "lcb-sinner-sinclair",
+    "sinner": "Sinclair",
+    "name": "LCB Sinner Sinclair",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/lcb-sinner-sinclair.png"
+  },
+  {
+    "slug": "zwei-assoc-south-section-6-sinclair",
+    "sinner": "Sinclair",
+    "name": "Zwei Assoc. South Section 6 Sinclair",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "mariachi-sinclair",
+    "sinner": "Sinclair",
+    "name": "Los Mariachis Jefe Sinclair",
+    "nickname": "Mariachi Sinclair",
+    "statuses": [
+      "Sinking",
+      "Poise"
+    ],
+    "portrait": "identities/mariachi-sinclair.png"
+  },
+  {
+    "slug": "lobotomy-e-g-o-red-sheet-sinclair",
+    "sinner": "Sinclair",
+    "name": "Lobotomy E.G.O::Red Sheet Sinclair",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "molar-boatworks-fixer-sinclair",
+    "sinner": "Sinclair",
+    "name": "Molar Boatworks Fixer Sinclair",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "zwei-assoc-west-section-3-sinclair",
+    "sinner": "Sinclair",
+    "name": "Zwei Assoc. West Section 3 Sinclair",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "blade-lineage-sinclair",
+    "sinner": "Sinclair",
+    "name": "Blade Lineage Salsu Sinclair",
+    "nickname": "Blade Lineage Sinclair",
+    "statuses": [
+      "Bleed",
+      "Poise"
+    ],
+    "portrait": "identities/blade-lineage-sinclair.png"
+  },
+  {
+    "slug": "n-corp-sinclair",
+    "sinner": "Sinclair",
+    "name": "The One Who Shall Grip Sinclair",
+    "nickname": "N Corp. Sinclair",
+    "statuses": [
+      "Bleed",
+      "Burn"
+    ],
+    "portrait": "identities/n-corp-sinclair.png"
+  },
+  {
+    "slug": "cinq-assoc-south-section-4-director-sinclair",
+    "sinner": "Sinclair",
+    "name": "Cinq Assoc. South Section 4 Director Sinclair",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/cinq-assoc-south-section-4-director-sinclair.png"
+  },
+  {
+    "slug": "dawn-sinclair",
+    "sinner": "Sinclair",
+    "name": "Dawn Office Fixer Sinclair",
+    "nickname": "Dawn Sinclair",
+    "statuses": [
+      "Burn",
+      "Tremor"
+    ],
+    "portrait": "identities/dawn-sinclair.png"
+  },
+  {
+    "slug": "devyat-assoc-north-section-3-sinclair",
+    "sinner": "Sinclair",
+    "name": "Devyat' Assoc. North Section 3 Sinclair",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/devyat-assoc-north-section-3-sinclair.png"
+  },
+  {
+    "slug": "middle-sinclair",
+    "sinner": "Sinclair",
+    "name": "The Middle Little Brother Sinclair",
+    "nickname": "Middle Sinclair",
+    "statuses": [],
+    "portrait": "identities/middle-sinclair.png"
+  },
+  {
+    "slug": "thumb-soldato-sinclair",
+    "sinner": "Sinclair",
+    "name": "The Thumb East Soldato II Sinclair",
+    "nickname": "Thumb Soldato Sinclair",
+    "statuses": [
+      "Burn",
+      "Tremor"
+    ],
+    "portrait": "identities/thumb-soldato-sinclair.png"
+  },
+  {
+    "slug": "heishou-pack-you-branch-sinclair",
+    "sinner": "Sinclair",
+    "name": "Heishou Pack - You Branch Sinclair",
+    "nickname": null,
+    "statuses": [
+      "Rupture",
+      "Burn"
+    ],
+    "portrait": "identities/heishou-pack-you-branch-sinclair.png"
+  },
+  {
+    "slug": "pinky-apprentice-sinclair",
+    "sinner": "Sinclair",
+    "name": "The House of Spiders: The Pinky Apprentice Sinclair",
+    "nickname": "Pinky Apprentice Sinclair",
+    "statuses": [
+      "Bleed",
+      "Poise"
+    ],
+    "portrait": "identities/pinky-apprentice-sinclair.png"
+  },
+  {
+    "slug": "the-crimson-god-of-le-rouge-sinclair",
+    "sinner": "Sinclair",
+    "name": "Haute Couture::The Crimson God of Le Rouge Sinclair",
+    "nickname": "The Crimson God of Le Rouge Sinclair",
+    "statuses": [
+      "Bleed",
+      "Charge"
+    ],
+    "portrait": "identities/the-crimson-god-of-le-rouge-sinclair.png"
+  },
+  {
+    "slug": "yisang-nickname",
+    "sinner": "Yisang",
+    "name": "yisang_name",
+    "nickname": "yisang_nickname",
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "lcb-sinner-yi-sang",
+    "sinner": "Yisang",
+    "name": "LCB Sinner Yi Sang",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/lcb-sinner-yi-sang.png"
+  },
+  {
+    "slug": "seven-assoc-south-section-6-yi-sang",
+    "sinner": "Yisang",
+    "name": "Seven Assoc. South Section 6 Yi Sang",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "molar-office-fixer-yi-sang",
+    "sinner": "Yisang",
+    "name": "Molar Office Fixer Yi Sang",
+    "nickname": null,
+    "statuses": [],
+    "portrait": null
+  },
+  {
+    "slug": "pequod-yi-sang",
+    "sinner": "Yisang",
+    "name": "The Pequod First Mate Yi Sang",
+    "nickname": "Pequod Yi Sang",
+    "statuses": [
+      "Bleed",
+      "Poise"
+    ],
+    "portrait": "identities/pequod-yi-sang.png"
+  },
+  {
+    "slug": "dieci-assoc-south-section-4-yi-sang",
+    "sinner": "Yisang",
+    "name": "Dieci Assoc. South Section 4 Yi Sang",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/dieci-assoc-south-section-4-yi-sang.png"
+  },
+  {
+    "slug": "lce-e-g-o-lantern-yi-sang",
+    "sinner": "Yisang",
+    "name": "LCE E.G.O::Lantern Yi Sang",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/lce-e-g-o-lantern-yi-sang.png"
+  },
+  {
+    "slug": "blade-lineage-salsu-yi-sang",
+    "sinner": "Yisang",
+    "name": "Blade Lineage Salsu Yi Sang",
+    "nickname": null,
+    "statuses": [],
+    "portrait": "identities/blade-lineage-salsu-yi-sang.png"
+  },
+  {
+    "slug": "spicebush-yi-sang",
+    "sinner": "Yisang",
+    "name": "Effloresced E.G.O::Spicebush Yi Sang",
+    "nickname": "Spicebush Yi Sang",
+    "statuses": [],
+    "portrait": "identities/spicebush-yi-sang.png"
+  },
+  {
+    "slug": "w-yi-sang",
+    "sinner": "Yisang",
+    "name": "W Corp. L3 Cleanup Agent Yi Sang",
+    "nickname": "W Yi Sang",
+    "statuses": [
+      "Rupture",
+      "Charge"
+    ],
+    "portrait": "identities/w-yi-sang.png"
+  },
+  {
+    "slug": "ring-yi-sang",
+    "sinner": "Yisang",
+    "name": "The Ring Pointillist Student Yi Sang",
+    "nickname": "Ring Yi Sang",
+    "statuses": [],
+    "portrait": "identities/ring-yi-sang.png"
+  },
+  {
+    "slug": "solemn-lament-yi-sang",
+    "sinner": "Yisang",
+    "name": "Lobotomy E.G.O::Solemn Lament Yi Sang",
+    "nickname": "Solemn Lament Yi Sang",
+    "statuses": [
+      "Sinking",
+      "Tremor"
+    ],
+    "portrait": "identities/solemn-lament-yi-sang.png"
+  },
+  {
+    "slug": "liu-yi-sang",
+    "sinner": "Yisang",
+    "name": "Liu Assoc. South Section 3 Yi Sang",
+    "nickname": "Liu Yi Sang",
+    "statuses": [],
+    "portrait": "identities/liu-yi-sang.png"
+  },
+  {
+    "slug": "n-corp-yi-sang",
+    "sinner": "Yisang",
+    "name": "N Corp. E.G.O::Fell Bullet Yi Sang",
+    "nickname": "N Corp. Yi Sang",
+    "statuses": [
+      "Bleed",
+      "Poise"
+    ],
+    "portrait": "identities/n-corp-yi-sang.png"
+  },
+  {
+    "slug": "heishou-pack-wu-branch-adept-yi-sang",
+    "sinner": "Yisang",
+    "name": "Heishou Pack - Wu Branch Adept Yi Sang",
+    "nickname": null,
+    "statuses": [
+      "Rupture",
+      "Tremor"
+    ],
+    "portrait": "identities/heishou-pack-wu-branch-adept-yi-sang.png"
+  },
+  {
+    "slug": "index-nursefather-yi-sang",
+    "sinner": "Yisang",
+    "name": "The House of Spiders: The Index Nursefather Yi Sang",
+    "nickname": "Index Nursefather Yi Sang",
+    "statuses": [
+      "Sinking",
+      "Poise"
+    ],
+    "portrait": "identities/index-nursefather-yi-sang.png"
+  },
+  {
+    "slug": "dimension-shredder-yi-sang",
+    "sinner": "Yisang",
+    "name": "LCE E.G.O::Dimension Shredder Yi Sang",
+    "nickname": "Dimension Shredder Yi Sang",
+    "statuses": [
+      "Rupture",
+      "Charge"
+    ],
+    "portrait": "identities/dimension-shredder-yi-sang.png"
+  }
+]

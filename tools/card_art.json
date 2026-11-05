@@ -1,0 +1,14 @@
+{
+  "_comment": "Hand-verified identity-card art, keyed by image sha256. Banners are the acquisition source; upties are the level numeral. Unlisted images still render, falling back to a sha-derived slug with no label, so new seasons do not break the build — add them here to give them a name.",
+  "banners": {
+    "2b6afa4755": { "slug": "season-7-pass", "label": "Season 7 Limbus Pass" },
+    "1fea997f32": { "slug": "season-3-pass", "label": "Season 3 Limbus Pass" },
+    "f3eac5d4ed": { "slug": "season-6-pass", "label": "Season 6 Limbus Pass" },
+    "be43e1f790": { "slug": "walpurgis-night", "label": "Walpurgis Night" },
+    "dff07db618": { "slug": "standard-fare", "label": "Standard Fare" }
+  },
+  "upties": {
+    "e17829580d": { "slug": "uptie-4", "label": "IV", "level": 4 },
+    "b5c25df5b7": { "slug": "uptie-1", "label": "I", "level": 1 }
+  }
+}
