@@ -28,6 +28,37 @@ bokgak`).
 
 ### Visual conventions
 
+**The acceptance test is a maintainer review.** The guides' other
+maintainers dislike the look of vibecoded sites, and the Bleed+Poise page
+must be approved before anyone retires the sheets. The first version was a
+competent dark dashboard that happened to contain Limbus content — same
+rounded box repeated everywhere, `system-ui` throughout, uppercase
+letterspaced micro-labels, a radial hero glow and a blurred sticky nav.
+Nothing about the frame said Limbus, and that gap is what reads as
+generated.
+
+**Typography and palette are measured from the workbooks** rather than
+chosen, which is also what keeps a visible tie to the original sheets. Run
+`python -I tools/sheetstyle.py _import/raw/comfortable.xlsx
+_import/raw/niche.xlsx` to reproduce:
+
+| | Sheet uses | Share |
+|---|---|---|
+| Body face | Arial | 72% of styled cells |
+| Display faces | Georgia, **Lora** | 2.9%, 2.5% |
+| Accent face | **Silkscreen** (pixel) | 0.7% |
+| Fills | `#240E02`, `#2E2E2E`, `#3E2921`, `#352215`, `#523528` | 25/21/20/16/14% |
+| Text golds | `#F1C232`, `#E9B119`, `#F4C003` | ~4.6% combined |
+
+Lora and Silkscreen are OFL and self-hosted in `site/fonts/` (latin subsets,
+~113 KB). Arial needs no download. Silkscreen is a bitmap face and is kept
+to the section plates, tier badges, difficulty word and team-code control —
+applying it to every label made the page illegible.
+
+Structure is a printed field manual: chamfered corners via `clip-path`
+rather than `border-radius`, hairline gold rules instead of boxes,
+decimal-leading-zero section plates, and an SVG paper grain over the page.
+
 - **Status** is shown as the game's own icons, never as words — the title
   already says "Bleed+Poise". All seven were recovered from the workbooks and
   verified by eye; the sha mapping lives in `tools/status_icons.json`.

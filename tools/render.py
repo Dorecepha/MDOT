@@ -27,6 +27,37 @@ def e(s):
     return html.escape(str(s)) if s is not None else ''
 
 
+# Headings come straight from the sheet, where casing is inconsistent
+# ("Skill Replacement WarnING", "FLOORS TO PICk"). Set in a serif now, so
+# normalise — keeping the acronyms the guides rely on.
+ACRONYMS = {'ego', 'mde', 'md', 'md7', 'id', 'ids', 'bl', 'hos', 'faq',
+            'lcb', 'aoe', 'fx'}
+MINOR = {'and', 'or', 'to', 'the', 'of', 'for', 'in', 'on', 'a', 'an', 'with'}
+
+
+def heading_case(s):
+    out = []
+    for i, word in enumerate(s.split()):
+        lead = ''
+        trail = ''
+        core = word
+        while core and not core[0].isalnum():
+            lead += core[0]
+            core = core[1:]
+        while core and not core[-1].isalnum():
+            trail = core[-1] + trail
+            core = core[:-1]
+        low = core.lower()
+        if low in ACRONYMS:
+            core = core.upper()
+        elif low in MINOR and i > 0:
+            core = low
+        elif core:
+            core = core[0].upper() + core[1:].lower()
+        out.append(lead + core + trail)
+    return ' '.join(out)
+
+
 def nl2br(s):
     return e(s).replace('\n', '<br>')
 
@@ -171,6 +202,7 @@ def main():
     # version the stylesheet by mtime so a rebuild is never served stale
     css = os.path.join(site, 'style.css')
     ver = int(os.path.getmtime(css)) if os.path.exists(css) else 0
+    A('<link rel="stylesheet" href="fonts.css">')
     A('<link rel="stylesheet" href="style.css?v=%d">' % ver)
     A('<body style="--accent:%s">' % tint(t.get('statuses') or []))
 
@@ -203,7 +235,7 @@ def main():
     nav = [('footage', 'Footage')] if t.get('footage') else []
     for s in t['sections']:
         head = s['heading']
-        label = head if not head.isupper() else head.title()
+        label = heading_case(head)
         if s['kind'] == 'roster' and s.get('cards'):
             nav.append((anchor(head), label))
         elif s['kind'] == 'gifts' and s.get('gifts'):
@@ -240,7 +272,7 @@ def main():
 
     for s in t['sections']:
         kind, head = s['kind'], s['heading']
-        title = head if not head.isupper() else head.title()
+        title = heading_case(head)
 
         if kind == 'roster' and s.get('cards'):
             # the preferred loadout leads; sacs, substitutes and warnings are
@@ -297,10 +329,12 @@ def main():
                         A('</article>')
                     A('</div>')
                 A('</section>')
-            for f in lists:
+            for ci, f in enumerate(lists):
+                anchor_id = 'priority' if ci == 0 else 'priority-%d' % (ci + 1)
                 mark = ('<img class="warn" src="%s" alt="Warning">' % e(warn_icon)) \
                     if warn_icon else '<span class="warn">!</span>'
-                A('<section id="priority" class="checklist"><h2>%sPriority Gifts</h2>' % mark)
+                A('<section id="%s" class="checklist"><h2>%sPriority Gifts</h2>'
+                  % (anchor_id, mark))
                 A('<p class="lead">%s</p>' % e(f['label']))
                 if f['gifts']:
                     A('<div class="gifts">%s</div>'

@@ -110,6 +110,34 @@ never breaks the build; add an entry to give it a name.
 
 Settled with the guidemaker; see `PLAN.md` for the full list.
 
+**The brief is passing a maintainer review, not generic polish.** The other
+maintainers dislike the look of vibecoded sites, and the page has to be
+approved before the sheets can be retired. So: no uniform rounded cards, no
+`system-ui`, no uppercase-letterspaced micro-labels, no hero glow, no
+backdrop blur. Those are the tells that got the first version rejected.
+
+**Typography and palette come from the workbooks, not from taste.** Run
+`python -I tools/sheetstyle.py _import/raw/*.xlsx` to re-measure. What it
+found, weighted by styled cells:
+
+- Fonts: Arial 72% (body), Georgia 2.9% and **Lora** 2.5% (serif display),
+  **Silkscreen** 0.7% (pixel accent). Lora and Silkscreen are OFL and
+  self-hosted in `site/fonts/` (latin subsets only, ~113 KB); Arial needs no
+  download and matches the sheet exactly.
+- Fills are warm brown, not neutral black: `#240E02` 25%, `#2E2E2E` 21%,
+  `#3E2921` 20%, `#352215` 16%, `#523528` 14%.
+- Text golds are saturated yellows: `#F1C232`, `#E9B119`, `#F4C003`.
+
+**Silkscreen is a bitmap face — use it sparingly.** Applying it to every
+micro-label made them illegible and gimmicky. It is now limited to the
+section index plates, tier badges, the difficulty word, and the team-code
+label and button. Other small labels are Lora italic, which reads as a
+printed manual rather than a dashboard.
+
+Structure is a field manual: chamfered corners via `clip-path` (never
+`border-radius`), hairline gold rules, decimal-leading-zero section plates,
+and an SVG paper grain over the page.
+
 - Status is shown as **game icons, never words** — the team title already
   says "Bleed+Poise".
 - Difficulty is the sheet's skull plus a **5-segment meter** (Easy 1,
