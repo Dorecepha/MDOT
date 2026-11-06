@@ -401,6 +401,17 @@ a.fcard:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
   background: var(--brown-800); border: 1px solid var(--brown-600);
   padding: 16px 18px; margin-bottom: 11px;
 }
+/* Booster-pack card, where the sheet carries one. Only some packs have
+   art, so it is a left rail that simply is not there otherwise rather
+   than a reserved empty slot. */
+.floor.haspack { display: flex; align-items: flex-start; gap: 18px; }
+.floor .packart { flex: none; width: 92px; }
+.floor .packart img {
+  width: 100%; height: auto; display: block;
+  border: 1px solid var(--brown-600);
+}
+.floor .floorbody { min-width: 0; flex: 1; }
+@media (max-width: 640px) { .floor .packart { width: 66px; } }
 .floor h3 {
   margin: 0 0 14px; font: 600 19px/1.2 var(--display);
   color: var(--paper); letter-spacing: 0; text-transform: none;

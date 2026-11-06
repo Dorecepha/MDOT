@@ -341,14 +341,20 @@ def main():
                          '<span class="count">%d packs to choose from</span>' % len(items)
                          if len(items) > 1 else ''))
                     for f in items:
-                        A('<article class="floor"><h3>%s</h3>' % e(f.get('pack') or '—'))
+                        # the booster-pack card, where the sheet has one
+                        art = asset('assets/' + f['art']) if f.get('art') else None
+                        A('<article class="floor%s">' % (' haspack' if art else ''))
+                        if art:
+                            A('<div class="packart"><img loading="lazy" src="%s" '
+                              'alt="%s pack"></div>' % (e(art), e(f.get('pack') or '')))
+                        A('<div class="floorbody"><h3>%s</h3>' % e(f.get('pack') or '—'))
                         if f['gifts']:
                             A('<div class="gifts">%s</div>'
                               % ''.join(gift_slot(g, asset) for g in f['gifts']))
                         if f.get('info'):
                             A('<ul class="notes cols">%s</ul>'
                               % ''.join('<li>%s</li>' % e(x) for x in f['info']))
-                        A('</article>')
+                        A('</div></article>')
                     A('</div>')
                 A('</section>')
             for ci, f in enumerate(lists):

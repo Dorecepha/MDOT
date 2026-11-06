@@ -13,6 +13,7 @@ import collections
 import json
 import os
 import re
+import struct
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -159,6 +160,31 @@ def build_id_statuses(wb):
                     if s not in out[nm.lower()]:
                         out[nm.lower()].append(s)
     return out
+
+
+def png_dims(blob):
+    if blob[:8] == b'\x89PNG\r\n\x1a\n' and blob[12:16] == b'IHDR':
+        return struct.unpack('>II', blob[16:24])
+    return None
+
+
+# Booster-pack cards are tall portraits anchored in the pack-label column.
+# Warning glyphs (50x49) and status icons also sit in column D, so match on
+# shape as well as position.
+PACK_ART_COL = 3
+PACK_ART_MIN_W = 200
+PACK_ART_RATIO = 1.4
+
+
+def find_pack_art(wb, imgs, r0, r1):
+    """sha of the booster-pack card in this floor block, if it has one."""
+    for im in sorted(imgs, key=lambda i: i['row']):
+        if not (r0 <= im['row'] < r1) or im['col'] != PACK_ART_COL:
+            continue
+        d = png_dims(wb.read_member(im['member']))
+        if d and d[0] >= PACK_ART_MIN_W and d[1] > d[0] * PACK_ART_RATIO:
+            return im['sha256']
+    return None
 
 
 def block_bounds(cells):
@@ -526,7 +552,7 @@ def fuse(gifts):
 FLOOR_RE = re.compile(r'^Floors?\b', re.I)
 
 
-def parse_floors(cells, imgs, r0, r1, gift_index):
+def parse_floors(cells, imgs, r0, r1, gift_index, wb=None):
     """Split the FLOORS TO PICK band into per-floor blocks.
 
     A floor block starts where column D holds a "Floor N:" label. The pack name
@@ -573,9 +599,11 @@ def parse_floors(cells, imgs, r0, r1, gift_index):
             if info:
                 break
         gifts = fuse(gift_rows(cells, imgs, r, end, gift_index))
+        art = find_pack_art(wb, imgs, r, end) if (wb and kind == 'floor') else None
         floors.append({
             'kind': kind,
             'marker': marker,
+            'artSha': art,
             'label': label.rstrip(':'),
             'pack': pack,
             'packSlug': slugify(pack) if pack else None,
@@ -754,7 +782,7 @@ def main():
             entry['cards'] = id_cards(cells, r, end, lookup, merge_width, imgs)
         elif 'FLOORS TO PICK' in H:
             entry['kind'] = 'floors'
-            entry['floors'] = parse_floors(cells, imgs, r, end, gift_index)
+            entry['floors'] = parse_floors(cells, imgs, r, end, gift_index, primary)
         elif 'EGO GIFT' in H:
             entry['kind'] = 'gifts'
             raw = gift_rows(cells, imgs, r, end, gift_index)
@@ -900,6 +928,18 @@ def main():
                     break
             break
 
+    # booster-pack card art, where the block has one
+    packart = 0
+    for sec in team['sections']:
+        for f in sec.get('floors') or []:
+            sha = f.pop('artSha', None)
+            if sha and sha in blob_src and f.get('packSlug'):
+                wbm, member = blob_src[sha]
+                f['art'] = write_asset('packs', f['packSlug'], wbm, member)
+                packart += 1
+            else:
+                f['art'] = None
+
     # the warning glyph that bookends the checklist rows, as a real UI asset
     for s in team['sections']:
         for f in s.get('floors', []):
@@ -917,6 +957,7 @@ def main():
               encoding='utf-8') as fh:
         json.dump(team, fh, indent=2, ensure_ascii=False)
 
+    print('pack art found: %d' % packart)
     tagged = sum(1 for i in identities if i['statuses'])
     print('identities: %d (%d portraits, %d status-tagged)'
           % (len(identities), len(portraits), tagged))

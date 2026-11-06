@@ -1,75 +1,74 @@
 # MDOT — to-do
 
-Outstanding work, roughly in the order it probably wants doing. See `PLAN.md`
-for the measured background and the conventions already settled.
+Outstanding work. See `PLAN.md` for measured background and `CLAUDE.md` for
+the rules a new session needs.
 
-## Decide first
+**Status: the Bleed+Poise page is complete and awaiting maintainer review.**
+That review is the gate — the sheets cannot be retired until it passes, and
+the maintainers specifically dislike the look of generated sites, so the
+visual direction is part of the deliverable, not polish on top of it.
 
-- [ ] **Source of truth: sheet or JSON?** Either the workbooks stay canonical
-      and `tools/extract.py` re-runs on every update, or the JSON becomes
-      canonical and the sheets are archived read-only. Only the second
-      actually escapes the 226 MB / merged-cell problem that started this;
-      the first keeps re-importing it. This changes how much template drift
-      the extractor must tolerate, so settle it before extracting the rest.
+---
 
-## Content gaps
+## Blocked on people, not code
 
-- [ ] **Pack art.** The sheet *does* contain it, and the extractor currently
-      drops it. Booster-pack cards are tall (380x690, 298x560), anchored in
-      column D inside a floor block with the pack name as the first text
-      below them. They have no tier numeral, so the gift rule correctly
-      rejects them — but nothing else picks them up.
+- [ ] **Maintainer review of the Bleed+Poise page.** Everything else below is
+      downstream of this.
+- [ ] **Source of truth: sheet, JSON, or both?** The maintainers are
+      undecided and running both in parallel is on the table. Worth knowing:
+      keeping the sheet canonical means re-running the extractor forever and
+      living with the 226 MB problem that started this; it does not get
+      cheaper later. This decides how defensively the extractor must handle
+      template drift, so settle it before porting the other 24.
+- [ ] **Project Moon art licensing.** The repo re-hosts 264 identity
+      portraits plus gift, status and pack icons. It is private today, but
+      GitHub Pages needs it public on a free plan — so this stops being
+      theoretical the moment you want to deploy.
 
-      Only three packs have art today, across both workbooks:
+## Content
 
-      | sha | pack | uses |
-      |---|---|---|
-      | `f91b7922b6` | Mnestic Experience | 21 |
-      | `8e95885070` | Nocturnal Sweeping bokgak | 3 |
-      | `915e660534` | faith and erosion | 2 |
-
-      Two further tall images are decorative, not pack art (`Teams List` A1,
-      and one at column AN on `Bleed+Burn+Poise`) — match on column D inside
-      a floor block, not on shape alone, or those get swept in.
-
-      So: add a pack-art rule to `parse_floors`, emit `assets/packs/<slug>`,
-      and render it beside the pack heading. The renderer already carries
-      `packSlug`. The remaining packs still need art from elsewhere
-      (community wiki, game files) before every floor has one.
-- [ ] **71 gift icons have no confident name**, rendering as "Unidentified".
-      They only ever appear as unlabelled fusion ingredients, so the sheet
-      contains nothing to learn from — better parsing cannot fix this. Needs
-      an external gift list, or one manual pass naming them against a contact
-      sheet (`python -I tools/catalogue.py _import/work <xlsx> <xlsx>` builds
-      one at `_import/work/contact.html`).
-- [ ] **Pack-name casing drifts** in the source (`line 2`, `lcb regular
-      check-up bokgak`). Normalise on a canonical pack list rather than
-      title-casing blindly, since some names are deliberately stylised.
+- [x] ~~Pack art~~ — extraction implemented. Booster-pack cards are tall
+      portraits in column D of a floor block; `find_pack_art` matches on
+      shape and position so warning glyphs and status icons are not picked
+      up. Only **3 packs across both workbooks** have art in the sheet
+      (Mnestic Experience, Nocturnal Sweeping bokgak, faith and erosion), so
+      one shows on this page. The rest need art from elsewhere — a community
+      wiki or game files — dropped into `site/assets/packs/<pack-slug>.webp`,
+      which the renderer will pick up with no code change.
+- [x] ~~Gift and pack name capitalisation~~ — `name_case` plus
+      `tools/name_overrides.json` for acronyms it cannot derive.
+- [x] ~~Unidentified gift icons on this page~~ — the guidemaker's seven
+      recipes named the last 13. **0 of 67 gift slots are unidentified.**
+- [ ] **Fusion recipes for the other teams' packs.** The sheet never labels
+      ingredient icons, so each new pack needs its recipe added to
+      `tools/fusion_recipes.json`. Write ingredients in the sheet's
+      left-to-right order; tiers are a cross-check only and a disagreement is
+      reported, not acted on.
 
 ## Build out
 
-- [ ] **Extract the remaining 24 teams.** Expect template drift the
-      Bleed+Poise tab does not show: `PREFERRED TEAM [AND ORDER]`,
-      `IDS FOR DESPERADO`, `BACKUP OPTIONS`, `FLOOR 1 SACS (OPTIONAL)`,
+- [ ] **Port the remaining 24 teams.** Expect template drift Bleed+Poise does
+      not show: `PREFERRED TEAM [AND ORDER]`, `IDS FOR DESPERADO`,
+      `BACKUP OPTIONS`, `FLOOR 1 SACS (OPTIONAL)`,
       `SUPPORT PASSIVES (TIME MORATORIUM)`. The extractor should fail loudly
       on an unrecognised section rather than silently dropping it.
-- [ ] **Index page** listing all teams with difficulty, statuses and last
-      updated — replaces the `Teams List` tab. Note that tab stores
-      difficulty and footage slots as *fill colours*, not text.
-- [ ] **Search / filter**, the payoff for normalising: which teams use a
-      given identity, filter by status, by difficulty, by required IDs. The
-      reverse index can be built at compile time from the team JSON.
-- [ ] **Shared pages**: `WELCOME` and `FAQ` become Markdown, authored
-      directly from here on rather than re-extracted.
-- [ ] **Deploy to GitHub Pages** via Actions on push to `main`.
+      `MIDDLE` / `SAIKAI` / `IDEAL` are the odd ones and will surface most of
+      it — worth doing first.
+- [ ] **Index page** listing every team with difficulty, statuses and last
+      updated. Replaces the `Teams List` tab, which stores difficulty and
+      footage slots as fill colours rather than text.
+- [ ] **Search and filter** — which teams use a given identity, filter by
+      status, difficulty or required IDs. The payoff for normalising; the
+      reverse index builds at compile time from the team JSON.
+- [ ] **`WELCOME` and `FAQ`** become hand-authored Markdown rather than
+      extracted.
+- [ ] **Deploy to GitHub Pages** via Actions on push to `main`. Needs the
+      repo public first.
 
 ## Polish
 
-- [ ] Fusion rows mix tall fusion stacks with short plain chips, leaving a
-      ragged baseline. Readable as-is, but could align better.
+- [ ] Rows mixing tall fusion blocks with short plain gift chips leave a
+      ragged baseline. Readable, but could align better.
 - [ ] Decide whether Comfortable vs Niche stays a browsable split or
       collapses into one list with a `tier` field. The split was a Sheets
       limitation, not an editorial choice.
-- [ ] Identity portraits are Project Moon art. Re-hosting 264 of them on
-      GitHub Pages is the same posture as the current sheet, but worth a
-      deliberate decision.

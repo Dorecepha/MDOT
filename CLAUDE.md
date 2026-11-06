@@ -177,6 +177,13 @@ and an SVG paper grain over the page.
 - Fusions render as small ingredients → arrow → large result. Unknown
   ingredients show a dashed frame and "Unidentified" — **never invent a
   name**.
+- **Booster-pack art** is a tall portrait in column D of a floor block;
+  `find_pack_art` matches on shape and position so the warning glyph and
+  status icons in that column are not mistaken for it. Only three packs
+  across both workbooks have art, so it renders as a left rail that is
+  simply absent otherwise rather than a reserved empty slot. Dropping a
+  file at `site/assets/packs/<pack-slug>.webp` makes it appear with no
+  code change.
 - Floor packs are grouped by floor range (six of Bleed+Poise's ten packs are
   all "Floors 5 to 10" — alternatives, not a sequence), each a full-width
   band so dense packs keep their gifts on one row.
