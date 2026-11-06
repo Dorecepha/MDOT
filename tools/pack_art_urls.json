@@ -1,0 +1,245 @@
+{
+  "_comment": "Pack art URLs recovered from the reference sheet's floor_picture / floor_name rows. The workbooks reference these through IMAGE() formulas, so the images are not in the .xlsx. Regenerate with tools/packurls.py.",
+  "packs": {
+    "a-certain-world": {
+      "name": "A Certain World",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/A_Certain_World_Theme_Pack.png/420px-A_Certain_World_Theme_Pack.png?4d31c7"
+    },
+    "abnormal-seismic-zone": {
+      "name": "Abnormal Seismic Zone",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/Abnormal_Seismic_Zone_MD5_Theme_Pack.png/420px-Abnormal_Seismic_Zone_MD5_Theme_Pack.png?93be7e"
+    },
+    "automated-factory": {
+      "name": "Automated Factory",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/Automated_Factory_Theme_Pack.png/420px-Automated_Factory_Theme_Pack.png?6ed60f"
+    },
+    "blade-and-artwork": {
+      "name": "Blade and Artwork",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/Blade_and_Artwork_Theme_Pack.png/420px-Blade_and_Artwork_Theme_Pack.png?ad98d8"
+    },
+    "bridle-of-infinity": {
+      "name": "Bridle of Infinity",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/Bridle_of_Infinity_Theme_Pack.png/420px-Bridle_of_Infinity_Theme_Pack.png?efd3d3"
+    },
+    "charm-wander-doubt": {
+      "name": "Charm, Wander, Doubt",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/Charm%2C_Wander%2C_Doubt_Theme_Pack.png/420px-Charm%2C_Wander%2C_Doubt_Theme_Pack.png?4817b1"
+    },
+    "crawling-abyss": {
+      "name": "Crawling Abyss",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/Crawling_Abyss_Theme_Pack.png/420px-Crawling_Abyss_Theme_Pack.png?c70129"
+    },
+    "dregs-of-the-manor": {
+      "name": "Dregs of the Manor",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/Dregs_of_the_Manor_Theme_Pack.png/420px-Dregs_of_the_Manor_Theme_Pack.png?40861d"
+    },
+    "faith-and-erosion": {
+      "name": "Faith & Erosion",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/Faith_%26_Erosion_Theme_Pack.png/420px-Faith_%26_Erosion_Theme_Pack.png?194d0b"
+    },
+    "falling-flowers": {
+      "name": "Falling Flowers",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/Falling_Flowers_Theme_Pack.png/420px-Falling_Flowers_Theme_Pack.png?4960f7"
+    },
+    "flat-broke-gamblers": {
+      "name": "Flat-Broke Gamblers",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/Flat-broke_Gamblers_Theme_Pack.png/420px-Flat-broke_Gamblers_Theme_Pack.png?784a70"
+    },
+    "four-houses-and-greed": {
+      "name": "Four Houses and Greed",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/Four_Houses_and_Greed_Theme_Pack.png/420px-Four_Houses_and_Greed_Theme_Pack.png?6afa7e"
+    },
+    "full-stopped-by-a-bullet": {
+      "name": "Full-Stopped by a Bullet",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/Full-Stopped_by_a_Bullet_Theme_Pack.png/420px-Full-Stopped_by_a_Bullet_Theme_Pack.png?25db1f"
+    },
+    "hatred-and-despair": {
+      "name": "Hatred and Despair",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/Hatred_and_Despair_Theme_Pack.png/420px-Hatred_and_Despair_Theme_Pack.png?337648"
+    },
+    "hells-chicken": {
+      "name": "Hell's Chicken",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/Hell%27s_Chicken_Theme_Pack.png/420px-Hell%27s_Chicken_Theme_Pack.png?f48268"
+    },
+    "la-manchaland-re-opening": {
+      "name": "La Manchaland Re-opening",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/La_Manchaland_Re-opening_Theme_Pack.png/420px-La_Manchaland_Re-opening_Theme_Pack.png?1a130c"
+    },
+    "lake-world": {
+      "name": "Lake World",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/Lake_World_Theme_Pack.png/420px-Lake_World_Theme_Pack.png?de6806"
+    },
+    "lcb-regular-check-up": {
+      "name": "LCB Regular Check-up",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/LCB_Regular_Check-up_Theme_Pack.png/420px-LCB_Regular_Check-up_Theme_Pack.png?99be5d"
+    },
+    "lcb-regular-check-up-bokgak": {
+      "name": "LCB Regular Check-up BokGak",
+      "url": "https://limbuscompany.wiki.gg/images/LCB_Regular_Check-up_BokGak_Theme_Pack.png"
+    },
+    "line-1": {
+      "name": "Line 1",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/Line_1_Theme_Pack.png/420px-Line_1_Theme_Pack.png?fb64db"
+    },
+    "line-2": {
+      "name": "Line 2",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/Line_2_Theme_Pack.png/420px-Line_2_Theme_Pack.png?bd313f"
+    },
+    "line-3": {
+      "name": "Line 3",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/Line_3_Theme_Pack.png/420px-Line_3_Theme_Pack.png?8ac2bd"
+    },
+    "line-4-section-3": {
+      "name": "Line 4 Section 3",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/Line_4_-_Section_3_Theme_Pack.png/420px-Line_4_-_Section_3_Theme_Pack.png?777ebf"
+    },
+    "line-4-section-4": {
+      "name": "Line 4 Section 4",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/Line_4_-_Section_4_Theme_Pack.png/420px-Line_4_-_Section_4_Theme_Pack.png?8f05d1"
+    },
+    "line-5": {
+      "name": "Line 5",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/Line_5_Theme_Pack.png/420px-Line_5_Theme_Pack.png?66b111"
+    },
+    "miracle-in-district-20": {
+      "name": "Miracle in District 20",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/Miracle_in_District_20_Theme_Pack.png/420px-Miracle_in_District_20_Theme_Pack.png?dcfe75"
+    },
+    "miracle-in-district-20-bokgak": {
+      "name": "Miracle in District 20 BokGak",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/Miracle_in_District_20_BokGak_Theme_Pack.png/420px-Miracle_in_District_20_BokGak_Theme_Pack.png?61fe06"
+    },
+    "murder-on-the-warp-express": {
+      "name": "Murder on the WARP Express",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/Murder_on_the_WARP_Express_Theme_Pack.png/420px-Murder_on_the_WARP_Express_Theme_Pack.png?cb71fa"
+    },
+    "murder-on-the-warp-express-bokgak": {
+      "name": "Murder on the WARP Express BokGak",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/Murder_on_the_WARP_Express_BokGak_Theme_Pack.png/420px-Murder_on_the_WARP_Express_BokGak_Theme_Pack.png?daf950"
+    },
+    "nagel-und-hammer": {
+      "name": "Nagel Und Hammer",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/Nagel_und_Hammer_Theme_Pack.png/420px-Nagel_und_Hammer_Theme_Pack.png?3311ba"
+    },
+    "nest-workshop-and-technology": {
+      "name": "Nest, Workshop & Technology",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/Nest%2C_Workshop%2C_and_Technology_Theme_Pack.png/420px-Nest%2C_Workshop%2C_and_Technology_Theme_Pack.png?626721"
+    },
+    "nocturnal-sweeping": {
+      "name": "Nocturnal Sweeping",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/Nocturnal_Sweeping_Theme_Pack.png/420px-Nocturnal_Sweeping_Theme_Pack.png?fce22c"
+    },
+    "nocturnal-sweeping-bokgak": {
+      "name": "Nocturnal Sweeping Bokgak",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/Nocturnal_Sweeping_BokGak_Theme_Pack.png/420px-Nocturnal_Sweeping_BokGak_Theme_Pack.png?691820"
+    },
+    "s-e-a": {
+      "name": "S.E.A.",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/S.E.A._Theme_Pack.png/420px-S.E.A._Theme_Pack.png?8c5082"
+    },
+    "sinking-deluge": {
+      "name": "Sinking Deluge",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/Sinking_Deluge_MD5_Theme_Pack.png/420px-Sinking_Deluge_MD5_Theme_Pack.png?b3bdaa"
+    },
+    "sinking-pang": {
+      "name": "Sinking Pang",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/Sinking_Pang_MD5_Theme_Pack.png/420px-Sinking_Pang_MD5_Theme_Pack.png?724491"
+    },
+    "spring-cultivation": {
+      "name": "Spring Cultivation",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/Spring_Cultivation_Theme_Pack.png/420px-Spring_Cultivation_Theme_Pack.png?f05a8c"
+    },
+    "sunk-gloom": {
+      "name": "Sunk Gloom",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/Sunk_Gloom_MD5_Theme_Pack.png/420px-Sunk_Gloom_MD5_Theme_Pack.png?25cf5f"
+    },
+    "tearful-things": {
+      "name": "Tearful Things",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/Tearful_Things_Theme_Pack.png/420px-Tearful_Things_Theme_Pack.png?42ee2c"
+    },
+    "textbook": {
+      "name": "Textbook",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/Textbook_Theme_Pack.png/420px-Textbook_Theme_Pack.png?4838af"
+    },
+    "the-b-e": {
+      "name": "The B.E.",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/The_B.E._Theme_Pack.png/420px-The_B.E._Theme_Pack.png?9585ce"
+    },
+    "the-dream-ending": {
+      "name": "The Dream Ending",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/The_Dream_Ending_Theme_Pack.png/420px-The_Dream_Ending_Theme_Pack.png?d22d65"
+    },
+    "the-dusk-of-amber": {
+      "name": "The Dusk of Amber",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/The_Dusk_of_Amber_Theme_Pack.png/420px-The_Dusk_of_Amber_Theme_Pack.png?5a9729"
+    },
+    "the-evil-defining": {
+      "name": "The Evil Defining",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/The_Evil_Defining_MD5_Theme_Pack.png/420px-The_Evil_Defining_MD5_Theme_Pack.png?997993"
+    },
+    "the-forgotten": {
+      "name": "The Forgotten",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/The_Forgotten_Theme_Pack.png/420px-The_Forgotten_Theme_Pack.png?1ef36b"
+    },
+    "the-heartbreaking": {
+      "name": "The Heartbreaking",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/The_Heartbreaking_Theme_Pack.png/420px-The_Heartbreaking_Theme_Pack.png?9c2c59"
+    },
+    "the-infinite-procession": {
+      "name": "The Infinite Procession",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/The_Infinite_Procession_Theme_Pack.png/420px-The_Infinite_Procession_Theme_Pack.png?ed3253"
+    },
+    "the-noon-of-violet": {
+      "name": "The Noon of Violet",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/The_Noon_of_Violet_Theme_Pack.png/420px-The_Noon_of_Violet_Theme_Pack.png?3a5ebc"
+    },
+    "the-outcast": {
+      "name": "The Outcast",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/The_Outcast_MD5_Theme_Pack.png/420px-The_Outcast_MD5_Theme_Pack.png?a8e699"
+    },
+    "the-surrendered-witnessing": {
+      "name": "The Surrendered Witnessing",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/The_Surrendered_Witnessing_Theme_Pack.png/420px-The_Surrendered_Witnessing_Theme_Pack.png?752fc9"
+    },
+    "the-unchanging": {
+      "name": "The Unchanging",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/The_Unchanging_MD5_Theme_Pack.png/420px-The_Unchanging_MD5_Theme_Pack.png?4f25a3"
+    },
+    "the-unconfronting": {
+      "name": "The Unconfronting",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/The_Unconfronting_MD5_Theme_Pack.png/420px-The_Unconfronting_MD5_Theme_Pack.png?321053"
+    },
+    "the-unloving": {
+      "name": "The Unloving",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/The_Unloving_MD5_Theme_Pack.png/420px-The_Unloving_MD5_Theme_Pack.png?b6cf39"
+    },
+    "the-unsevering": {
+      "name": "The Unsevering",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/The_Unsevering_Theme_Pack.png/420px-The_Unsevering_Theme_Pack.png?a3192b"
+    },
+    "timekilling-time": {
+      "name": "Timekilling Time",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/Timekilling_Time_Theme_Pack.png/420px-Timekilling_Time_Theme_Pack.png?46c10f"
+    },
+    "timekilling-time-bokgak": {
+      "name": "Timekilling Time Bokgak",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/Timekilling_Time_BokGak_Theme_Pack.png/420px-Timekilling_Time_BokGak_Theme_Pack.png?e1fa33"
+    },
+    "twining-threads": {
+      "name": "Twining Threads",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/Twining_Threads_Theme_Pack.png/420px-Twining_Threads_Theme_Pack.png?97d5ac"
+    },
+    "unbound-wrath": {
+      "name": "Unbound Wrath",
+      "url": "https://limbuscompany.wiki.gg/images/Unbound_Wrath_MD5_Theme_Pack.png?6b1f28"
+    },
+    "yield-my-flesh-to-claim-their-bones": {
+      "name": "Yield My Flesh to Claim Their Bones",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/Yield_My_Flesh_to_Claim_Their_Bones_Theme_Pack.png/420px-Yield_My_Flesh_to_Claim_Their_Bones_Theme_Pack.png?48f0f5"
+    },
+    "yield-my-flesh-to-claim-their-bones-bokgak": {
+      "name": "Yield My Flesh to Claim Their Bones BokGak",
+      "url": "https://limbuscompany.wiki.gg/images/thumb/Yield_My_Flesh_to_Claim_Their_Bones_BokGak_Theme_Pack.png/420px-Yield_My_Flesh_to_Claim_Their_Bones_BokGak_Theme_Pack.png?b2ef3d"
+    }
+  }
+}

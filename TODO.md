@@ -38,18 +38,16 @@ visual direction is part of the deliverable, not polish on top of it.
       `tools/name_overrides.json` for acronyms it cannot derive.
 - [x] ~~Unidentified gift icons on this page~~ — the guidemaker's seven
       recipes named the last 13. **0 of 67 gift slots are unidentified.**
-- [ ] **Art for the other 30 packs.** A sweep of all 25 tabs
-      (`python -I tools/packart.py site _import/raw/*.xlsx`) finds **33
-      distinct packs and only 3 with art in the source**: Mnestic
-      Experience, Faith and Erosion, Nocturnal Sweeping Bokgak. The other
-      30 need images from elsewhere — a community wiki or game files —
-      dropped at `site/assets/packs/<pack-slug>.webp`. The renderer picks
-      them up with no code change; run the sweep for the current slug list.
-- [ ] **Canonical pack names.** The same pack is spelled differently across
-      tabs (`Full-Stopped by a Bullet` vs `Full-stopped by a Bullet`,
-      `LCB Regular Check-up BokGak` vs `… Bokgak`). Slugs already unify
-      them, so the asset library is fine, but a `packs.json` holding one
-      display name per slug is wanted before the index page.
+- [ ] **Download the pack art.** The images were never missing — the sheet
+      references them with `IMAGE()` formulas, so they are not in the
+      `.xlsx`. `tools/packurls.py` recovers the URLs from the reference
+      sheet's `floor_picture` / `floor_name` catalogue:
+      **60 packs catalogued, covering 32 of the 33 used** (the 33rd is
+      embedded and already extracted). All that remains is fetching them
+      from `limbuscompany.wiki.gg` into `site/assets/packs/`. See
+      `docs/pack-art.md`.
+- [x] ~~Canonical pack names~~ — `tools/pack_art_urls.json` carries one
+      name per pack slug, settling the disagreement between team tabs.
 - [ ] **Fusion recipes for the other teams' packs.** The sheet never labels
       ingredient icons, so each new pack needs its recipe added to
       `tools/fusion_recipes.json`. Write ingredients in the sheet's

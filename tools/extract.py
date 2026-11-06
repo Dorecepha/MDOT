@@ -928,17 +928,27 @@ def main():
                     break
             break
 
-    # booster-pack card art, where the block has one
-    packart = 0
+    # Booster-pack card art. Most packs have none in the sheet, so art is
+    # attached whenever a file exists for the pack slug — whether this run
+    # extracted it or someone dropped it into site/assets/packs/ by hand.
+    packart = fromsheet = 0
     for sec in team['sections']:
         for f in sec.get('floors') or []:
             sha = f.pop('artSha', None)
-            if sha and sha in blob_src and f.get('packSlug'):
+            slug = f.get('packSlug')
+            if sha and slug and sha in blob_src:
                 wbm, member = blob_src[sha]
-                f['art'] = write_asset('packs', f['packSlug'], wbm, member)
-                packart += 1
-            else:
-                f['art'] = None
+                write_asset('packs', slug, wbm, member)
+                fromsheet += 1
+            f['art'] = None
+            if slug:
+                for ext in ('.webp', '.png'):
+                    if os.path.exists(os.path.join(site, 'assets', 'packs',
+                                                   slug + ext)):
+                        # render.asset() re-resolves the extension
+                        f['art'] = 'packs/%s.png' % slug
+                        packart += 1
+                        break
 
     # the warning glyph that bookends the checklist rows, as a real UI asset
     for s in team['sections']:
@@ -957,7 +967,8 @@ def main():
               encoding='utf-8') as fh:
         json.dump(team, fh, indent=2, ensure_ascii=False)
 
-    print('pack art found: %d' % packart)
+    print('pack art: %d shown (%d extracted from the sheet this run)'
+          % (packart, fromsheet))
     tagged = sum(1 for i in identities if i['statuses'])
     print('identities: %d (%d portraits, %d status-tagged)'
           % (len(identities), len(portraits), tagged))

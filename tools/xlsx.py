@@ -131,6 +131,25 @@ class Workbook:
                 out.append((pa, pb))
         return out
 
+    def formulas(self, tab):
+        """{(row, col): formula text} 0-based.
+
+        Cells holding `=IMAGE("url")` have no cached value, so `cells()`
+        reports them as empty — the picture lives at the URL, not in the
+        workbook. Reading formulas is the only way to see them.
+        """
+        root = ET.fromstring(self.zip.read(self.sheets[tab]))
+        out = {}
+        for c in root.iter('{%s}c' % NS['m']):
+            f = c.find('m:f', NS)
+            ref = c.get('r')
+            if f is None or not f.text or not ref:
+                continue
+            pos = split_ref(ref)
+            if pos:
+                out[pos] = f.text
+        return out
+
     def hyperlinks(self, tab):
         """{(row, col): url} 0-based. Covers both r:id links and inline refs."""
         sp = self.sheets[tab]

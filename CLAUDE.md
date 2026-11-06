@@ -45,6 +45,13 @@ Preview with the `site` config in `.claude/launch.json` (port 4179).
 - **The Windows console is cp1252**; the sheet carries CJK and typographic
   punctuation. `-I` ignores `PYTHONIOENCODING`, so scripts call
   `sys.stdout.reconfigure(encoding='utf-8', errors='replace')`.
+- **Most artwork is not embedded.** The guides reference images through
+  Google Sheets' `IMAGE("url")` function, so those cells have no cached
+  value, read as empty, and the pictures never reach an `.xlsx` export.
+  `Workbook.formulas()` recovers them. `New Reference Sheet` holds the pack
+  catalogue as `floor_picture` / `floor_name`; see `docs/pack-art.md`.
+  Before concluding that something "has no image in the sheet", check the
+  formulas — that mistake was made once already.
 - **Never extract via CSV.** The gviz CSV export silently collapses empty
   rows, so its row numbers do not line up with image anchor rows. It also
   drops fill colours, and `Teams List` stores difficulty and footage slots
