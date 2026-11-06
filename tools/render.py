@@ -174,12 +174,15 @@ def id_card(c, asset, compact=False, slot=None):
 
     # portrait, uptie badge and source banner form one left rail, so the
     # banner stays small and the text column is left to the explanation
+    # The slot number is an ordinal, not a badge on the art, so it sits in
+    # the text column beside the role and name.
     return ('<article class="idcard%s">'
-            '<div class="art"><div class="pic">%s%s%s</div>%s</div>'
-            '<div class="meta"><div class="hd">%s<h4 title="%s">%s%s</h4></div>'
+            '<div class="art"><div class="pic">%s%s</div>%s</div>'
+            '<div class="meta"><div class="hd">%s'
+            '<div class="hdtext">%s<h4 title="%s">%s%s</h4></div></div>'
             '%s%s</div></article>'
-            % (' compact' if compact else '', img, slotplate, badge, banner,
-               role, e(c.get('name') or title), e(title), warn,
+            % (' compact' if compact else '', img, badge, banner,
+               slotplate, role, e(c.get('name') or title), e(title), warn,
                status_icons(c.get('statuses'), asset), notes))
 
 

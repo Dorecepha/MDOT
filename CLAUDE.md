@@ -155,9 +155,10 @@ and an SVG paper grain over the page.
   says "Bleed+Poise".
 - **Deployment order is meaningful.** The sheet's loadout reads left to
   right as slots 1-N (5 here, 7 on some teams), and cards are extracted in
-  column order, so the slot number is just the position. Shown as a gold
-  plate on the portrait. Only the loadout is numbered — sacs and
-  substitutes are not a deployment order.
+  column order, so the slot number is just the position. Rendered as a
+  gold serif ordinal beside the role and name, **not** as a badge on the
+  art — it describes the slot, not the identity. Only the loadout is
+  numbered; sacs and substitutes are not a deployment order.
 - Footage cards link to the run; they carry an explicit "Watch run"
   affordance rather than relying on the cursor.
 - Difficulty is the sheet's skull plus a **5-segment meter** (Easy 1,

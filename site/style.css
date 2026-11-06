@@ -286,15 +286,6 @@ a.fcard:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
   width: 100%; height: 100%; display: grid; place-items: center;
   color: var(--ink-3); font: 600 26px/1 var(--display);
 }
-/* deployment order, read left to right from the sheet */
-.idcard .slot {
-  position: absolute; left: 0; top: 0; z-index: 2;
-  min-width: 26px; height: 24px;
-  display: grid; place-items: center; padding: 0 6px;
-  background: var(--gold); color: var(--brown-900);
-  font: 400 12px/1 var(--pixel);
-}
-
 .idcard .uptie {
   position: absolute; right: 0; bottom: 0;
   width: 30px; height: 30px; display: grid; place-items: center;
@@ -304,6 +295,21 @@ a.fcard:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
 .idcard .uptie img { width: 19px; height: 19px; object-fit: contain; }
 
 .idcard .meta { min-width: 0; flex: 1; }
+
+/* Deployment order, read left to right from the sheet. An ordinal beside
+   the name rather than a badge on the art — it describes the slot, not
+   the identity. */
+.idcard .hd { display: flex; align-items: flex-start; gap: 13px; }
+.idcard .hdtext { min-width: 0; flex: 1; }
+.idcard .slot {
+  flex: none; min-width: 30px; padding-top: 1px;
+  font: 700 27px/0.95 var(--display); color: var(--gold);
+  text-align: center; font-variant-numeric: lining-nums;
+}
+.idcard .slot::after {
+  content: ""; display: block; height: 2px; margin-top: 5px;
+  background: var(--gold); opacity: .45;
+}
 .idcard .role {
   margin: 0 0 7px; font: italic 400 13.5px/1.35 var(--display);
   color: var(--gold-dim);
