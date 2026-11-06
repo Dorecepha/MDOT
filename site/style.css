@@ -181,7 +181,10 @@ a { color: inherit; }
 
 /* ---------------------------------------------------------------- layout */
 
-main { padding: 42px 0 90px; }
+/* <main> also carries .wrap, whose `padding: 0 30px` shorthand zeroes the
+   block padding. Use longhands at matching specificity so the horizontal
+   padding still comes from .wrap. */
+main.wrap { padding-top: 38px; padding-bottom: 90px; }
 section { margin-bottom: 52px; }
 
 /* numbered section head: index plate, serif title, rule running out */
@@ -212,6 +215,7 @@ h3 {
   margin: 24px 0 13px; color: var(--gold-dim);
 }
 
+.intro { margin-bottom: 36px; }   /* lead-in text, not a full section */
 .intro p { margin: 0; color: var(--ink-2); font-size: 16.5px; }
 
 .callout {
@@ -401,7 +405,7 @@ a.fcard:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
    the gifts and guidance the right. Only some packs carry art, so the
    column is absent rather than reserved when there is none. */
 .floor .floorsplit { display: flex; align-items: flex-start; gap: 20px; }
-.floor .packart { flex: none; width: 104px; }
+.floor .packart { flex: none; width: 148px; }  /* matches the fusion block's height */
 .floor .packart img {
   width: 100%; height: auto; display: block;
   border: 1px solid var(--brown-600);
@@ -411,7 +415,7 @@ a.fcard:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
    the gifts have the full width. */
 @media (max-width: 680px) {
   .floor .floorsplit { display: block; }
-  .floor .packart { width: 84px; margin-bottom: 14px; }
+  .floor .packart { width: 108px; margin-bottom: 14px; }
 }
 .floor h3 {
   margin: 0 0 14px; font: 600 19px/1.2 var(--display);

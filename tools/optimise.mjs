@@ -18,6 +18,7 @@ const CAPS = {
   gifts: 128,      // chips render 46px
   avatars: 128,    // footage avatars render 44px
   banners: 480,
+  packs: 420,      // tall booster cards, shown ~150px wide
   status: 96,
 };
 

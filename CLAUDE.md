@@ -194,8 +194,13 @@ and an SVG paper grain over the page.
 ## Working agreements
 
 - The guidemaker edits this themselves and is comfortable with git. No CMS.
-- Verify rendering changes in the browser; the stylesheet is mtime-versioned
-  because the preview pane caches aggressively.
+- Verify rendering changes in the browser. The stylesheet **and every
+  asset URL** are mtime-versioned: filenames are stable across rebuilds,
+  so a re-encoded or corrected image would otherwise sit in readers'
+  caches indefinitely — and the guides change often.
+- `<main>` also carries `.wrap`, whose `padding: 0 30px` shorthand zeroes
+  block padding. Use longhands (`main.wrap { padding-top: … }`) or the
+  page silently loses its top and bottom spacing.
 - Report gaps honestly. 71 gift icons have no recoverable name; they render
   as "Unidentified" rather than a guess, and that is deliberate.
 - Do not commit `_import/raw/` (226 MB) or `site/assets` PNGs that have a

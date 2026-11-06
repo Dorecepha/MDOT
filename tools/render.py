@@ -194,10 +194,18 @@ def main():
         t = json.load(fh)
 
     def asset(rel):
+        """Site-relative path for an asset, preferring WebP.
+
+        Stamped with the file's mtime: asset filenames are stable across
+        rebuilds, so a re-encoded or corrected image would otherwise sit in
+        readers' caches indefinitely. Guides change often enough for that to
+        matter.
+        """
         base = rel.rsplit('.', 1)[0]
         for ext in ('.webp', '.png'):
-            if os.path.exists(os.path.join(site, base + ext)):
-                return base + ext
+            path = os.path.join(site, base + ext)
+            if os.path.exists(path):
+                return '%s%s?v=%d' % (base, ext, int(os.path.getmtime(path)))
         return None
 
     warn_icon = asset('assets/ui/warning.png')
