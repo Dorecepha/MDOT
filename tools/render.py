@@ -227,8 +227,7 @@ def main():
     A(difficulty_bar(t.get('difficulty'), t.get('difficultyLevel'), asset))
     A('<dl class="facts">')
     for k, v in (('Guidemaker', t.get('guidemaker')),
-                 ('Last updated', t.get('lastUpdated')),
-                 ('Footage', 'F11–F15')):
+                 ('Last updated', t.get('lastUpdated'))):
         if v:
             A('<div><dt>%s</dt><dd>%s</dd></div>' % (e(k), e(v)))
     A('</dl>')
