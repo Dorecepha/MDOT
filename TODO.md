@@ -32,13 +32,24 @@ visual direction is part of the deliverable, not polish on top of it.
       shape and position so warning glyphs and status icons are not picked
       up. Only **3 packs across both workbooks** have art in the sheet
       (Mnestic Experience, Nocturnal Sweeping bokgak, faith and erosion), so
-      one shows on this page. The rest need art from elsewhere — a community
-      wiki or game files — dropped into `site/assets/packs/<pack-slug>.webp`,
-      which the renderer will pick up with no code change.
+      one shows on this page. `tools/packart.py` sweeps all 25 tabs and has
+      extracted every one that exists.
 - [x] ~~Gift and pack name capitalisation~~ — `name_case` plus
       `tools/name_overrides.json` for acronyms it cannot derive.
 - [x] ~~Unidentified gift icons on this page~~ — the guidemaker's seven
       recipes named the last 13. **0 of 67 gift slots are unidentified.**
+- [ ] **Art for the other 30 packs.** A sweep of all 25 tabs
+      (`python -I tools/packart.py site _import/raw/*.xlsx`) finds **33
+      distinct packs and only 3 with art in the source**: Mnestic
+      Experience, Faith and Erosion, Nocturnal Sweeping Bokgak. The other
+      30 need images from elsewhere — a community wiki or game files —
+      dropped at `site/assets/packs/<pack-slug>.webp`. The renderer picks
+      them up with no code change; run the sweep for the current slug list.
+- [ ] **Canonical pack names.** The same pack is spelled differently across
+      tabs (`Full-Stopped by a Bullet` vs `Full-stopped by a Bullet`,
+      `LCB Regular Check-up BokGak` vs `… Bokgak`). Slugs already unify
+      them, so the asset library is fine, but a `packs.json` holding one
+      display name per slug is wanted before the index page.
 - [ ] **Fusion recipes for the other teams' packs.** The sheet never labels
       ingredient icons, so each new pack needs its recipe added to
       `tools/fusion_recipes.json`. Write ingredients in the sheet's
