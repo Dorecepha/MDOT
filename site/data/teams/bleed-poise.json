@@ -1129,7 +1129,7 @@
             },
             {
               "gift": "trial-extraction-a-b-s",
-              "name": "Trial Extraction: A.B.s",
+              "name": "Trial Extraction: A.B.S",
               "sha": "03d43c24e20b20d30edf51e50e7ec438c21cf62219440c5639f57db08cf37a31",
               "tier": 3,
               "resolved": true,
@@ -1137,7 +1137,7 @@
             },
             {
               "gift": "modified-extraction-aedd",
-              "name": "Modified Extraction: Aedd",
+              "name": "Modified Extraction: AEDD",
               "sha": "f310e9bf2f07d6deb0413091d83e6c201f5f03a250ad37807d06dd0012c63528",
               "tier": 3,
               "resolved": false,

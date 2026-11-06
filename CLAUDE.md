@@ -109,6 +109,11 @@ inference was tried and was unreliable.
 
 - `tools/status_icons.json` — the seven status icons.
 - `tools/card_art.json` — acquisition banners and uptie numerals.
+- `tools/name_overrides.json` — canonical spellings no casing rule can
+  derive, mostly acronyms the sheet writes inconsistently (`A.B.S`,
+  `AEDD`). Keyed by the lowercased sheet name, applied after `name_case`.
+  Add here rather than contorting `name_case`, which must stay safe for
+  the hundreds of names it already gets right.
 - `tools/fusion_recipes.json` — fusion ingredient names, supplied by the
   guidemaker because the sheet never labels ingredient icons. **Written in
   the sheet's own left-to-right order and matched by position.** Tiers are

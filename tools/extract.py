@@ -292,6 +292,18 @@ NAME_UPPER = {'lcb', 'ego', 'mde', 'id', 'ids', 'bl', 'hos', 'aoe', 'cqc',
               'k', 'n', 'w', 'r', 't'}
 
 
+def _load_name_overrides():
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                        'name_overrides.json')
+    if not os.path.exists(path):
+        return {}
+    with open(path, encoding='utf-8') as fh:
+        return {k.lower(): v for k, v in json.load(fh).get('names', {}).items()}
+
+
+NAME_OVERRIDES = _load_name_overrides()
+
+
 def name_case(s):
     """Tidy a gift or pack name without destroying deliberate styling.
 
@@ -302,6 +314,9 @@ def name_case(s):
     """
     if not s:
         return s
+    fixed = NAME_OVERRIDES.get(s.strip().lower())
+    if fixed:
+        return fixed
     out = []
     for i, word in enumerate(s.split()):
         lead, trail, core = '', '', word

@@ -97,10 +97,10 @@ def gift_slot(g, asset):
         if i:
             parts.append('<span class="plus">+</span>')
         parts.append(gift_node(ing, asset, 'sm'))
+    # No arrow: the gold-bordered frame already reads as "these fuse into
+    # this", and the glyph looked crude at this size.
     return ('<div class="fusion">'
-            '<div class="ingredients">%s</div>'
-            '<div class="yields" aria-label="fuses into"></div>'
-            '%s</div>'
+            '<div class="ingredients">%s</div>%s</div>'
             % (''.join(parts), gift_node(g, asset, 'lg')))
 
 

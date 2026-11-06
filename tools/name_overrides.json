@@ -1,0 +1,7 @@
+{
+  "_comment": "Canonical spellings for names that no general casing rule can derive — mostly acronyms the sheet writes inconsistently. Keyed by the lowercased name as it comes out of the sheet, applied after name_case(). Add to this rather than contorting name_case, which has to stay safe for the hundreds of names it already handles correctly.",
+  "names": {
+    "trial extraction: a.b.s": "Trial Extraction: A.B.S",
+    "modified extraction: aedd": "Modified Extraction: AEDD"
+  }
+}
