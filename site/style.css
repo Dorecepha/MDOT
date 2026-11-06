@@ -306,10 +306,6 @@ a.fcard:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
   font: 700 27px/0.95 var(--display); color: var(--gold);
   text-align: center; font-variant-numeric: lining-nums;
 }
-.idcard .slot::after {
-  content: ""; display: block; height: 2px; margin-top: 5px;
-  background: var(--gold); opacity: .45;
-}
 .idcard .role {
   margin: 0 0 7px; font: italic 400 13.5px/1.35 var(--display);
   color: var(--gold-dim);
@@ -359,12 +355,12 @@ a.fcard:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
   font-size: 12.5px; line-height: 1.3; text-align: center;
   color: var(--ink-2); overflow-wrap: anywhere;
 }
-.gift.sm { width: 68px; }
-.gift.sm .art { width: 54px; height: 54px; }
+.gift.sm { width: 62px; }
+.gift.sm .art { width: 48px; height: 48px; }
 .gift.sm figcaption { font-size: 11px; color: var(--ink-3); }
-.gift.lg { width: 124px; }
-.gift.lg .art { width: 104px; height: 104px; border-color: var(--gold-dim); }
-.gift.lg figcaption { font-size: 13.5px; color: var(--paper); font-weight: 700; }
+.gift.lg { width: 104px; }
+.gift.lg .art { width: 84px; height: 84px; border-color: var(--gold-dim); }
+.gift.lg figcaption { font-size: 12.5px; color: var(--paper); font-weight: 700; }
 .gift.unknown .art { border-style: dashed; }
 .gift .noicon { display: grid; place-items: center; width: 100%; height: 100%; color: var(--ink-3); }
 
@@ -379,11 +375,11 @@ a.fcard:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
 .tier.t5 { color: #ef8aa8; border-color: #78334a; }
 
 .fusion {
-  display: flex; flex-direction: column; align-items: center; gap: 11px;
-  padding: 13px 13px 11px;
+  display: flex; flex-direction: column; align-items: center; gap: 9px;
+  padding: 10px 10px 9px;
   border: 1px solid var(--gold-dim); background: var(--brown-850);
 }
-.fusion .ingredients { display: flex; align-items: flex-start; gap: 7px; }
+.fusion .ingredients { display: flex; align-items: flex-start; gap: 6px; }
 .fusion .plus { color: var(--ink-3); font: 400 12px/1 var(--pixel); padding-top: 22px; }
 
 /* ---------------------------------------------------------------- floors */
@@ -401,17 +397,22 @@ a.fcard:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
   background: var(--brown-800); border: 1px solid var(--brown-600);
   padding: 16px 18px; margin-bottom: 11px;
 }
-/* Booster-pack card, where the sheet carries one. Only some packs have
-   art, so it is a left rail that simply is not there otherwise rather
-   than a reserved empty slot. */
-.floor.haspack { display: flex; align-items: flex-start; gap: 18px; }
-.floor .packart { flex: none; width: 92px; }
+/* Pack name spans the band; the art takes a left column beneath it and
+   the gifts and guidance the right. Only some packs carry art, so the
+   column is absent rather than reserved when there is none. */
+.floor .floorsplit { display: flex; align-items: flex-start; gap: 20px; }
+.floor .packart { flex: none; width: 104px; }
 .floor .packart img {
   width: 100%; height: auto; display: block;
   border: 1px solid var(--brown-600);
 }
 .floor .floorbody { min-width: 0; flex: 1; }
-@media (max-width: 640px) { .floor .packart { width: 66px; } }
+/* Narrow: the art column starves the gift row, so stack instead and let
+   the gifts have the full width. */
+@media (max-width: 680px) {
+  .floor .floorsplit { display: block; }
+  .floor .packart { width: 84px; margin-bottom: 14px; }
+}
 .floor h3 {
   margin: 0 0 14px; font: 600 19px/1.2 var(--display);
   color: var(--paper); letter-spacing: 0; text-transform: none;

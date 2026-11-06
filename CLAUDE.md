@@ -179,11 +179,14 @@ and an SVG paper grain over the page.
   name**.
 - **Booster-pack art** is a tall portrait in column D of a floor block;
   `find_pack_art` matches on shape and position so the warning glyph and
-  status icons in that column are not mistaken for it. Only three packs
-  across both workbooks have art, so it renders as a left rail that is
-  simply absent otherwise rather than a reserved empty slot. Dropping a
-  file at `site/assets/packs/<pack-slug>.webp` makes it appear with no
-  code change.
+  status icons in that column are not mistaken for it. The pack name spans
+  the band; beneath it the art takes a left column and the gifts and
+  guidance the right, so the heading reads for the whole pack rather than
+  captioning the gift row. Only three packs across both workbooks have
+  art, so the column is absent rather than reserved when there is none,
+  and it stacks under 680px where it would otherwise starve the gift row.
+  Dropping a file at `site/assets/packs/<pack-slug>.webp` makes it appear
+  with no code change.
 - Floor packs are grouped by floor range (six of Bleed+Poise's ten packs are
   all "Floors 5 to 10" — alternatives, not a sequence), each a full-width
   band so dense packs keep their gifts on one row.

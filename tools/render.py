@@ -342,19 +342,25 @@ def main():
                          if len(items) > 1 else ''))
                     for f in items:
                         # the booster-pack card, where the sheet has one
+                        # Pack name spans the band; below it the art takes a
+                        # left column and the gifts and guidance the right,
+                        # so the heading reads for the whole pack rather
+                        # than captioning the gift row.
                         art = asset('assets/' + f['art']) if f.get('art') else None
                         A('<article class="floor%s">' % (' haspack' if art else ''))
+                        A('<h3>%s</h3>' % e(f.get('pack') or '—'))
+                        A('<div class="floorsplit">')
                         if art:
                             A('<div class="packart"><img loading="lazy" src="%s" '
                               'alt="%s pack"></div>' % (e(art), e(f.get('pack') or '')))
-                        A('<div class="floorbody"><h3>%s</h3>' % e(f.get('pack') or '—'))
+                        A('<div class="floorbody">')
                         if f['gifts']:
                             A('<div class="gifts">%s</div>'
                               % ''.join(gift_slot(g, asset) for g in f['gifts']))
                         if f.get('info'):
                             A('<ul class="notes cols">%s</ul>'
                               % ''.join('<li>%s</li>' % e(x) for x in f['info']))
-                        A('</div></article>')
+                        A('</div></div></article>')
                     A('</div>')
                 A('</section>')
             for ci, f in enumerate(lists):
