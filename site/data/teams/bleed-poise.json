@@ -559,7 +559,9 @@
           ],
           "portrait": "identities/pequod-ishmael.png",
           "role": null,
-          "notes": [],
+          "notes": [
+            "Only viable if you want to use 3 Pequod IDs and go for the Pequod gifts. Beware that doing this is less viable and more RNG dependent than 3 BL version."
+          ],
           "banner": {
             "slug": "season-3-pass",
             "label": "Season 3 Limbus Pass",
@@ -585,7 +587,9 @@
           ],
           "portrait": "identities/pequod-yi-sang.png",
           "role": null,
-          "notes": [],
+          "notes": [
+            "Only viable if you want to use 3 Pequod IDs and go for the Pequod gifts. Beware that doing this is less viable and more RNG dependent than 3 BL version."
+          ],
           "banner": {
             "slug": "season-3-pass",
             "label": "Season 3 Limbus Pass",
@@ -743,11 +747,12 @@
               "resolved": true,
               "ingredients": [
                 {
-                  "gift": null,
-                  "name": null,
+                  "gift": "haunted-shoes",
+                  "name": "Haunted Shoes",
                   "sha": "37c837f114ead108d961656f270884ecb8e7d27869cfc523c2a4820c42da70f6",
                   "tier": 2,
-                  "resolved": false
+                  "resolved": false,
+                  "fromRecipe": true
                 },
                 {
                   "gift": "frozen-cries",
@@ -922,11 +927,12 @@
               "resolved": true,
               "ingredients": [
                 {
-                  "gift": null,
-                  "name": null,
+                  "gift": "overused-whetstone",
+                  "name": "Overused Whetstone",
                   "sha": "a0e5d8f82a971cec312d2ab71538e335b148194777d77cb1b6a11971ba82b016",
                   "tier": 1,
-                  "resolved": false
+                  "resolved": false,
+                  "fromRecipe": true
                 },
                 {
                   "gift": "red-tassel",
@@ -936,11 +942,12 @@
                   "resolved": true
                 },
                 {
-                  "gift": null,
-                  "name": null,
+                  "gift": "unadorned-sword-guard",
+                  "name": "Unadorned Sword-guard",
                   "sha": "01c53fccb5722fa25ff6c916ba4a76e6f115b99d83ce3c4112b205a444eef16e",
                   "tier": 1,
-                  "resolved": false
+                  "resolved": false,
+                  "fromRecipe": true
                 }
               ]
             },
@@ -1000,18 +1007,20 @@
               "resolved": false,
               "ingredients": [
                 {
-                  "gift": null,
-                  "name": null,
+                  "gift": "broken-blade",
+                  "name": "Broken Blade",
                   "sha": "e71ba4d59f4d88140a7e3594c9342059ca5e0f8ca0d628189629a12ed96e25ff",
                   "tier": 3,
-                  "resolved": false
+                  "resolved": false,
+                  "fromRecipe": true
                 },
                 {
-                  "gift": null,
-                  "name": null,
+                  "gift": "worn-hilt",
+                  "name": "Worn Hilt",
                   "sha": "efe60e36e626f7aae3513ca14c884082c9afc9b222b4a69974da566614875a7b",
                   "tier": 3,
-                  "resolved": false
+                  "resolved": false,
+                  "fromRecipe": true
                 }
               ]
             },
@@ -1067,7 +1076,7 @@
           "kind": "floor",
           "marker": null,
           "label": "Floors 5 to 10",
-          "pack": "lcb regular check-up bokgak",
+          "pack": "LCB Regular Check-up Bokgak",
           "packSlug": "lcb-regular-check-up-bokgak",
           "gifts": [
             {
@@ -1079,23 +1088,24 @@
               "ingredients": [
                 {
                   "gift": "operation-authorization-card",
-                  "name": "Operation authorization card",
+                  "name": "Operation Authorization Card",
                   "sha": "d8af4662f3494e4b308fca458a05479663aefb36693a11f4c1799a2d8a22d9e8",
                   "tier": 3,
                   "resolved": true
                 },
                 {
-                  "gift": null,
-                  "name": null,
+                  "gift": "regular-operational-gear",
+                  "name": "Regular Operational Gear",
                   "sha": "5df902be6088c2eb994b6cc03c17e74265dbdf68bac42616f80c1276a895ef55",
                   "tier": 3,
-                  "resolved": false
+                  "resolved": false,
+                  "fromRecipe": true
                 }
               ]
             },
             {
               "gift": "combustion-gloves",
-              "name": "combustion gloves",
+              "name": "Combustion Gloves",
               "sha": "81460fd1288e2aae79cd04f587ab0f7dc3e14fda3e16bb3ce345371f60e21bc9",
               "tier": 3,
               "resolved": true,
@@ -1103,7 +1113,7 @@
             },
             {
               "gift": "re-ignition-plug",
-              "name": "re-ignition plug",
+              "name": "Re-ignition Plug",
               "sha": "526e78529334eeee91b794522474a001899ba76f58b4621d9e666b3181f7c02d",
               "tier": 3,
               "resolved": true,
@@ -1111,7 +1121,7 @@
             },
             {
               "gift": "embers",
-              "name": "embers",
+              "name": "Embers",
               "sha": "62159a66937f0f12757a96d10780630481d6ca79d39f2e0d6db17cbc12eaac72",
               "tier": 3,
               "resolved": true,
@@ -1119,7 +1129,7 @@
             },
             {
               "gift": "trial-extraction-a-b-s",
-              "name": "trial extraction: A.B.s",
+              "name": "Trial Extraction: A.B.s",
               "sha": "03d43c24e20b20d30edf51e50e7ec438c21cf62219440c5639f57db08cf37a31",
               "tier": 3,
               "resolved": true,
@@ -1152,7 +1162,7 @@
           "kind": "floor",
           "marker": null,
           "label": "Floors 5 to 10",
-          "pack": "line 2",
+          "pack": "Line 2",
           "packSlug": "line-2",
           "gifts": [
             {
@@ -1193,18 +1203,20 @@
               "resolved": true,
               "ingredients": [
                 {
-                  "gift": null,
-                  "name": null,
+                  "gift": "packaging-ribbon",
+                  "name": "Packaging Ribbon",
                   "sha": "e8034495ddc7cac384cb444d2bcc90b45b79c8f7ed97991e26b58d9c45d9d49d",
                   "tier": 3,
-                  "resolved": false
+                  "resolved": false,
+                  "fromRecipe": true
                 },
                 {
-                  "gift": null,
-                  "name": null,
+                  "gift": "packaging-box",
+                  "name": "Packaging Box",
                   "sha": "43417021c08a35688851035893809d4a29037a61a48b8e3e55f443d56eaa48fa",
                   "tier": 1,
-                  "resolved": false
+                  "resolved": false,
+                  "fromRecipe": true
                 }
               ]
             },
@@ -1216,25 +1228,28 @@
               "resolved": true,
               "ingredients": [
                 {
-                  "gift": null,
-                  "name": null,
+                  "gift": "sad-plushie",
+                  "name": "Sad Plushie",
                   "sha": "373a568f19fc1bb111470a1ec73e820a300b1e1ed6f7eaccc94c5664bc684dc2",
                   "tier": 3,
-                  "resolved": false
+                  "resolved": false,
+                  "fromRecipe": true
                 },
                 {
-                  "gift": null,
-                  "name": null,
+                  "gift": "huge-gift-sack",
+                  "name": "Huge Gift Sack",
                   "sha": "7b39ebc3cb0eba2097fa1acaec525a3a044593de1c4808ee975cf80f3cb794d8",
                   "tier": 2,
-                  "resolved": false
+                  "resolved": false,
+                  "fromRecipe": true
                 },
                 {
-                  "gift": null,
-                  "name": null,
+                  "gift": "pom-pom-hat",
+                  "name": "Pom-pom Hat",
                   "sha": "7849ad1fc8036bec4604afa958a73145a54b96499818a04066261f5a73c94088",
                   "tier": 1,
-                  "resolved": false
+                  "resolved": false,
+                  "fromRecipe": true
                 }
               ]
             },
@@ -1246,18 +1261,20 @@
               "resolved": true,
               "ingredients": [
                 {
-                  "gift": null,
-                  "name": null,
+                  "gift": "snuffed-candlestick",
+                  "name": "Snuffed Candlestick",
                   "sha": "6ee93112c8a1d5ae48dcd243ee68a79fba10a891eaca21ec1497c220d6701bd1",
                   "tier": 2,
-                  "resolved": false
+                  "resolved": false,
+                  "fromRecipe": true
                 },
                 {
-                  "gift": null,
-                  "name": null,
+                  "gift": "snuffed-lantern",
+                  "name": "Snuffed Lantern",
                   "sha": "f7563a5b240667ddfac9a78f5219a632dfda5f2f80394a5e07cc8744251cf5b5",
                   "tier": 1,
-                  "resolved": false
+                  "resolved": false,
+                  "fromRecipe": true
                 }
               ]
             }
@@ -1330,7 +1347,7 @@
             },
             {
               "gift": "sorrowful-exhale-optional",
-              "name": "Sorrowful Exhale\n(Optional)",
+              "name": "Sorrowful Exhale (Optional)",
               "sha": "3665308fce311b478abda93554cf0b17a3edf37ca1d39fa92de866003e821812",
               "tier": 4,
               "resolved": true,
@@ -1338,7 +1355,7 @@
             },
             {
               "gift": "coveting-thorn-optional",
-              "name": "Coveting Thorn\n(Optional)",
+              "name": "Coveting Thorn (Optional)",
               "sha": "0f22d319ec2148122f050a935ee0e94ea276261627432bf725fa86fe281664ec",
               "tier": 4,
               "resolved": true,

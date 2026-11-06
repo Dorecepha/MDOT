@@ -108,7 +108,7 @@
     "votes": 6
   },
   {
-    "name": "Cask spirits",
+    "name": "Cask Spirits",
     "slug": "cask-spirits",
     "confidence": 1.0,
     "votes": 3
@@ -132,7 +132,7 @@
     "votes": 8
   },
   {
-    "name": "combustion gloves",
+    "name": "Combustion Gloves",
     "slug": "combustion-gloves",
     "confidence": 0.7,
     "votes": 7
@@ -144,7 +144,7 @@
     "votes": 22
   },
   {
-    "name": "Contaminated needle & thread",
+    "name": "Contaminated Needle & Thread",
     "slug": "contaminated-needle-and-thread",
     "confidence": 1.0,
     "votes": 3
@@ -156,7 +156,7 @@
     "votes": 9
   },
   {
-    "name": "Coveting Thorn\n(Optional)",
+    "name": "Coveting Thorn (Optional)",
     "slug": "coveting-thorn-optional",
     "confidence": 0.68,
     "votes": 13
@@ -168,7 +168,7 @@
     "votes": 9
   },
   {
-    "name": "CQc manual",
+    "name": "CQc Manual",
     "slug": "cqc-manual",
     "confidence": 1.0,
     "votes": 2
@@ -186,13 +186,13 @@
     "votes": 13
   },
   {
-    "name": "darkflame smoking pipe",
+    "name": "Darkflame Smoking Pipe",
     "slug": "darkflame-smoking-pipe",
     "confidence": 1.0,
     "votes": 3
   },
   {
-    "name": "desperado",
+    "name": "Desperado",
     "slug": "desperado",
     "confidence": 1.0,
     "votes": 3
@@ -216,7 +216,7 @@
     "votes": 2
   },
   {
-    "name": "embers",
+    "name": "Embers",
     "slug": "embers",
     "confidence": 0.7,
     "votes": 7
@@ -234,7 +234,7 @@
     "votes": 4
   },
   {
-    "name": "Enh. Tattoos - The Middle",
+    "name": "Enh. Tattoos - the Middle",
     "slug": "enh-tattoos-the-middle",
     "confidence": 1.0,
     "votes": 5
@@ -270,7 +270,7 @@
     "votes": 8
   },
   {
-    "name": "ENTER: The B.B.",
+    "name": "ENTER: the B.B.",
     "slug": "enter-the-b-b",
     "confidence": 1.0,
     "votes": 5
@@ -342,7 +342,7 @@
     "votes": 12
   },
   {
-    "name": "gear shrapnel",
+    "name": "Gear Shrapnel",
     "slug": "gear-shrapnel",
     "confidence": 1.0,
     "votes": 3
@@ -396,7 +396,7 @@
     "votes": 3
   },
   {
-    "name": "harmonics",
+    "name": "Harmonics",
     "slug": "harmonics",
     "confidence": 1.0,
     "votes": 3
@@ -438,7 +438,7 @@
     "votes": 13
   },
   {
-    "name": "Hoarfrost footprint",
+    "name": "Hoarfrost Footprint",
     "slug": "hoarfrost-footprint",
     "confidence": 1.0,
     "votes": 2
@@ -492,7 +492,7 @@
     "votes": 6
   },
   {
-    "name": "Lucky pouch",
+    "name": "Lucky Pouch",
     "slug": "lucky-pouch",
     "confidence": 1.0,
     "votes": 3
@@ -546,13 +546,13 @@
     "votes": 4
   },
   {
-    "name": "Nagel und Hammer Scriptures",
+    "name": "Nagel Und Hammer Scriptures",
     "slug": "nagel-und-hammer-scriptures",
     "confidence": 1.0,
     "votes": 4
   },
   {
-    "name": "Nagel und Hammer Scriptures",
+    "name": "Nagel Und Hammer Scriptures",
     "slug": "nagel-und-hammer-scriptures",
     "confidence": 1.0,
     "votes": 2
@@ -570,7 +570,7 @@
     "votes": 9
   },
   {
-    "name": "Operation authorization card",
+    "name": "Operation Authorization Card",
     "slug": "operation-authorization-card",
     "confidence": 1.0,
     "votes": 2
@@ -636,7 +636,7 @@
     "votes": 4
   },
   {
-    "name": "re-ignition plug",
+    "name": "Re-ignition Plug",
     "slug": "re-ignition-plug",
     "confidence": 0.7,
     "votes": 7
@@ -654,7 +654,7 @@
     "votes": 17
   },
   {
-    "name": "Red tassel",
+    "name": "Red Tassel",
     "slug": "red-tassel",
     "confidence": 1.0,
     "votes": 2
@@ -678,7 +678,7 @@
     "votes": 7
   },
   {
-    "name": "rules of the middle",
+    "name": "Rules of the Middle",
     "slug": "rules-of-the-middle",
     "confidence": 1.0,
     "votes": 3
@@ -690,13 +690,13 @@
     "votes": 5
   },
   {
-    "name": "Rules of the middle",
+    "name": "Rules of the Middle",
     "slug": "rules-of-the-middle",
     "confidence": 1.0,
     "votes": 2
   },
   {
-    "name": "Rusted Clock hands",
+    "name": "Rusted Clock Hands",
     "slug": "rusted-clock-hands",
     "confidence": 1.0,
     "votes": 2
@@ -714,7 +714,7 @@
     "votes": 3
   },
   {
-    "name": "searing hammer",
+    "name": "Searing Hammer",
     "slug": "searing-hammer",
     "confidence": 1.0,
     "votes": 2
@@ -798,7 +798,7 @@
     "votes": 4
   },
   {
-    "name": "Sorrowful Exhale\n(Optional)",
+    "name": "Sorrowful Exhale (Optional)",
     "slug": "sorrowful-exhale-optional",
     "confidence": 0.72,
     "votes": 13
@@ -816,7 +816,7 @@
     "votes": 9
   },
   {
-    "name": "Spicebush, glasses and mailed letter",
+    "name": "Spicebush, Glasses and Mailed Letter",
     "slug": "spicebush-glasses-and-mailed-letter",
     "confidence": 1.0,
     "votes": 3
@@ -834,7 +834,7 @@
     "votes": 11
   },
   {
-    "name": "Spiked combat boots",
+    "name": "Spiked Combat Boots",
     "slug": "spiked-combat-boots",
     "confidence": 1.0,
     "votes": 3
@@ -846,7 +846,7 @@
     "votes": 2
   },
   {
-    "name": "Swift command",
+    "name": "Swift Command",
     "slug": "swift-command",
     "confidence": 1.0,
     "votes": 5
@@ -942,7 +942,7 @@
     "votes": 7
   },
   {
-    "name": "trial extraction: A.B.s",
+    "name": "Trial Extraction: A.B.s",
     "slug": "trial-extraction-a-b-s",
     "confidence": 0.7,
     "votes": 7
@@ -954,7 +954,7 @@
     "votes": 10
   },
   {
-    "name": "Trial extraction : Lantern",
+    "name": "Trial Extraction : Lantern",
     "slug": "trial-extraction-lantern",
     "confidence": 1.0,
     "votes": 3
@@ -984,7 +984,7 @@
     "votes": 3
   },
   {
-    "name": "walking bass",
+    "name": "Walking Bass",
     "slug": "walking-bass",
     "confidence": 1.0,
     "votes": 3

@@ -91,9 +91,16 @@ These took several wrong attempts; do not re-derive them casually.
    first result row beneath them. Strips are left-aligned with their result
    and run rightward to the next result's column. Nearest-column binding is
    wrong and produces plausible-looking garbage.
-5. **A note merged wider than one card is section prose**, not a card note —
-   otherwise the Floor 1 Sacs "Explanation:" paragraph duplicates onto the
-   first card.
+5. **A note merged across one or two card slots belongs to those cards;
+   wider is section prose.** Measured: card notes are 6 or 12 columns wide,
+   section prose is 18+. The Pequod substitutes share a single 12-wide note
+   anchored at the left slot, so walk back along the stride to find a merge
+   that reaches a given column. Treating anything over 6 as prose silently
+   dropped that note; treating anything merged as a card note duplicates the
+   Floor 1 Sacs "Explanation:" paragraph onto the first card.
+6. **Tidy gift and pack names with `name_case`**, which leaves any token
+   carrying an internal capital or a dot alone (`BokGak`, `A.B.s`) and keeps
+   single-character tokens as written (the `'n` in `Hot 'n Juicy`).
 
 ## Verified mappings — extend, don't regenerate
 
@@ -102,6 +109,12 @@ inference was tried and was unreliable.
 
 - `tools/status_icons.json` — the seven status icons.
 - `tools/card_art.json` — acquisition banners and uptie numerals.
+- `tools/fusion_recipes.json` — fusion ingredient names, supplied by the
+  guidemaker because the sheet never labels ingredient icons. Matched to
+  extracted ingredients **by tier** when the recipe's tiers are distinct
+  (some strips run descending, so position lies), falling back to position
+  otherwise. A recipe whose shape or names disagree with what was extracted
+  is reported and skipped, never force-fitted.
 
 Unlisted images still render under a hash-derived slug, so a new season
 never breaks the build; add an entry to give it a name.
@@ -140,6 +153,13 @@ and an SVG paper grain over the page.
 
 - Status is shown as **game icons, never words** — the team title already
   says "Bleed+Poise".
+- **Deployment order is meaningful.** The sheet's loadout reads left to
+  right as slots 1-N (5 here, 7 on some teams), and cards are extracted in
+  column order, so the slot number is just the position. Shown as a gold
+  plate on the portrait. Only the loadout is numbered — sacs and
+  substitutes are not a deployment order.
+- Footage cards link to the run; they carry an explicit "Watch run"
+  affordance rather than relying on the cursor.
 - Difficulty is the sheet's skull plus a **5-segment meter** (Easy 1,
   Medium 3, Hard 5).
 - Identity art is **never cropped** — `object-fit: contain`.

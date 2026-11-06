@@ -86,6 +86,16 @@ a { color: inherit; }
   clip-path: polygon(0 0, 190px 0, 190px 100%, 0 100%);
 }
 
+.herogrid {
+  display: grid; grid-template-columns: minmax(0, 1fr) auto;
+  gap: 34px; align-items: start;
+}
+.heroside { padding-top: 34px; }
+@media (max-width: 1040px) {
+  .herogrid { grid-template-columns: 1fr; gap: 0; }
+  .heroside { padding-top: 0; }
+}
+
 .crumbs { font: italic 400 13px/1 var(--display); color: var(--ink-3); }
 .crumbs a { color: var(--gold-dim); text-decoration: none; }
 .crumbs a:hover { color: var(--gold-hi); }
@@ -130,15 +140,18 @@ a { color: inherit; }
 .code {
   display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
   background: var(--brown-800); border: 1px solid var(--brown-600);
-  padding: 12px 15px; max-width: 770px;
+  padding: 13px 15px; max-width: 420px;
+  flex-direction: column; align-items: stretch; gap: 10px;
 }
+.code > :first-child { margin-bottom: -2px; }
 .code label { font: 400 10px/1 var(--pixel); color: var(--gold); white-space: nowrap; }
 .code code {
-  flex: 1; min-width: 170px;
+  min-width: 0;
   font: 12px/1.4 ui-monospace, "Courier New", monospace;
   color: var(--ink-2); overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
 }
 .code button {
+  width: 100%;
   border: 1px solid var(--gold); background: transparent;
   color: var(--gold); font: 400 11px/1 var(--pixel);
   padding: 10px 16px; cursor: pointer;
@@ -199,7 +212,7 @@ h3 {
   margin: 24px 0 13px; color: var(--gold-dim);
 }
 
-.intro p { margin: 0; color: var(--ink-2); max-width: 74ch; font-size: 16.5px; }
+.intro p { margin: 0; color: var(--ink-2); font-size: 16.5px; }
 
 .callout {
   background: var(--brown-800); border-left: 3px solid var(--gold);
@@ -231,6 +244,20 @@ a.fcard:hover { border-color: var(--gold); background: var(--brown-700); }
 .fcard strong { font: 600 15px/1.25 var(--display); color: var(--paper); }
 .fcard span { font-size: 12.5px; color: var(--ink-2); line-height: 1.4; }
 .fcard .sb { font: 400 12px/1.3 var(--body); color: var(--gold-dim); }
+.fcard .watch {
+  display: inline-flex; align-items: center; gap: 6px; margin-top: 7px;
+  font: 400 11.5px/1 var(--body); letter-spacing: .03em;
+  color: var(--gold); text-transform: uppercase;
+}
+.fcard .play {
+  width: 0; height: 0; flex: none;
+  border-left: 8px solid var(--gold);
+  border-top: 5px solid transparent; border-bottom: 5px solid transparent;
+}
+a.fcard { position: relative; }
+a.fcard:hover .watch { color: var(--gold-hi); }
+a.fcard:hover .play { border-left-color: var(--gold-hi); }
+a.fcard:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
 
 /* ---------------------------------------------------------------- roster */
 
@@ -259,6 +286,15 @@ a.fcard:hover { border-color: var(--gold); background: var(--brown-700); }
   width: 100%; height: 100%; display: grid; place-items: center;
   color: var(--ink-3); font: 600 26px/1 var(--display);
 }
+/* deployment order, read left to right from the sheet */
+.idcard .slot {
+  position: absolute; left: 0; top: 0; z-index: 2;
+  min-width: 26px; height: 24px;
+  display: grid; place-items: center; padding: 0 6px;
+  background: var(--gold); color: var(--brown-900);
+  font: 400 12px/1 var(--pixel);
+}
+
 .idcard .uptie {
   position: absolute; right: 0; bottom: 0;
   width: 30px; height: 30px; display: grid; place-items: center;
@@ -301,6 +337,9 @@ a.fcard:hover { border-color: var(--gold); background: var(--brown-700); }
 .secondary > h2::before { background: var(--brown-600); color: var(--ink-2); }
 
 /* ----------------------------------------------------------------- gifts */
+
+.giftcols { display: grid; grid-template-columns: repeat(auto-fit, minmax(330px, 1fr)); gap: 30px; }
+.giftcol > h3 { margin-top: 0; }
 
 .gifts { display: flex; flex-wrap: wrap; gap: 14px; align-items: flex-start; }
 

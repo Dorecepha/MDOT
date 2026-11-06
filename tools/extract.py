@@ -257,7 +257,7 @@ def build_gift_index(books):
         if conf < 0.6 or n < 2:
             conflicts.append((sha, dict(ctr.most_common(3))))
             continue
-        index[sha] = {'name': name, 'slug': slugify(name),
+        index[sha] = {'name': name_case(name), 'slug': slugify(name),
                       'confidence': round(conf, 2), 'votes': n}
     return index, conflicts, best_blob
 
@@ -279,6 +279,52 @@ def row_group(items, tol=0):
 
 CARD_STRIDE = 6
 UPTIE_OFFSET = 3  # the uptie numeral sits three columns right of the banner
+
+# A note merged across one or two card slots belongs to those cards; anything
+# wider is section prose. Measured on Bleed+Poise: card notes are 6 or 12
+# columns, section prose is 18 or more.
+MAX_SHARED_NOTE = 2 * CARD_STRIDE
+
+# Words kept lowercase mid-name, and tokens always upper.
+NAME_MINOR = {'and', 'or', 'to', 'the', 'of', 'for', 'in', 'on', 'a', 'an',
+              'with', 'at', 'by', 'from'}
+NAME_UPPER = {'lcb', 'ego', 'mde', 'id', 'ids', 'bl', 'hos', 'aoe', 'cqc',
+              'k', 'n', 'w', 'r', 't'}
+
+
+def name_case(s):
+    """Tidy a gift or pack name without destroying deliberate styling.
+
+    The sheet is inconsistent — `lcb regular check-up bokgak`, `line 2`,
+    `embers` — but some names carry intentional capitals (`BokGak`) or dots
+    (`A.B.s`), so any token already carrying an internal capital or a dot is
+    left exactly as written.
+    """
+    if not s:
+        return s
+    out = []
+    for i, word in enumerate(s.split()):
+        lead, trail, core = '', '', word
+        while core and not core[0].isalnum():
+            lead, core = lead + core[0], core[1:]
+        while core and not core[-1].isalnum():
+            trail, core = core[-1] + trail, core[:-1]
+        if not core:
+            out.append(word)
+            continue
+        if '.' in word or any(ch.isupper() for ch in core[1:]):
+            out.append(word)          # A.B.s, BokGak, MD7 — leave alone
+            continue
+        low = core.lower()
+        if len(core) == 1:
+            out.append(word)          # "'n" in "Hot 'n Juicy"
+        elif low in NAME_UPPER:
+            out.append(lead + core.upper() + trail)
+        elif low in NAME_MINOR and i > 0:
+            out.append(lead + low + trail)
+        else:
+            out.append(lead + core[0].upper() + core[1:] + trail)
+    return ' '.join(out)
 
 
 def id_cards(cells, r0, r1, identity_lookup, merge_width=None, imgs=None):
@@ -316,10 +362,30 @@ def id_cards(cells, r0, r1, identity_lookup, merge_width=None, imgs=None):
             hits = [c for c in names if (rr, c) in cells]
             if not hits:
                 continue
-            if all(merge_width.get((rr, c), 1) > CARD_STRIDE for c in hits):
+            if all(merge_width.get((rr, c), 1) > MAX_SHARED_NOTE for c in hits):
                 continue
             notes_row = rr
             break
+
+        def note_for(col):
+            """Note text covering this card.
+
+            A note merged across two card slots (the Pequod substitutes share
+            one) is anchored at the left slot, so walk back along the stride
+            to find a merge that reaches this column.
+            """
+            if notes_row is None:
+                return ''
+            for c0 in range(col, max(names[0] - 1, col - MAX_SHARED_NOTE), -CARD_STRIDE):
+                if (notes_row, c0) not in cells:
+                    continue
+                w = merge_width.get((notes_row, c0), 1)
+                if w > MAX_SHARED_NOTE:
+                    return ''
+                if c0 + w > col:
+                    return cells[(notes_row, c0)]
+                break
+            return ''
         # Role labels ("BL Filler", "The Best BL ID") sit above the names, with
         # the portrait/banner rows in between — so look back further than the
         # notes lookahead.
@@ -357,9 +423,7 @@ def id_cards(cells, r0, r1, identity_lookup, merge_width=None, imgs=None):
                 'statuses': (ident or {}).get('statuses') or [],
                 'portrait': (ident or {}).get('portrait'),
                 'role': clean(cells.get((role_row, c), '')) if role_row is not None else None,
-                'notes': ([] if notes_row is None
-                      or merge_width.get((notes_row, c), 1) > CARD_STRIDE
-                      else bullets(cells.get((notes_row, c), ''))),
+                'notes': bullets(note_for(c)),
             })
         break
     return cards
@@ -392,7 +456,7 @@ def gift_rows(cells, imgs, r0, r1, gift_index):
             continue
         out.append({'row': r, 'col': c, 'sha': im['sha256'],
                     'gift': (g or {}).get('slug') or (slugify(name) if name else None),
-                    'name': name, 'labelled': labelled, 'role': role,
+                    'name': name_case(name), 'labelled': labelled, 'role': role,
                     'resolved': bool(g), 'tier': tier})
     return out
 
@@ -476,7 +540,7 @@ def parse_floors(cells, imgs, r0, r1, gift_index):
             for rr in range(r + 1, end):
                 v = clean(cells.get((rr, 3), ''))
                 if v and not FLOOR_RE.match(v) and not v.rstrip().endswith(':'):
-                    pack = v
+                    pack = name_case(v)
                     break
         else:
             # the warning-sign glyph bookends a checklist row at column D
@@ -691,6 +755,70 @@ def main():
         entry['notes'] = notes[:6]
         team['sections'].append(entry)
 
+    # Fusion ingredients are never labelled anywhere in the sheet, so their
+    # names come from recipes the guidemaker supplied. Matched by position,
+    # left to right, and only when the recipe's shape agrees with what was
+    # extracted — a mismatch is reported rather than guessed at.
+    rpath = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                         'fusion_recipes.json')
+    recipes = {}
+    if os.path.exists(rpath):
+        with open(rpath, encoding='utf-8') as fh:
+            recipes = json.load(fh).get('recipes', {})
+
+    recipe_stats = {'applied': 0, 'named': 0, 'mismatch': []}
+
+    def apply_recipes(slots):
+        for g in slots:
+            ings = g.get('ingredients') or []
+            rec = recipes.get(g.get('gift') or '')
+            if not rec or not ings:
+                continue
+            if len(rec) != len(ings):
+                recipe_stats['mismatch'].append(
+                    '%s: sheet shows %d ingredient(s), recipe lists %d'
+                    % (g.get('name'), len(ings), len(rec)))
+                continue
+
+            # Some ingredient strips run descending by tier, so position is
+            # not reliable. When the recipe's tiers are all distinct and the
+            # multiset agrees with what was extracted, match on tier; the
+            # tiers come from the sheet and are authoritative.
+            ext = [i.get('tier') for i in ings]
+            want = [r.get('tier') for r in rec]
+            chosen = list(rec)
+            if (len(set(want)) == len(want)
+                    and sorted(x for x in ext if x) == sorted(x for x in want if x)):
+                by_tier = {r['tier']: r for r in rec}
+                if all(t in by_tier for t in ext):
+                    chosen = [by_tier[t] for t in ext]
+
+            # If the icon index already named an ingredient, the recipe must
+            # agree with it — otherwise one of the two is wrong, and guessing
+            # would bake in a mislabelled icon.
+            clash = [(i['name'], sp['name']) for i, sp in zip(ings, chosen)
+                     if i.get('name') and i['name'].lower() != sp['name'].lower()]
+            if clash:
+                recipe_stats['mismatch'].append(
+                    '%s: recipe disagrees with extracted names %s'
+                    % (g.get('name'), clash))
+                continue
+
+            for ing, spec in zip(ings, chosen):
+                if not ing.get('name'):
+                    ing['name'] = spec['name']
+                    ing['gift'] = slugify(spec['name'])
+                    ing['fromRecipe'] = True
+                    recipe_stats['named'] += 1
+                if ing.get('tier') is None:
+                    ing['tier'] = spec.get('tier')
+            recipe_stats['applied'] += 1
+
+    for s in team['sections']:
+        apply_recipes(s.get('gifts') or [])
+        for f in s.get('floors') or []:
+            apply_recipes(f.get('gifts') or [])
+
     # Gift slots resolved by their own label never went through the icon
     # index, so write their art here too.
     def write_gift_assets(slots):
@@ -777,6 +905,10 @@ def main():
     print('identities: %d (%d portraits, %d status-tagged)'
           % (len(identities), len(portraits), tagged))
     print('gift icons resolved: %d  (ambiguous: %d)' % (len(gift_index), len(conflicts)))
+    print('fusion recipes applied: %d  (%d ingredients named)'
+          % (recipe_stats['applied'], recipe_stats['named']))
+    for m in recipe_stats['mismatch']:
+        print('  RECIPE MISMATCH  %s' % m)
     print('team: %s' % team['name'])
     print('  difficulty=%s  updated=%s  code=%s'
           % (team['difficulty'], team['lastUpdated'],

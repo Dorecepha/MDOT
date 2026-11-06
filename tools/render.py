@@ -141,7 +141,7 @@ def difficulty_bar(label, level, asset, maximum=5):
             % (DIFF_COLOUR.get(level or 0, '#8c8178'), mark, segs, e(label)))
 
 
-def id_card(c, asset, compact=False):
+def id_card(c, asset, compact=False, slot=None):
     p = asset('assets/' + c['portrait']) if c.get('portrait') else None
     img = ('<img loading="lazy" src="%s" alt="">' % e(p)) if p \
         else '<span class="noportrait">%s</span>' % e((c.get('nickname') or '?')[:1])
@@ -161,6 +161,11 @@ def id_card(c, asset, compact=False):
     badge = ('<span class="uptie" title="Uptie %s"><img src="%s" alt="Uptie %s"></span>'
              % (e(up.get('label') or ''), e(upsrc), e(up.get('label') or ''))) if upsrc else ''
 
+    # Deployment order: the sheet reads left to right, and the cards are
+    # extracted in column order, so the slot number is just the position.
+    slotplate = ('<span class="slot" title="Deployment slot %d">%d</span>'
+                 % (slot, slot)) if slot else ''
+
     bn = c.get('banner') or {}
     bnsrc = asset('assets/' + bn['src']) if bn.get('src') else None
     banner = ('<p class="source"><img src="%s" alt="%s" title="%s"></p>'
@@ -170,11 +175,11 @@ def id_card(c, asset, compact=False):
     # portrait, uptie badge and source banner form one left rail, so the
     # banner stays small and the text column is left to the explanation
     return ('<article class="idcard%s">'
-            '<div class="art"><div class="pic">%s%s</div>%s</div>'
+            '<div class="art"><div class="pic">%s%s%s</div>%s</div>'
             '<div class="meta"><div class="hd">%s<h4 title="%s">%s%s</h4></div>'
             '%s%s</div></article>'
-            % (' compact' if compact else '', img, badge, banner, role,
-               e(c.get('name') or title), e(title), warn,
+            % (' compact' if compact else '', img, slotplate, badge, banner,
+               role, e(c.get('name') or title), e(title), warn,
                status_icons(c.get('statuses'), asset), notes))
 
 
@@ -206,11 +211,14 @@ def main():
     A('<link rel="stylesheet" href="style.css?v=%d">' % ver)
     A('<body style="--accent:%s">' % tint(t.get('statuses') or []))
 
-    A('<header class="hero"><div class="wrap">')
+    # Title column on the left, team code pulled up beside it on the right,
+    # so the header does not sit half empty.
+    A('<header class="hero"><div class="wrap herogrid">')
+    A('<div class="heromain">')
     A('<nav class="crumbs"><a href="index.html">MDE Teams</a><span>/</span>%s</nav>'
       % e((t.get('collection') or '').title()))
     # The title already says "Bleed+Poise", so the statuses are shown as the
-    # game's icons and the spare room goes to the difficulty bar instead.
+    # game's icons rather than repeated as words.
     A('<div class="titleline"><h1>%s</h1>%s</div>'
       % (e(t['name']), status_icons(t.get('statuses'), asset, 'heroicons')))
     A(difficulty_bar(t.get('difficulty'), t.get('difficultyLevel'), asset))
@@ -221,10 +229,12 @@ def main():
         if v:
             A('<div><dt>%s</dt><dd>%s</dd></div>' % (e(k), e(v)))
     A('</dl>')
+    A('</div>')
     if t.get('teamCode'):
-        A('<div class="code"><label>Team Code</label><code>%s</code>'
-          '<button id="copy" data-code="%s">Copy</button></div>'
-          % (e(t['teamCode'][:40] + '…'), e(t['teamCode'])))
+        A('<div class="heroside"><div class="code">'
+          '<label>Team Code</label><code>%s</code>'
+          '<button id="copy" data-code="%s">Copy code</button></div></div>'
+          % (e(t['teamCode'][:34] + '…'), e(t['teamCode'])))
     A('</div></header>')
 
     # ---- section index, so a long guide stays navigable mid-run
@@ -260,11 +270,16 @@ def main():
             av = asset('assets/' + f['avatar']) if f.get('avatar') else None
             img = ('<img loading="lazy" src="%s" alt="">' % e(av)) if av \
                 else '<span class="noportrait"></span>'
+            # Each card links to that run's footage. Nothing said so before,
+            # so give it an explicit affordance rather than relying on the
+            # cursor changing.
+            watch = ('<span class="watch"><span class="play"></span>'
+                     'Watch run</span>') if f.get('url') else ''
             inner = ('%s<div><strong>%s</strong><span>%s</span>'
-                     '<span class="sb">%s secret boss gift(s)</span></div>'
+                     '<span class="sb">%s secret boss gift(s)</span>%s</div>'
                      % (img, e(f['contributor']),
                         e((f.get('label') or '').replace('\n', ' ')),
-                        e(f.get('secretBossGifts') or 0)))
+                        e(f.get('secretBossGifts') or 0), watch))
             A('<a class="fcard" href="%s" target="_blank" rel="noopener">%s</a>'
               % (e(f['url']), inner) if f.get('url')
               else '<div class="fcard">%s</div>' % inner)
@@ -284,15 +299,19 @@ def main():
                 A('<p class="callout">%s</p>' % nl2br(n))
             A('<div class="roster%s">%s</div></section>'
               % ('' if primary else ' tight',
-                 ''.join(id_card(c, asset, not primary) for c in s['cards'])))
+                 ''.join(id_card(c, asset, not primary,
+                                 slot=(i + 1) if primary else None)
+                         for i, c in enumerate(s['cards']))))
 
         elif kind == 'gifts' and s.get('gifts'):
             A('<section id="%s"><h2>%s</h2>' % (anchor(head), e(title)))
+            A('<div class="giftcols">')
             for grp, label in (('starting', 'Starting Gifts'), ('search', 'Gift Search')):
                 items = [g for g in s['gifts'] if g.get('group') == grp]
                 if items:
-                    A('<h3>%s</h3><div class="gifts">%s</div>'
+                    A('<div class="giftcol"><h3>%s</h3><div class="gifts">%s</div></div>'
                       % (e(label), ''.join(gift_slot(g, asset) for g in items)))
+            A('</div>')
             for n in s.get('notes', [])[:2]:
                 A('<p class="callout">%s</p>' % nl2br(n))
             A('</section>')
@@ -335,7 +354,8 @@ def main():
                     if warn_icon else '<span class="warn">!</span>'
                 A('<section id="%s" class="checklist"><h2>%sPriority Gifts</h2>'
                   % (anchor_id, mark))
-                A('<p class="lead">%s</p>' % e(f['label']))
+                if ci > 0:
+                    A('<p class="lead">%s</p>' % e(f['label']))
                 if f['gifts']:
                     A('<div class="gifts">%s</div>'
                       % ''.join(gift_slot(g, asset) for g in f['gifts']))
@@ -349,8 +369,6 @@ def main():
               % (e(title), ''.join('<p class="callout">%s</p>' % nl2br(n)
                                    for n in s['notes'][:2])))
 
-    if t.get('credits'):
-        A('<section class="credits"><h2>Credits</h2><p>%s</p></section>' % nl2br(t['credits']))
     A('</main>')
 
     A("""<script>

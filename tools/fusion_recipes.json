@@ -1,0 +1,35 @@
+{
+  "_comment": "Fusion ingredient names supplied by the guidemaker. The sheet never labels ingredient icons, so these cannot be extracted; they are matched to the extracted ingredients by position within each result, left to right. Tiers are recorded so extract.py can refuse to apply a recipe whose shape does not match what it found, rather than mislabelling icons.",
+  "recipes": {
+    "hoarfrost-footprint": [
+      { "name": "Haunted Shoes", "tier": 2 },
+      { "name": "Frozen Cries", "tier": 2 }
+    ],
+    "the-book-of-the-homeland-swordplay": [
+      { "name": "Overused Whetstone", "tier": 1 },
+      { "name": "Red Tassel", "tier": 3 },
+      { "name": "Unadorned Sword-guard", "tier": 1 }
+    ],
+    "cultivation": [
+      { "name": "Broken Blade", "tier": 3 },
+      { "name": "Worn Hilt", "tier": 3 }
+    ],
+    "high-risk-operational-gear": [
+      { "name": "Operation Authorization Card", "tier": 3 },
+      { "name": "Regular Operational Gear", "tier": 3 }
+    ],
+    "gift": [
+      { "name": "Packaging Box", "tier": 1 },
+      { "name": "Packaging Ribbon", "tier": 3 }
+    ],
+    "jolly-plushie": [
+      { "name": "Pom-pom Hat", "tier": 1 },
+      { "name": "Huge Gift Sack", "tier": 2 },
+      { "name": "Sad Plushie", "tier": 3 }
+    ],
+    "shadow-monster": [
+      { "name": "Snuffed Lantern", "tier": 1 },
+      { "name": "Snuffed Candlestick", "tier": 2 }
+    ]
+  }
+}
