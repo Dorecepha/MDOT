@@ -788,7 +788,7 @@
             "Get Haunted Shoes in this floor and fuse it with Frozen Cries for Hoarfrost Footprint.",
             "For the next floors, you can focus on poise fusions first."
           ],
-          "art": null
+          "art": "packs/automated-factory.png"
         },
         {
           "kind": "floor",
@@ -843,7 +843,7 @@
             "Contaminated Needle can allow you to immediately have 99 bleed potency on the enemy which is quite useful. This ego gift is also not required if you don't get it, but useful.",
             "If you get the chicken event you can use the burn chicken to stack burn with the burn IDs in the team. The rupture chicken can be used as a fusion fodder."
           ],
-          "art": null
+          "art": "packs/hells-chicken.png"
         },
         {
           "kind": "floor",
@@ -877,7 +877,7 @@
             "Filial Love gives +20% damage based on the bleed count of the enemy.",
             "Leaked Enkephalin is much less of a priority, but it helps with keeping a sinking stack so that you can benefit from sinking related debuff ego gifts without having sinking IDs."
           ],
-          "art": null
+          "art": "packs/the-noon-of-violet.png"
         },
         {
           "kind": "floor",
@@ -922,7 +922,7 @@
             "Gear Sharpnel is always useful since it gives some boost to critical damage alongside defense level up and defense power up to all IDs that have poise.",
             "CQC Manual is always useful if there are any IDs with ammo in the team."
           ],
-          "art": null
+          "art": "packs/full-stopped-by-a-bullet.png"
         },
         {
           "kind": "floor",
@@ -956,7 +956,7 @@
             "False Halo gives +2% damage modifier per hit, up to +6% damage per skill, up to a total of +108% damage if a fight lasts that long. Since the cap of +6% is per skill and not per turn, it scales faster with IDs that have additional attacks.",
             "Snake Slough gift is less important than False Halo but still useful. It gives 4 defense level up to all allies, and it also gives defense level up buff / 2 offense level up buff (up to 10). So this gift on its own gives 4 defense level up and 2 offense level up and it can scale more if you have other gifts that give defense level up."
           ],
-          "art": null
+          "art": "packs/line-1.png"
         },
         {
           "kind": "floor",
@@ -1151,7 +1151,7 @@
             "Ragged Bamboo Hat gives +50% slash damage to all allies and makes BL IDs always crit, and Old Dopo Robe gives additional +50% slash damage to all allies and buffs BL Meursault.",
             "Rusted Hilt gives +1 slash power up to all allies and Hardwood Liquor Cup gives 1 protection and some SP if you lose a clash, these two are less of a priority."
           ],
-          "art": null
+          "art": "packs/yield-my-flesh-to-claim-their-bones-bokgak.png"
         },
         {
           "kind": "floor",
@@ -1256,7 +1256,7 @@
             "4 beneficial ego gifts for burn, with some damage and clashing buffs for the sinners and debuffs for the enemies.",
             "Modified Extraction: AEDD is an ego gift that can benefit all IDs and give them some offense level."
           ],
-          "art": null
+          "art": "packs/lcb-regular-check-up-bokgak.png"
         },
         {
           "kind": "floor",
@@ -1291,7 +1291,7 @@
             "Metronome is only mildly useful and not as important to get compared to Bridle.",
             "Since Bridle is a keywordless tier 4 ego gift it can be up to luck to get it in the shop or through clear rewards. While missing this ego gift is not an issue, it is definitely better to get it than not."
           ],
-          "art": null
+          "art": "packs/line-2.png"
         },
         {
           "kind": "floor",
@@ -1409,7 +1409,7 @@
             "Most important EGO gifts to get here are Gift and Jolly Plushie.",
             "Since the fusions use some keywordless ego gifts, it can be up to luck to get them. Missing these ego gifts is fine but it is definitely better to get them."
           ],
-          "art": null
+          "art": "packs/miracle-in-district-20-bokgak.png"
         },
         {
           "kind": "checklist",

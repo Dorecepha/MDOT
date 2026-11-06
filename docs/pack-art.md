@@ -31,6 +31,20 @@ This file is also the source of **canonical pack names**. Team tabs disagree
 with each other (`Full-Stopped by a Bullet` vs `Full-stopped by a Bullet`),
 and the catalogue settles it.
 
+## Downloading them
+
+```bash
+python -I tools/fetchpacks.py site _import/raw/comfortable.xlsx _import/raw/niche.xlsx
+node tools/optimise.mjs site
+```
+
+Fetches only the packs the guides reference (pass `--all` for the whole
+catalogue), skips any file already present, and never overwrites. Sequential
+with a short delay — it is a community wiki.
+
+Done once already: **30 downloaded, 0 failures**, joining the 3 that were
+embedded. All 33 packs used across the guides now have art.
+
 ## Where the files go
 
 ```

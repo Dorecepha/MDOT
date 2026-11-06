@@ -38,14 +38,12 @@ visual direction is part of the deliverable, not polish on top of it.
       `tools/name_overrides.json` for acronyms it cannot derive.
 - [x] ~~Unidentified gift icons on this page~~ — the guidemaker's seven
       recipes named the last 13. **0 of 67 gift slots are unidentified.**
-- [ ] **Download the pack art.** The images were never missing — the sheet
-      references them with `IMAGE()` formulas, so they are not in the
-      `.xlsx`. `tools/packurls.py` recovers the URLs from the reference
-      sheet's `floor_picture` / `floor_name` catalogue:
-      **60 packs catalogued, covering 32 of the 33 used** (the 33rd is
-      embedded and already extracted). All that remains is fetching them
-      from `limbuscompany.wiki.gg` into `site/assets/packs/`. See
-      `docs/pack-art.md`.
+- [x] ~~Pack art downloaded~~ — the images were never missing; the sheet
+      references them with `IMAGE()` formulas so they are not in the
+      `.xlsx`. `tools/packurls.py` recovered the URLs from the reference
+      sheet's `floor_picture` / `floor_name` catalogue and
+      `tools/fetchpacks.py` fetched them. **All 33 packs used across the
+      guides now have art** (888 KB as WebP). See `docs/pack-art.md`.
 - [x] ~~Canonical pack names~~ — `tools/pack_art_urls.json` carries one
       name per pack slug, settling the disagreement between team tabs.
 - [x] ~~Gift keywords~~ — statuses and attack types now badge each gift

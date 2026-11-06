@@ -51,7 +51,8 @@ Preview with the `site` config in `.claude/launch.json` (port 4179).
   `Workbook.formulas()` recovers them. `New Reference Sheet` holds the pack
   catalogue as `floor_picture` / `floor_name`; see `docs/pack-art.md`.
   Before concluding that something "has no image in the sheet", check the
-  formulas — that mistake was made once already.
+  formulas — that mistake was made once already. `tools/packurls.py`
+  recovers the URLs and `tools/fetchpacks.py` downloads them.
 - **Never extract via CSV.** The gviz CSV export silently collapses empty
   rows, so its row numbers do not line up with image anchor rows. It also
   drops fill colours, and `Teams List` stores difficulty and footage slots
