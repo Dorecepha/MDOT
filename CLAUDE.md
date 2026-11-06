@@ -110,11 +110,13 @@ inference was tried and was unreliable.
 - `tools/status_icons.json` — the seven status icons.
 - `tools/card_art.json` — acquisition banners and uptie numerals.
 - `tools/fusion_recipes.json` — fusion ingredient names, supplied by the
-  guidemaker because the sheet never labels ingredient icons. Matched to
-  extracted ingredients **by tier** when the recipe's tiers are distinct
-  (some strips run descending, so position lies), falling back to position
-  otherwise. A recipe whose shape or names disagree with what was extracted
-  is reported and skipped, never force-fitted.
+  guidemaker because the sheet never labels ingredient icons. **Written in
+  the sheet's own left-to-right order and matched by position.** Tiers are
+  a cross-check only: the sheet's tier is authoritative, and a disagreement
+  is reported, never used to reorder. (Reordering on recipe tiers was tried
+  and was wrong — when a tier is the thing mis-recorded, matching on it
+  scrambles the names.) A recipe whose ingredient count or names disagree
+  with what was extracted is reported and skipped, never force-fitted.
 
 Unlisted images still render under a hash-derived slug, so a new season
 never breaks the build; add an entry to give it a name.

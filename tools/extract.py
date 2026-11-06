@@ -766,7 +766,7 @@ def main():
         with open(rpath, encoding='utf-8') as fh:
             recipes = json.load(fh).get('recipes', {})
 
-    recipe_stats = {'applied': 0, 'named': 0, 'mismatch': []}
+    recipe_stats = {'applied': 0, 'named': 0, 'mismatch': [], 'tierwarn': []}
 
     def apply_recipes(slots):
         for g in slots:
@@ -780,18 +780,19 @@ def main():
                     % (g.get('name'), len(ings), len(rec)))
                 continue
 
-            # Some ingredient strips run descending by tier, so position is
-            # not reliable. When the recipe's tiers are all distinct and the
-            # multiset agrees with what was extracted, match on tier; the
-            # tiers come from the sheet and are authoritative.
+            # Recipes are written in the sheet's own left-to-right order, so
+            # match by position. Tiers are a cross-check only: the sheet's
+            # tier is authoritative, and reordering on a recipe's tier would
+            # scramble the names whenever that tier is the thing mis-recorded.
+            chosen = list(rec)
             ext = [i.get('tier') for i in ings]
             want = [r.get('tier') for r in rec]
-            chosen = list(rec)
-            if (len(set(want)) == len(want)
-                    and sorted(x for x in ext if x) == sorted(x for x in want if x)):
-                by_tier = {r['tier']: r for r in rec}
-                if all(t in by_tier for t in ext):
-                    chosen = [by_tier[t] for t in ext]
+            off = [(sp['name'], w, x) for sp, w, x in zip(chosen, want, ext)
+                   if w and x and w != x]
+            if off:
+                recipe_stats['tierwarn'].extend(
+                    '%s: %s listed as tier %s, sheet shows %s'
+                    % (g.get('name'), n, w, x) for n, w, x in off)
 
             # If the icon index already named an ingredient, the recipe must
             # agree with it — otherwise one of the two is wrong, and guessing
@@ -909,6 +910,8 @@ def main():
           % (recipe_stats['applied'], recipe_stats['named']))
     for m in recipe_stats['mismatch']:
         print('  RECIPE MISMATCH  %s' % m)
+    for m in recipe_stats['tierwarn']:
+        print('  tier differs     %s' % m)
     print('team: %s' % team['name'])
     print('  difficulty=%s  updated=%s  code=%s'
           % (team['difficulty'], team['lastUpdated'],

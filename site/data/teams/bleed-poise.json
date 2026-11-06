@@ -1203,16 +1203,16 @@
               "resolved": true,
               "ingredients": [
                 {
-                  "gift": "packaging-ribbon",
-                  "name": "Packaging Ribbon",
+                  "gift": "packaging-box",
+                  "name": "Packaging Box",
                   "sha": "e8034495ddc7cac384cb444d2bcc90b45b79c8f7ed97991e26b58d9c45d9d49d",
                   "tier": 3,
                   "resolved": false,
                   "fromRecipe": true
                 },
                 {
-                  "gift": "packaging-box",
-                  "name": "Packaging Box",
+                  "gift": "packaging-ribbon",
+                  "name": "Packaging Ribbon",
                   "sha": "43417021c08a35688851035893809d4a29037a61a48b8e3e55f443d56eaa48fa",
                   "tier": 1,
                   "resolved": false,
@@ -1228,8 +1228,8 @@
               "resolved": true,
               "ingredients": [
                 {
-                  "gift": "sad-plushie",
-                  "name": "Sad Plushie",
+                  "gift": "pom-pom-hat",
+                  "name": "Pom-pom Hat",
                   "sha": "373a568f19fc1bb111470a1ec73e820a300b1e1ed6f7eaccc94c5664bc684dc2",
                   "tier": 3,
                   "resolved": false,
@@ -1244,8 +1244,8 @@
                   "fromRecipe": true
                 },
                 {
-                  "gift": "pom-pom-hat",
-                  "name": "Pom-pom Hat",
+                  "gift": "sad-plushie",
+                  "name": "Sad Plushie",
                   "sha": "7849ad1fc8036bec4604afa958a73145a54b96499818a04066261f5a73c94088",
                   "tier": 1,
                   "resolved": false,
@@ -1261,16 +1261,16 @@
               "resolved": true,
               "ingredients": [
                 {
-                  "gift": "snuffed-candlestick",
-                  "name": "Snuffed Candlestick",
+                  "gift": "snuffed-lantern",
+                  "name": "Snuffed Lantern",
                   "sha": "6ee93112c8a1d5ae48dcd243ee68a79fba10a891eaca21ec1497c220d6701bd1",
                   "tier": 2,
                   "resolved": false,
                   "fromRecipe": true
                 },
                 {
-                  "gift": "snuffed-lantern",
-                  "name": "Snuffed Lantern",
+                  "gift": "snuffed-candlestick",
+                  "name": "Snuffed Candlestick",
                   "sha": "f7563a5b240667ddfac9a78f5219a632dfda5f2f80394a5e07cc8744251cf5b5",
                   "tier": 1,
                   "resolved": false,
