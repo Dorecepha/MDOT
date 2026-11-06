@@ -162,6 +162,21 @@ def build_id_statuses(wb):
     return out
 
 
+def _load_keywords():
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                        'keyword_icons.json')
+    if not os.path.exists(path):
+        return {}, set()
+    with open(path, encoding='utf-8') as fh:
+        d = json.load(fh)
+    return ({k.lower(): v for k, v in d.get('keywords', {}).items()},
+            set(d.get('attackTypes', [])))
+
+
+KEYWORD_ICONS, ATTACK_TYPES = _load_keywords()
+KEYWORD_COL_OFFSET = 2   # the keyword glyph sits two columns right of the gift
+
+
 def png_dims(blob):
     if blob[:8] == b'\x89PNG\r\n\x1a\n' and blob[12:16] == b'IHDR':
         return struct.unpack('>II', blob[16:24])
@@ -495,7 +510,26 @@ def gift_rows(cells, imgs, r0, r1, gift_index):
         name = (g or {}).get('name') or (labelled if role == 'result' else None)
         if role == 'result' and not name:
             continue
+        # A gift's keyword sits two columns right of it on the tier row:
+        # one of the seven statuses, or an attack type. The sheet writes
+        # '-' there for Keywordless gifts, which is normal.
+        kw = kwsha = None
+        trow = None
+        for dr in range(1, 10):
+            if nb and r + dr >= min(r1, nb):
+                break
+            v = clean(cells.get((r + dr, c), ''))
+            if v and TIER_RE.match(v):
+                trow = r + dr
+                break
+        if trow is not None:
+            kim = by_pos.get((trow, c + KEYWORD_COL_OFFSET))
+            if kim:
+                kwsha = kim['sha256']
+                kw = KEYWORD_ICONS.get(kwsha[:10].lower())
+
         out.append({'row': r, 'col': c, 'sha': im['sha256'],
+                    'keyword': kw, 'keywordSha': kwsha,
                     'gift': (g or {}).get('slug') or (slugify(name) if name else None),
                     'name': name_case(name), 'labelled': labelled, 'role': role,
                     'resolved': bool(g), 'tier': tier})
@@ -514,7 +548,9 @@ def fuse(gifts):
 
     def strip(g):
         return {'gift': g['gift'], 'name': g['name'], 'sha': g['sha'],
-                'tier': g['tier'], 'resolved': g['resolved']}
+                'tier': g['tier'], 'resolved': g['resolved'],
+                'keyword': g.get('keyword'),
+                'keywordSha': g.get('keywordSha')}
 
     if not results:
         return [dict(strip(g), ingredients=[]) for g in ingredients]
@@ -863,6 +899,43 @@ def main():
         for f in s.get('floors') or []:
             apply_recipes(f.get('gifts') or [])
 
+    # A keyword belongs to the gift, not to the slot: fusion ingredients
+    # have no glyph beside them because that column holds the "+" separator.
+    # Learn each gift's keyword from the slots that do show one, then fill
+    # the rest, so the same gift never reads Sinking in one place and
+    # Keywordless in another.
+    kw_by_gift = {}
+
+    def learn_keywords(slots):
+        for g in slots:
+            if g.get('gift') and g.get('keyword'):
+                kw_by_gift.setdefault(g['gift'], g['keyword'])
+            learn_keywords(g.get('ingredients') or [])
+
+    def fill_keywords(slots):
+        n = 0
+        for g in slots:
+            if g.get('gift') and not g.get('keyword'):
+                kw = kw_by_gift.get(g['gift'])
+                if kw:
+                    g['keyword'] = kw
+                    g['keywordInherited'] = True
+                    n += 1
+            n += fill_keywords(g.get('ingredients') or [])
+        return n
+
+    for sec in team['sections']:
+        learn_keywords(sec.get('gifts') or [])
+        for f in sec.get('floors') or []:
+            learn_keywords(f.get('gifts') or [])
+    filled = 0
+    for sec in team['sections']:
+        filled += fill_keywords(sec.get('gifts') or [])
+        for f in sec.get('floors') or []:
+            filled += fill_keywords(f.get('gifts') or [])
+    print('gift keywords: %d distinct gifts, %d slots filled by inheritance'
+          % (len(kw_by_gift), filled))
+
     # Gift slots resolved by their own label never went through the icon
     # index, so write their art here too.
     def write_gift_assets(slots):
@@ -909,15 +982,24 @@ def main():
             attach_art(card, 'banner', 'banners', artmap['banners'])
             attach_art(card, 'uptie', 'upties', artmap['upties'])
 
-    # Status icons, from the hand-verified sha mapping in tools/status_icons.json
-    simap = os.path.join(os.path.dirname(os.path.abspath(__file__)),
-                         'status_icons.json')
-    if os.path.exists(simap):
-        with open(simap, encoding='utf-8') as fh:
-            for st, sha in json.load(fh).items():
-                if sha in blob_src:
-                    wbm, member = blob_src[sha]
-                    write_asset('status', st.lower(), wbm, member)
+    # Keyword icons — the seven statuses plus the three attack types. The
+    # sheet carries several copies of each glyph at different sizes, so pick
+    # the highest-resolution one rather than whichever is seen first.
+    best = {}
+    for sha, (wbm, member) in blob_src.items():
+        kw = KEYWORD_ICONS.get(sha[:10].lower())
+        if not kw:
+            continue
+        d = png_dims(wbm.read_member(member))
+        area = (d[0] * d[1]) if d else 0
+        if area > best.get(kw, (0,))[0]:
+            best[kw] = (area, wbm, member)
+    for kw, (_, wbm, member) in best.items():
+        write_asset('keywords', slugify(kw), wbm, member)
+    print('keyword icons: %d of %d (%s)'
+          % (len(best), len(set(KEYWORD_ICONS.values())),
+             ', '.join('%s %dx%d' % (k, *(png_dims(v[1].read_member(v[2])) or (0, 0)))
+                       for k, v in sorted(best.items()))))
 
     # the skull that sits beside "Difficulty:" becomes the difficulty bar unit
     for (rr, cc), v in cells.items():

@@ -672,6 +672,8 @@
           "sha": "58c9ec4f8fd382ef7dfa43c5185ad88d0eb6c6c3b2515a01273d64a5fc7275aa",
           "tier": 2,
           "resolved": true,
+          "keyword": "Bleed",
+          "keywordSha": "bfb448de7fec4157f6010691ae348ccade7877c682b2517d6d080dd44681ebb0",
           "ingredients": [],
           "group": "starting"
         },
@@ -681,6 +683,8 @@
           "sha": "b85daaa7fd885bdebd46535e1f3335d88acd096a5e8585b6b924b264bf540444",
           "tier": 2,
           "resolved": true,
+          "keyword": "Bleed",
+          "keywordSha": "bfb448de7fec4157f6010691ae348ccade7877c682b2517d6d080dd44681ebb0",
           "ingredients": [],
           "group": "starting"
         },
@@ -690,6 +694,8 @@
           "sha": "649d92525fb695a4c9b79e3b1c2cf6e0c5b1eb6756e9fa9136a5eaa95e20d0f8",
           "tier": 2,
           "resolved": true,
+          "keyword": "Bleed",
+          "keywordSha": "bfb448de7fec4157f6010691ae348ccade7877c682b2517d6d080dd44681ebb0",
           "ingredients": [],
           "group": "starting"
         },
@@ -699,6 +705,8 @@
           "sha": "b4e5b0e9fd93069e4cf7b1a948f2f64af2e0e1543a4c7318935e007641c26566",
           "tier": 3,
           "resolved": true,
+          "keyword": null,
+          "keywordSha": null,
           "ingredients": [],
           "group": "search"
         },
@@ -708,6 +716,8 @@
           "sha": "f285add851cbce41edb0a4a706b793f575d95dcbb9398151abbb6a582800cc7f",
           "tier": 2,
           "resolved": true,
+          "keyword": "Sinking",
+          "keywordSha": "d2ce129307c2be043f02ae2d33a82cb6f7d98525c215f5620e5806776d9a3e50",
           "ingredients": [],
           "group": "search"
         },
@@ -717,6 +727,8 @@
           "sha": "06cf2727d42bf2d655b8f0f8edcd88ebc5ca702bb5dac24e292167fae4d62394",
           "tier": 3,
           "resolved": true,
+          "keyword": null,
+          "keywordSha": null,
           "ingredients": [],
           "group": "search"
         }
@@ -745,6 +757,8 @@
               "sha": "c9c8e672d77b481b0ba37e86c47c6901e9a2050ac4c9a2d9c5057969abe37d4f",
               "tier": 4,
               "resolved": true,
+              "keyword": "Sinking",
+              "keywordSha": "d2ce129307c2be043f02ae2d33a82cb6f7d98525c215f5620e5806776d9a3e50",
               "ingredients": [
                 {
                   "gift": "haunted-shoes",
@@ -752,6 +766,8 @@
                   "sha": "37c837f114ead108d961656f270884ecb8e7d27869cfc523c2a4820c42da70f6",
                   "tier": 2,
                   "resolved": false,
+                  "keyword": null,
+                  "keywordSha": null,
                   "fromRecipe": true
                 },
                 {
@@ -759,7 +775,10 @@
                   "name": "Frozen Cries",
                   "sha": "f285add851cbce41edb0a4a706b793f575d95dcbb9398151abbb6a582800cc7f",
                   "tier": 2,
-                  "resolved": true
+                  "resolved": true,
+                  "keyword": "Sinking",
+                  "keywordSha": null,
+                  "keywordInherited": true
                 }
               ]
             }
@@ -784,6 +803,8 @@
               "sha": "f8c21ecf8bc0a2bb96792a938c62ea8f93383f62928096ad0f677baa04ae1e5b",
               "tier": 3,
               "resolved": true,
+              "keyword": null,
+              "keywordSha": null,
               "ingredients": []
             },
             {
@@ -792,6 +813,8 @@
               "sha": "5127dd63a27de746c7dfc1362b3d31dd425182035b8af8e21e93332ae6767015",
               "tier": 3,
               "resolved": true,
+              "keyword": null,
+              "keywordSha": null,
               "ingredients": []
             },
             {
@@ -800,6 +823,8 @@
               "sha": "cd8313bd4b261f879851a8ca53fe38c5252b9e716861e372bcd1dcbd8763a4ce",
               "tier": 2,
               "resolved": true,
+              "keyword": "Bleed",
+              "keywordSha": "fe07fcfd76ffa9c70fd104e83c5950640dfc15828fdf902541318638c762d9a9",
               "ingredients": []
             },
             {
@@ -808,6 +833,8 @@
               "sha": "05f5da4ae1b2e437933d4c299654a3ad102fedc24a3099a070e900f891171c6f",
               "tier": 3,
               "resolved": true,
+              "keyword": "Burn",
+              "keywordSha": "5aec271aedbfd8b10a46bc0bcd750edc0f380c3700b7e822c625523baceb6692",
               "ingredients": []
             }
           ],
@@ -831,6 +858,8 @@
               "sha": "6af3a6e3402d08c2811cfbec35f5e8d27ca4b4c2be63e50102ab6f363f8fd4ed",
               "tier": 2,
               "resolved": true,
+              "keyword": "Bleed",
+              "keywordSha": "fe07fcfd76ffa9c70fd104e83c5950640dfc15828fdf902541318638c762d9a9",
               "ingredients": []
             },
             {
@@ -839,6 +868,8 @@
               "sha": "228e46a16c9029277b9481c9a7f29ef4b3a35301cd5aa828b7d393fa889681ce",
               "tier": 2,
               "resolved": true,
+              "keyword": "Sinking",
+              "keywordSha": "d2ce129307c2be043f02ae2d33a82cb6f7d98525c215f5620e5806776d9a3e50",
               "ingredients": []
             }
           ],
@@ -861,6 +892,8 @@
               "sha": "2c6684f70fffcba8f9f60246fd2e0d2fab8201a7c81354d7150a7d15794817e8",
               "tier": 3,
               "resolved": true,
+              "keyword": "Pierce",
+              "keywordSha": "444488b3d899e8a3ed2bbf0acd597b0233ba3d9bf94aa69c3a6835423b1e3f21",
               "ingredients": []
             },
             {
@@ -869,6 +902,8 @@
               "sha": "f8583d0f0deba8298f8ea378686a541e3c9614f808d507a65666cb803a14c434",
               "tier": 2,
               "resolved": true,
+              "keyword": "Poise",
+              "keywordSha": "031f85a790c5076a816f4c809f11a4fd19b2074013955a9edda7556189958526",
               "ingredients": []
             },
             {
@@ -877,6 +912,8 @@
               "sha": "a65a09a95e3dc652c36756baca5c1cdbede1272b7176d8089c7edad371610d6e",
               "tier": 3,
               "resolved": true,
+              "keyword": "Poise",
+              "keywordSha": "031f85a790c5076a816f4c809f11a4fd19b2074013955a9edda7556189958526",
               "ingredients": []
             }
           ],
@@ -900,6 +937,8 @@
               "sha": "4bfb09af110de8c3196225a5c72cd44893b41d4a06f20eb5f3fefbe59c4bff39",
               "tier": 4,
               "resolved": true,
+              "keyword": null,
+              "keywordSha": null,
               "ingredients": []
             },
             {
@@ -908,6 +947,8 @@
               "sha": "a4b2357ec3f1e3012872daaa61c4b780281eb724bac8ff0c31938b557895de50",
               "tier": 2,
               "resolved": true,
+              "keyword": null,
+              "keywordSha": null,
               "ingredients": []
             }
           ],
@@ -930,6 +971,8 @@
               "sha": "17f5e0724bb0a7f5e18e12dc9e3070f4fceb9c486c130ad06660d5d91c12d354",
               "tier": 4,
               "resolved": true,
+              "keyword": null,
+              "keywordSha": null,
               "ingredients": [
                 {
                   "gift": "overused-whetstone",
@@ -937,6 +980,8 @@
                   "sha": "a0e5d8f82a971cec312d2ab71538e335b148194777d77cb1b6a11971ba82b016",
                   "tier": 1,
                   "resolved": false,
+                  "keyword": null,
+                  "keywordSha": null,
                   "fromRecipe": true
                 },
                 {
@@ -944,7 +989,10 @@
                   "name": "Red Tassel",
                   "sha": "b6480ee3debd889ea27d890d6136c2728047e992ce27cdf3024120c9d4a781f9",
                   "tier": 3,
-                  "resolved": true
+                  "resolved": true,
+                  "keyword": "Slash",
+                  "keywordSha": null,
+                  "keywordInherited": true
                 },
                 {
                   "gift": "unadorned-sword-guard",
@@ -952,6 +1000,8 @@
                   "sha": "01c53fccb5722fa25ff6c916ba4a76e6f115b99d83ce3c4112b205a444eef16e",
                   "tier": 1,
                   "resolved": false,
+                  "keyword": null,
+                  "keywordSha": null,
                   "fromRecipe": true
                 }
               ]
@@ -962,6 +1012,8 @@
               "sha": "cf6d64415c356e0475770ce2478bb275eb41c5facc91e841ccebd2c1d5289b66",
               "tier": 2,
               "resolved": true,
+              "keyword": "Slash",
+              "keywordSha": "b3714ea0cc4a6da23b20916533f1422d50df997482ab92e31b22087c55f36e2d",
               "ingredients": []
             },
             {
@@ -970,6 +1022,8 @@
               "sha": "aa9178da3eafa88379c140698c2b931fd3d0791f32d8feb25c47fb70202c1ce7",
               "tier": 3,
               "resolved": true,
+              "keyword": "Poise",
+              "keywordSha": "031f85a790c5076a816f4c809f11a4fd19b2074013955a9edda7556189958526",
               "ingredients": []
             },
             {
@@ -978,6 +1032,8 @@
               "sha": "f0736d8ed832d9af148b72a6373a13b5bedd353d622438a7cda54c90edeb91bd",
               "tier": 3,
               "resolved": true,
+              "keyword": null,
+              "keywordSha": null,
               "ingredients": []
             },
             {
@@ -986,6 +1042,8 @@
               "sha": "bb0bac548763f17255fa3cb70ac9429680eb098873e109fbe8f367058bcccb2e",
               "tier": 2,
               "resolved": true,
+              "keyword": "Slash",
+              "keywordSha": "b3714ea0cc4a6da23b20916533f1422d50df997482ab92e31b22087c55f36e2d",
               "ingredients": []
             }
           ],
@@ -1011,6 +1069,8 @@
               "sha": "1b9d49eb8994b6aa4fc348ac289814740d8c8c20df8a0b6aac72d81c4d3b1234",
               "tier": 4,
               "resolved": false,
+              "keyword": "Slash",
+              "keywordSha": "b3714ea0cc4a6da23b20916533f1422d50df997482ab92e31b22087c55f36e2d",
               "ingredients": [
                 {
                   "gift": "broken-blade",
@@ -1018,6 +1078,8 @@
                   "sha": "e71ba4d59f4d88140a7e3594c9342059ca5e0f8ca0d628189629a12ed96e25ff",
                   "tier": 3,
                   "resolved": false,
+                  "keyword": null,
+                  "keywordSha": null,
                   "fromRecipe": true
                 },
                 {
@@ -1026,6 +1088,8 @@
                   "sha": "efe60e36e626f7aae3513ca14c884082c9afc9b222b4a69974da566614875a7b",
                   "tier": 3,
                   "resolved": false,
+                  "keyword": null,
+                  "keywordSha": null,
                   "fromRecipe": true
                 }
               ]
@@ -1036,6 +1100,8 @@
               "sha": "b6480ee3debd889ea27d890d6136c2728047e992ce27cdf3024120c9d4a781f9",
               "tier": 3,
               "resolved": true,
+              "keyword": "Slash",
+              "keywordSha": "b3714ea0cc4a6da23b20916533f1422d50df997482ab92e31b22087c55f36e2d",
               "ingredients": []
             },
             {
@@ -1044,6 +1110,8 @@
               "sha": "b39578aad491f984ed7ec3210a1c37697d3a7668c82e17c54fd9b0ae85d93780",
               "tier": 4,
               "resolved": false,
+              "keyword": "Poise",
+              "keywordSha": "031f85a790c5076a816f4c809f11a4fd19b2074013955a9edda7556189958526",
               "ingredients": []
             },
             {
@@ -1052,6 +1120,8 @@
               "sha": "6e3c69a106ac9c82e979af7c7c95317e522f66482eb0febbc7798210be353cfd",
               "tier": 4,
               "resolved": false,
+              "keyword": "Slash",
+              "keywordSha": "b3714ea0cc4a6da23b20916533f1422d50df997482ab92e31b22087c55f36e2d",
               "ingredients": []
             },
             {
@@ -1060,6 +1130,8 @@
               "sha": "217b7599d32cffd03844c338ffbef63e54fe0889da7068d5bb1547f6b3fc4514",
               "tier": 3,
               "resolved": true,
+              "keyword": "Slash",
+              "keywordSha": "b3714ea0cc4a6da23b20916533f1422d50df997482ab92e31b22087c55f36e2d",
               "ingredients": []
             },
             {
@@ -1068,6 +1140,8 @@
               "sha": "ba14daf0949434c353ae827059f83ad9fbc683b2f60fa106005c9e08e0fd2d9d",
               "tier": 3,
               "resolved": true,
+              "keyword": null,
+              "keywordSha": null,
               "ingredients": []
             }
           ],
@@ -1092,13 +1166,17 @@
               "sha": "2834be0842510d5df5cdad622b410b13dea5186c86eedd0ed114b81f49ffcedb",
               "tier": 4,
               "resolved": true,
+              "keyword": null,
+              "keywordSha": null,
               "ingredients": [
                 {
                   "gift": "operation-authorization-card",
                   "name": "Operation Authorization Card",
                   "sha": "d8af4662f3494e4b308fca458a05479663aefb36693a11f4c1799a2d8a22d9e8",
                   "tier": 3,
-                  "resolved": true
+                  "resolved": true,
+                  "keyword": null,
+                  "keywordSha": null
                 },
                 {
                   "gift": "regular-operational-gear",
@@ -1106,6 +1184,8 @@
                   "sha": "5df902be6088c2eb994b6cc03c17e74265dbdf68bac42616f80c1276a895ef55",
                   "tier": 3,
                   "resolved": false,
+                  "keyword": null,
+                  "keywordSha": null,
                   "fromRecipe": true
                 }
               ]
@@ -1116,6 +1196,8 @@
               "sha": "81460fd1288e2aae79cd04f587ab0f7dc3e14fda3e16bb3ce345371f60e21bc9",
               "tier": 3,
               "resolved": true,
+              "keyword": "Burn",
+              "keywordSha": "5aec271aedbfd8b10a46bc0bcd750edc0f380c3700b7e822c625523baceb6692",
               "ingredients": []
             },
             {
@@ -1124,6 +1206,8 @@
               "sha": "526e78529334eeee91b794522474a001899ba76f58b4621d9e666b3181f7c02d",
               "tier": 3,
               "resolved": true,
+              "keyword": "Burn",
+              "keywordSha": "5aec271aedbfd8b10a46bc0bcd750edc0f380c3700b7e822c625523baceb6692",
               "ingredients": []
             },
             {
@@ -1132,6 +1216,8 @@
               "sha": "62159a66937f0f12757a96d10780630481d6ca79d39f2e0d6db17cbc12eaac72",
               "tier": 3,
               "resolved": true,
+              "keyword": "Burn",
+              "keywordSha": "5aec271aedbfd8b10a46bc0bcd750edc0f380c3700b7e822c625523baceb6692",
               "ingredients": []
             },
             {
@@ -1140,6 +1226,8 @@
               "sha": "03d43c24e20b20d30edf51e50e7ec438c21cf62219440c5639f57db08cf37a31",
               "tier": 3,
               "resolved": true,
+              "keyword": "Burn",
+              "keywordSha": "5aec271aedbfd8b10a46bc0bcd750edc0f380c3700b7e822c625523baceb6692",
               "ingredients": []
             },
             {
@@ -1148,6 +1236,8 @@
               "sha": "f310e9bf2f07d6deb0413091d83e6c201f5f03a250ad37807d06dd0012c63528",
               "tier": 3,
               "resolved": false,
+              "keyword": "Charge",
+              "keywordSha": "cb6aafaf79487b5aae427ecad0628b046dbae4bf8fe27075725f492ae12d2135",
               "ingredients": []
             },
             {
@@ -1156,6 +1246,8 @@
               "sha": "1afdc4073b2e7b9c21475657bc0a0c5f0a5cf827829da3ed0156fd43cff29052",
               "tier": 4,
               "resolved": true,
+              "keyword": null,
+              "keywordSha": null,
               "ingredients": []
             }
           ],
@@ -1179,6 +1271,8 @@
               "sha": "cc88d0fe4c68140086192a33285cc718acc7b9486026cc9139a266acdfb03783",
               "tier": 4,
               "resolved": false,
+              "keyword": null,
+              "keywordSha": null,
               "ingredients": []
             },
             {
@@ -1187,6 +1281,8 @@
               "sha": "fcf4aba91f9b24d2fb2c7302e52e32e74e7b31bde50a82f29037789a8b940ab6",
               "tier": 2,
               "resolved": false,
+              "keyword": null,
+              "keywordSha": null,
               "ingredients": []
             }
           ],
@@ -1210,6 +1306,8 @@
               "sha": "32ef04570fd76cb5c5b4c00815ef5565cb84eb6df964aaf4914233a1058685eb",
               "tier": 4,
               "resolved": true,
+              "keyword": null,
+              "keywordSha": null,
               "ingredients": [
                 {
                   "gift": "packaging-box",
@@ -1217,6 +1315,8 @@
                   "sha": "e8034495ddc7cac384cb444d2bcc90b45b79c8f7ed97991e26b58d9c45d9d49d",
                   "tier": 3,
                   "resolved": false,
+                  "keyword": null,
+                  "keywordSha": null,
                   "fromRecipe": true
                 },
                 {
@@ -1225,6 +1325,8 @@
                   "sha": "43417021c08a35688851035893809d4a29037a61a48b8e3e55f443d56eaa48fa",
                   "tier": 1,
                   "resolved": false,
+                  "keyword": null,
+                  "keywordSha": null,
                   "fromRecipe": true
                 }
               ]
@@ -1235,6 +1337,8 @@
               "sha": "ba2bf74686ea7ac69914483b8b5573e31ff30b9b62cce9f3feb5f8eb0922ea9d",
               "tier": 4,
               "resolved": true,
+              "keyword": null,
+              "keywordSha": null,
               "ingredients": [
                 {
                   "gift": "pom-pom-hat",
@@ -1242,6 +1346,8 @@
                   "sha": "373a568f19fc1bb111470a1ec73e820a300b1e1ed6f7eaccc94c5664bc684dc2",
                   "tier": 3,
                   "resolved": false,
+                  "keyword": null,
+                  "keywordSha": null,
                   "fromRecipe": true
                 },
                 {
@@ -1250,6 +1356,8 @@
                   "sha": "7b39ebc3cb0eba2097fa1acaec525a3a044593de1c4808ee975cf80f3cb794d8",
                   "tier": 2,
                   "resolved": false,
+                  "keyword": null,
+                  "keywordSha": null,
                   "fromRecipe": true
                 },
                 {
@@ -1258,6 +1366,8 @@
                   "sha": "7849ad1fc8036bec4604afa958a73145a54b96499818a04066261f5a73c94088",
                   "tier": 1,
                   "resolved": false,
+                  "keyword": null,
+                  "keywordSha": null,
                   "fromRecipe": true
                 }
               ]
@@ -1268,6 +1378,8 @@
               "sha": "1f239eaab15ffd4644bd2acecb3ddab175da75893c96c183bf4690f4cb66fb15",
               "tier": 3,
               "resolved": true,
+              "keyword": "Tremor",
+              "keywordSha": "d022bc8ac95987b14f66f656a286be2ba749469a47f21b8630042f67f31fa619",
               "ingredients": [
                 {
                   "gift": "snuffed-lantern",
@@ -1275,6 +1387,8 @@
                   "sha": "6ee93112c8a1d5ae48dcd243ee68a79fba10a891eaca21ec1497c220d6701bd1",
                   "tier": 2,
                   "resolved": false,
+                  "keyword": null,
+                  "keywordSha": null,
                   "fromRecipe": true
                 },
                 {
@@ -1283,6 +1397,8 @@
                   "sha": "f7563a5b240667ddfac9a78f5219a632dfda5f2f80394a5e07cc8744251cf5b5",
                   "tier": 1,
                   "resolved": false,
+                  "keyword": null,
+                  "keywordSha": null,
                   "fromRecipe": true
                 }
               ]
@@ -1308,6 +1424,8 @@
               "sha": "05a8d17f88e4b326b9d37128fdf51e3283873bcc54903f274d61ebc7cb6a3fbe",
               "tier": 4,
               "resolved": true,
+              "keyword": "Bleed",
+              "keywordSha": "fe07fcfd76ffa9c70fd104e83c5950640dfc15828fdf902541318638c762d9a9",
               "ingredients": []
             },
             {
@@ -1316,6 +1434,8 @@
               "sha": "a07e420e61513cdf1e2e9e57ec1fbfc4f719f6b9d0d6c9c1daa0803c60961c5d",
               "tier": 4,
               "resolved": true,
+              "keyword": "Bleed",
+              "keywordSha": "fe07fcfd76ffa9c70fd104e83c5950640dfc15828fdf902541318638c762d9a9",
               "ingredients": []
             },
             {
@@ -1324,6 +1444,8 @@
               "sha": "507089c07f66720b42ded7e316e54d707ca3e6e647f826a85decf4a8674f9aaf",
               "tier": 4,
               "resolved": true,
+              "keyword": "Poise",
+              "keywordSha": "031f85a790c5076a816f4c809f11a4fd19b2074013955a9edda7556189958526",
               "ingredients": []
             },
             {
@@ -1332,6 +1454,8 @@
               "sha": "6f0edf50dbb844b636bd2bbd0843006a877cb30be29db688ac99cdb427a818fe",
               "tier": 4,
               "resolved": true,
+              "keyword": "Poise",
+              "keywordSha": "031f85a790c5076a816f4c809f11a4fd19b2074013955a9edda7556189958526",
               "ingredients": []
             }
           ],
@@ -1354,6 +1478,8 @@
               "sha": "7dae9bf780073d472a1ce89cd3550e34773ba540329beecddcd972304f696cd9",
               "tier": 4,
               "resolved": true,
+              "keyword": null,
+              "keywordSha": null,
               "ingredients": []
             },
             {
@@ -1362,6 +1488,8 @@
               "sha": "3665308fce311b478abda93554cf0b17a3edf37ca1d39fa92de866003e821812",
               "tier": 4,
               "resolved": true,
+              "keyword": "Poise",
+              "keywordSha": "031f85a790c5076a816f4c809f11a4fd19b2074013955a9edda7556189958526",
               "ingredients": []
             },
             {
@@ -1370,6 +1498,8 @@
               "sha": "0f22d319ec2148122f050a935ee0e94ea276261627432bf725fa86fe281664ec",
               "tier": 4,
               "resolved": true,
+              "keyword": "Bleed",
+              "keywordSha": "fe07fcfd76ffa9c70fd104e83c5950640dfc15828fdf902541318638c762d9a9",
               "ingredients": []
             },
             {
@@ -1378,6 +1508,8 @@
               "sha": "c2999840532ede32c57256eef84f03638151afa797b460684a3afa54aa5d5b0a",
               "tier": 4,
               "resolved": true,
+              "keyword": "Burn",
+              "keywordSha": "ca2698daece1f75616762c16c4800fc530c255a57f3f7e9b0c5ded4a5828dc8a",
               "ingredients": []
             },
             {
@@ -1386,6 +1518,8 @@
               "sha": "f6360327f1fe8d775f7112834918c741743feca172f03a92660ede9a879b56be",
               "tier": 4,
               "resolved": true,
+              "keyword": "Bleed",
+              "keywordSha": "fe07fcfd76ffa9c70fd104e83c5950640dfc15828fdf902541318638c762d9a9",
               "ingredients": []
             },
             {
@@ -1394,6 +1528,8 @@
               "sha": "17ca033fc31885fc4bb31a30b223f9add9d9ae6a1680643a8115efa042d97ac4",
               "tier": 4,
               "resolved": true,
+              "keyword": "Tremor",
+              "keywordSha": "d022bc8ac95987b14f66f656a286be2ba749469a47f21b8630042f67f31fa619",
               "ingredients": []
             }
           ],

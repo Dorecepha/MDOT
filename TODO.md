@@ -48,6 +48,9 @@ visual direction is part of the deliverable, not polish on top of it.
       `docs/pack-art.md`.
 - [x] ~~Canonical pack names~~ — `tools/pack_art_urls.json` carries one
       name per pack slug, settling the disagreement between team tabs.
+- [x] ~~Gift keywords~~ — statuses and attack types now badge each gift
+      icon, learned per gift so fusion ingredients match their standalone
+      entries. Keywordless gifts simply carry no badge.
 - [ ] **Fusion recipes for the other teams' packs.** The sheet never labels
       ingredient icons, so each new pack needs its recipe added to
       `tools/fusion_recipes.json`. Write ingredients in the sheet's

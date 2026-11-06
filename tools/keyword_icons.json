@@ -1,0 +1,25 @@
+{
+  "_comment": "EGO gift keyword icons, keyed by the first 10 hex of the image sha256. A gift's keyword is either one of the seven statuses or one of the three attack types; the sheet writes '-' for gifts that are Keywordless, which is normal and not an error. Several copies of each glyph exist at different sizes — extract.py writes the highest-resolution variant. Identified by eye; see docs/pack-art.md for the equivalent note on pack art.",
+  "keywords": {
+    "fe07fcfd76": "Bleed",
+    "bbf9a20eab": "Bleed",
+    "bfb448de7f": "Bleed",
+    "879727d857": "Burn",
+    "ca2698daec": "Burn",
+    "5aec271aed": "Burn",
+    "d022bc8ac9": "Tremor",
+    "69cd55ac17": "Tremor",
+    "2af4915012": "Rupture",
+    "fae3b6fd5e": "Rupture",
+    "d2ce129307": "Sinking",
+    "183c22539a": "Sinking",
+    "031f85a790": "Poise",
+    "cb6aafaf79": "Charge",
+    "7008ab2755": "Slash",
+    "b3714ea0cc": "Slash",
+    "444488b3d8": "Pierce",
+    "b71e5de0a0": "Blunt",
+    "eae7ca2353": "Blunt"
+  },
+  "attackTypes": ["Slash", "Pierce", "Blunt"]
+}

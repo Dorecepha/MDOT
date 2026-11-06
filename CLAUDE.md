@@ -116,6 +116,16 @@ inference was tried and was unreliable.
 
 - `tools/status_icons.json` — the seven status icons.
 - `tools/card_art.json` — acquisition banners and uptie numerals.
+- `tools/keyword_icons.json` — EGO gift keyword glyphs. A gift's keyword is
+  one of the seven statuses **or one of three attack types** (Slash, Pierce,
+  Blunt); the sheet writes `-` for gifts that are **Keywordless**, which is
+  normal and not an error. The glyph sits two columns right of the gift on
+  its tier row. Several copies of each exist at different sizes, so
+  `extract.py` writes the highest-resolution variant to
+  `site/assets/keywords/`. A keyword belongs to the *gift*, not the slot —
+  fusion ingredients have no glyph beside them because that column holds
+  the "+" separator, so keywords are learned per gift and then filled in,
+  or the same gift reads Sinking in one place and Keywordless in another.
 - `tools/name_overrides.json` — canonical spellings no casing rule can
   derive, mostly acronyms the sheet writes inconsistently (`A.B.S`,
   `AEDD`). Keyed by the lowercased sheet name, applied after `name_case`.

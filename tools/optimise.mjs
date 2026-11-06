@@ -19,7 +19,7 @@ const CAPS = {
   avatars: 128,    // footage avatars render 44px
   banners: 480,
   packs: 420,      // tall booster cards, shown ~150px wide
-  status: 96,
+  keywords: 128,  // badges render 16px, hero icons 42px
 };
 
 const siteDir = process.argv[2] ?? 'site';

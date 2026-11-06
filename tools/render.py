@@ -81,10 +81,18 @@ def gift_node(g, asset, size='md'):
         else '<span class="noicon">?</span>'
     label = g.get('name') or 'Unidentified'
     unknown = '' if g.get('name') else ' unknown'
+
+    # Keyword: one of the seven statuses, or an attack type. Many gifts are
+    # Keywordless — they simply get no badge, which is normal.
+    kw = g.get('keyword')
+    kwsrc = asset('assets/keywords/%s.png' % kw.lower()) if kw else None
+    kwbadge = ('<span class="kw" title="%s"><img src="%s" alt="%s"></span>'
+               % (e(kw), e(kwsrc), e(kw))) if kwsrc else ''
+
     return ('<figure class="gift %s%s">'
-            '<span class="art">%s%s</span>'
+            '<span class="art">%s%s%s</span>'
             '<figcaption>%s</figcaption></figure>'
-            % (size, unknown, img, tier_badge(g.get('tier')), e(label)))
+            % (size, unknown, img, tier_badge(g.get('tier')), kwbadge, e(label)))
 
 
 def gift_slot(g, asset):
@@ -110,7 +118,7 @@ def status_icons(statuses, asset, cls='tags'):
         return ''
     out = []
     for s in statuses:
-        src = asset('assets/status/%s.png' % s.lower())
+        src = asset('assets/keywords/%s.png' % s.lower())
         if src:
             out.append('<img class="st" src="%s" alt="%s" title="%s">'
                        % (e(src), e(s), e(s)))
