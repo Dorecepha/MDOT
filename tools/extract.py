@@ -174,6 +174,20 @@ def _load_keywords():
 
 
 KEYWORD_ICONS, ATTACK_TYPES = _load_keywords()
+
+
+def _load_gift_keywords():
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                        'gift_keywords.json')
+    if not os.path.exists(path):
+        return {}
+    with open(path, encoding='utf-8') as fh:
+        return {k.lower(): v for k, v in
+                json.load(fh).get('keywords', {}).items()}
+
+
+# Keywords for gifts the sheet never labels — fusion ingredients mostly.
+GIFT_KEYWORDS = _load_gift_keywords()
 KEYWORD_COL_OFFSET = 2   # the keyword glyph sits two columns right of the gift
 
 
@@ -905,6 +919,29 @@ def main():
     # the rest, so the same gift never reads Sinking in one place and
     # Keywordless in another.
     kw_by_gift = {}
+    kw_conflicts = []
+
+    def apply_kw_overrides(slots):
+        n = 0
+        for g in slots:
+            want = GIFT_KEYWORDS.get((g.get('gift') or '').lower())
+            if want:
+                have = g.get('keyword')
+                if have and have != want:
+                    kw_conflicts.append('%s: sheet shows %s, override says %s'
+                                        % (g.get('name'), have, want))
+                elif not have:
+                    g['keyword'] = want
+                    g['keywordSource'] = 'override'
+                    n += 1
+            n += apply_kw_overrides(g.get('ingredients') or [])
+        return n
+
+    overridden = 0
+    for sec in team['sections']:
+        overridden += apply_kw_overrides(sec.get('gifts') or [])
+        for f in sec.get('floors') or []:
+            overridden += apply_kw_overrides(f.get('gifts') or [])
 
     def learn_keywords(slots):
         for g in slots:
@@ -933,8 +970,10 @@ def main():
         filled += fill_keywords(sec.get('gifts') or [])
         for f in sec.get('floors') or []:
             filled += fill_keywords(f.get('gifts') or [])
-    print('gift keywords: %d distinct gifts, %d slots filled by inheritance'
-          % (len(kw_by_gift), filled))
+    print('gift keywords: %d distinct gifts, %d from overrides, %d inherited'
+          % (len(kw_by_gift), overridden, filled))
+    for c in kw_conflicts:
+        print('  KEYWORD CONFLICT  %s' % c)
 
     # Gift slots resolved by their own label never went through the icon
     # index, so write their art here too.

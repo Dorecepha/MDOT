@@ -1,35 +1,83 @@
 {
-  "_comment": "Fusion ingredient names supplied by the guidemaker. The sheet never labels ingredient icons, so these cannot be extracted. Order is the sheet's own left-to-right order within each fusion, which is how extract.py matches them. Tiers are recorded only as a cross-check: the sheet's tiers are authoritative, and a disagreement is reported rather than used to reorder.",
+  "_comment": "Fusion ingredient names supplied by the guidemaker. The sheet never labels ingredient icons, so these cannot be extracted. Order is the sheet's own left-to-right order within each fusion, which is how extract.py matches them. Tiers are recorded only as a cross-check: the sheet's tiers are authoritative, and a disagreement is reported rather than used to reorder. Jolly Plushie and Shadow Monster were originally supplied in reverse sheet order, which put Pom-pom Hat and Sad Plushie (and Snuffed Lantern and Candlestick) on each other's icons; corrected here to sheet order.",
   "recipes": {
     "hoarfrost-footprint": [
-      { "name": "Haunted Shoes", "tier": 2 },
-      { "name": "Frozen Cries", "tier": 2 }
+      {
+        "name": "Haunted Shoes",
+        "tier": 2
+      },
+      {
+        "name": "Frozen Cries",
+        "tier": 2
+      }
     ],
     "the-book-of-the-homeland-swordplay": [
-      { "name": "Overused Whetstone", "tier": 1 },
-      { "name": "Red Tassel", "tier": 3 },
-      { "name": "Unadorned Sword-guard", "tier": 1 }
+      {
+        "name": "Overused Whetstone",
+        "tier": 1
+      },
+      {
+        "name": "Red Tassel",
+        "tier": 3
+      },
+      {
+        "name": "Unadorned Sword-guard",
+        "tier": 1
+      }
     ],
     "cultivation": [
-      { "name": "Broken Blade", "tier": 3 },
-      { "name": "Worn Hilt", "tier": 3 }
+      {
+        "name": "Broken Blade",
+        "tier": 3
+      },
+      {
+        "name": "Worn Hilt",
+        "tier": 3
+      }
     ],
     "high-risk-operational-gear": [
-      { "name": "Operation Authorization Card", "tier": 3 },
-      { "name": "Regular Operational Gear", "tier": 3 }
+      {
+        "name": "Operation Authorization Card",
+        "tier": 3
+      },
+      {
+        "name": "Regular Operational Gear",
+        "tier": 3
+      }
     ],
     "gift": [
-      { "name": "Packaging Box", "tier": 3 },
-      { "name": "Packaging Ribbon", "tier": 1 }
+      {
+        "name": "Packaging Box",
+        "tier": 3
+      },
+      {
+        "name": "Packaging Ribbon",
+        "tier": 1
+      }
     ],
     "jolly-plushie": [
-      { "name": "Pom-pom Hat", "tier": 3 },
-      { "name": "Huge Gift Sack", "tier": 2 },
-      { "name": "Sad Plushie", "tier": 1 }
+      {
+        "name": "Sad Plushie",
+        "tier": 3
+      },
+      {
+        "name": "Huge Gift Sack",
+        "tier": 2
+      },
+      {
+        "name": "Pom-pom Hat",
+        "tier": 1
+      }
     ],
     "shadow-monster": [
-      { "name": "Snuffed Lantern", "tier": 2 },
-      { "name": "Snuffed Candlestick", "tier": 1 }
+      {
+        "name": "Snuffed Candlestick",
+        "tier": 2
+      },
+      {
+        "name": "Snuffed Lantern",
+        "tier": 1
+      }
     ]
   }
 }

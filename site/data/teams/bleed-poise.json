@@ -766,9 +766,10 @@
                   "sha": "37c837f114ead108d961656f270884ecb8e7d27869cfc523c2a4820c42da70f6",
                   "tier": 2,
                   "resolved": false,
-                  "keyword": null,
+                  "keyword": "Sinking",
                   "keywordSha": null,
-                  "fromRecipe": true
+                  "fromRecipe": true,
+                  "keywordSource": "override"
                 },
                 {
                   "gift": "frozen-cries",
@@ -971,7 +972,7 @@
               "sha": "17f5e0724bb0a7f5e18e12dc9e3070f4fceb9c486c130ad06660d5d91c12d354",
               "tier": 4,
               "resolved": true,
-              "keyword": null,
+              "keyword": "Slash",
               "keywordSha": null,
               "ingredients": [
                 {
@@ -980,9 +981,10 @@
                   "sha": "a0e5d8f82a971cec312d2ab71538e335b148194777d77cb1b6a11971ba82b016",
                   "tier": 1,
                   "resolved": false,
-                  "keyword": null,
+                  "keyword": "Slash",
                   "keywordSha": null,
-                  "fromRecipe": true
+                  "fromRecipe": true,
+                  "keywordSource": "override"
                 },
                 {
                   "gift": "red-tassel",
@@ -1000,11 +1002,13 @@
                   "sha": "01c53fccb5722fa25ff6c916ba4a76e6f115b99d83ce3c4112b205a444eef16e",
                   "tier": 1,
                   "resolved": false,
-                  "keyword": null,
+                  "keyword": "Slash",
                   "keywordSha": null,
-                  "fromRecipe": true
+                  "fromRecipe": true,
+                  "keywordSource": "override"
                 }
-              ]
+              ],
+              "keywordSource": "override"
             },
             {
               "gift": "crushed-wooden-manacle",
@@ -1078,9 +1082,10 @@
                   "sha": "e71ba4d59f4d88140a7e3594c9342059ca5e0f8ca0d628189629a12ed96e25ff",
                   "tier": 3,
                   "resolved": false,
-                  "keyword": null,
+                  "keyword": "Poise",
                   "keywordSha": null,
-                  "fromRecipe": true
+                  "fromRecipe": true,
+                  "keywordSource": "override"
                 },
                 {
                   "gift": "worn-hilt",
@@ -1088,9 +1093,10 @@
                   "sha": "efe60e36e626f7aae3513ca14c884082c9afc9b222b4a69974da566614875a7b",
                   "tier": 3,
                   "resolved": false,
-                  "keyword": null,
+                  "keyword": "Slash",
                   "keywordSha": null,
-                  "fromRecipe": true
+                  "fromRecipe": true,
+                  "keywordSource": "override"
                 }
               ]
             },
@@ -1337,12 +1343,12 @@
               "sha": "ba2bf74686ea7ac69914483b8b5573e31ff30b9b62cce9f3feb5f8eb0922ea9d",
               "tier": 4,
               "resolved": true,
-              "keyword": null,
+              "keyword": "Poise",
               "keywordSha": null,
               "ingredients": [
                 {
-                  "gift": "pom-pom-hat",
-                  "name": "Pom-pom Hat",
+                  "gift": "sad-plushie",
+                  "name": "Sad Plushie",
                   "sha": "373a568f19fc1bb111470a1ec73e820a300b1e1ed6f7eaccc94c5664bc684dc2",
                   "tier": 3,
                   "resolved": false,
@@ -1356,21 +1362,24 @@
                   "sha": "7b39ebc3cb0eba2097fa1acaec525a3a044593de1c4808ee975cf80f3cb794d8",
                   "tier": 2,
                   "resolved": false,
-                  "keyword": null,
+                  "keyword": "Poise",
                   "keywordSha": null,
-                  "fromRecipe": true
+                  "fromRecipe": true,
+                  "keywordSource": "override"
                 },
                 {
-                  "gift": "sad-plushie",
-                  "name": "Sad Plushie",
+                  "gift": "pom-pom-hat",
+                  "name": "Pom-pom Hat",
                   "sha": "7849ad1fc8036bec4604afa958a73145a54b96499818a04066261f5a73c94088",
                   "tier": 1,
                   "resolved": false,
-                  "keyword": null,
+                  "keyword": "Poise",
                   "keywordSha": null,
-                  "fromRecipe": true
+                  "fromRecipe": true,
+                  "keywordSource": "override"
                 }
-              ]
+              ],
+              "keywordSource": "override"
             },
             {
               "gift": "shadow-monster",
@@ -1382,8 +1391,8 @@
               "keywordSha": "d022bc8ac95987b14f66f656a286be2ba749469a47f21b8630042f67f31fa619",
               "ingredients": [
                 {
-                  "gift": "snuffed-lantern",
-                  "name": "Snuffed Lantern",
+                  "gift": "snuffed-candlestick",
+                  "name": "Snuffed Candlestick",
                   "sha": "6ee93112c8a1d5ae48dcd243ee68a79fba10a891eaca21ec1497c220d6701bd1",
                   "tier": 2,
                   "resolved": false,
@@ -1392,14 +1401,15 @@
                   "fromRecipe": true
                 },
                 {
-                  "gift": "snuffed-candlestick",
-                  "name": "Snuffed Candlestick",
+                  "gift": "snuffed-lantern",
+                  "name": "Snuffed Lantern",
                   "sha": "f7563a5b240667ddfac9a78f5219a632dfda5f2f80394a5e07cc8744251cf5b5",
                   "tier": 1,
                   "resolved": false,
-                  "keyword": null,
+                  "keyword": "Tremor",
                   "keywordSha": null,
-                  "fromRecipe": true
+                  "fromRecipe": true,
+                  "keywordSource": "override"
                 }
               ]
             }

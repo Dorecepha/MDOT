@@ -1,0 +1,15 @@
+{
+  "_comment": "Keywords for gifts the sheet does not label. Fusion ingredients have no glyph beside them (that column holds the '+' separator), and a few fusion results carry none either, so these come from the guidemaker. Keyed by gift slug. An override that contradicts a keyword read from the sheet is reported rather than applied silently.",
+  "keywords": {
+    "haunted-shoes": "Sinking",
+    "overused-whetstone": "Slash",
+    "unadorned-sword-guard": "Slash",
+    "the-book-of-the-homeland-swordplay": "Slash",
+    "broken-blade": "Poise",
+    "worn-hilt": "Slash",
+    "huge-gift-sack": "Poise",
+    "pom-pom-hat": "Poise",
+    "jolly-plushie": "Poise",
+    "snuffed-lantern": "Tremor"
+  }
+}

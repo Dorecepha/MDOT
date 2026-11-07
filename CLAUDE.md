@@ -127,6 +127,14 @@ inference was tried and was unreliable.
   fusion ingredients have no glyph beside them because that column holds
   the "+" separator, so keywords are learned per gift and then filled in,
   or the same gift reads Sinking in one place and Keywordless in another.
+- `tools/gift_keywords.json` — keywords for gifts the sheet never labels.
+  **This was missed on the first pass and the guidemaker had to supply it.**
+  Fusion ingredients have no glyph beside them (that column holds the "+"
+  separator), and some fusion results carry none either, so they all read
+  as Keywordless when they are not. When porting a team, check every
+  ingredient and every fusion result for a keyword and ask rather than
+  shipping them blank. An override contradicting a keyword read from the
+  sheet is reported, never applied silently.
 - `tools/name_overrides.json` — canonical spellings no casing rule can
   derive, mostly acronyms the sheet writes inconsistently (`A.B.S`,
   `AEDD`). Keyed by the lowercased sheet name, applied after `name_case`.
@@ -140,6 +148,18 @@ inference was tried and was unreliable.
   and was wrong — when a tier is the thing mis-recorded, matching on it
   scrambles the names.) A recipe whose ingredient count or names disagree
   with what was extracted is reported and skipped, never force-fitted.
+
+  **Recipe order has been wrong twice, in opposite directions.** Jolly
+  Plushie and Shadow Monster were first supplied in reverse sheet order,
+  which silently put Pom-pom Hat on Sad Plushie's icon and Snuffed Lantern
+  on Snuffed Candlestick's. Nothing in the data catches this: the names are
+  plausible either way. Cross-check each ingredient's tier against the
+  sheet — Pom-pom Hat is tier I, so it cannot be the slot showing III — and
+  confirm with the guidemaker before trusting a new recipe.
+
+  After correcting any icon-to-name mapping, **delete `site/assets/gifts/`
+  and re-extract**. `write_asset` skips existing files, so the corrected
+  name will point at the old image otherwise. Verify by hashing the files.
 
 Unlisted images still render under a hash-derived slug, so a new season
 never breaks the build; add an entry to give it a name.

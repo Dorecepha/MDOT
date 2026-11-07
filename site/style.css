@@ -360,24 +360,23 @@ a.fcard:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
   font-size: 12.5px; line-height: 1.3; text-align: center;
   color: var(--ink-2); overflow-wrap: anywhere;
 }
-.gift.sm { width: 62px; }
-.gift.sm .art { width: 48px; height: 48px; }
-.gift.sm figcaption { font-size: 11px; color: var(--ink-3); }
-.gift.lg { width: 104px; }
-.gift.lg .art { width: 84px; height: 84px; border-color: var(--gold-dim); }
-.gift.lg figcaption { font-size: 12.5px; color: var(--paper); font-weight: 700; }
+.gift.sm { width: 84px; }
+.gift.sm .art { width: 64px; height: 64px; }
+.gift.sm .kw { width: 28px; height: 28px; }
+.gift.sm .kw img { width: 24px; height: 24px; }
+.gift.sm figcaption { font-size: 11.5px; color: var(--ink-3); }
+.gift.lg .art { border-color: var(--gold-dim); }
+.gift.lg figcaption { color: var(--paper); font-weight: 700; }
 .gift.unknown .art { border-style: dashed; }
 .gift .noicon { display: grid; place-items: center; width: 100%; height: 100%; color: var(--ink-3); }
 
 /* keyword glyph, opposite the tier badge */
 .gift .kw {
   position: absolute; left: -1px; bottom: -1px;
-  width: 30px; height: 30px; display: grid; place-items: center;
+  width: 35px; height: 35px; display: grid; place-items: center;
   background: var(--brown-900); border: 1px solid var(--brown-600);
 }
-.gift .kw img { width: 22px; height: 22px; object-fit: contain; }
-.gift.sm .kw { width: 24px; height: 24px; }
-.gift.sm .kw img { width: 17px; height: 17px; }
+.gift .kw img { width: 31px; height: 31px; object-fit: contain; }
 
 .tier {
   position: absolute; top: -1px; right: -1px;
@@ -395,7 +394,7 @@ a.fcard:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
   border: 1px solid var(--gold-dim); background: var(--brown-850);
 }
 .fusion .ingredients { display: flex; align-items: flex-start; gap: 6px; }
-.fusion .plus { color: var(--ink-3); font: 400 12px/1 var(--pixel); padding-top: 22px; }
+.fusion .plus { color: var(--ink-3); font: 400 13px/1 var(--pixel); padding-top: 26px; }
 
 /* ---------------------------------------------------------------- floors */
 
@@ -445,7 +444,9 @@ a.fcard:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
 }
 .checklist h2 { color: var(--gold-hi); border-bottom-color: var(--brown-600); }
 .checklist .warn { width: 22px; height: 22px; object-fit: contain; flex: none; }
-.checklist .lead { margin: 0 0 18px; color: var(--ink-2); font-size: 15.5px; max-width: 86ch; }
+/* No width cap: a ch-based max-width stopped this short of every other
+   block, which is the same thing that went wrong with the intro. */
+.checklist .lead { margin: 0 0 20px; color: var(--ink-2); font-size: 15.5px; }
 
 .credits p { color: var(--ink-2); font-size: 15px; }
 

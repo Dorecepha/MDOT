@@ -9,12 +9,23 @@ Usage: python -I tools/render.py <site_dir> <team-slug>
 import html
 import json
 import os
+import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 
 ROMAN = {1: 'I', 2: 'II', 3: 'III', 4: 'IV', 5: 'V'}
+
+_FLOOR_NUMS = re.compile(r'\d+')
+
+
+def floor_span(label):
+    """Floor numbers a label covers: 'Floors 3-4' -> {3, 4}, 'Floor 3' -> {3}."""
+    nums = [int(n) for n in _FLOOR_NUMS.findall(label or '')]
+    if not nums:
+        return set()
+    return {nums[0]} if len(nums) == 1 else set(range(min(nums), max(nums) + 1))
 
 STATUS_TINT = {
     'bleed': '#c4423c', 'burn': '#e07a35', 'tremor': '#cfa42a',
@@ -341,12 +352,21 @@ def main():
                 # Packs sharing a floor range are alternatives, not a queue of
                 # ten equal cards — group them under one range heading and let
                 # each pack have the full width so its gifts sit on one row.
+                # Identical labels group, and so does a label whose floor
+                # range sits inside the group above it — the sheet writes
+                # "Floors 3-4" then "Floor 3" for two packs covering the
+                # same stage, and two headings there reads as a mistake.
                 groups = []
                 for f in packs:
-                    if groups and groups[-1][0] == f['label']:
-                        groups[-1][1].append(f)
-                    else:
-                        groups.append((f['label'], [f]))
+                    span = floor_span(f['label'])
+                    if groups:
+                        prev_label, prev_items = groups[-1]
+                        prev_span = floor_span(prev_label)
+                        if f['label'] == prev_label or (
+                                span and prev_span and span <= prev_span):
+                            prev_items.append(f)
+                            continue
+                    groups.append((f['label'], [f]))
 
                 A('<section id="floors"><h2>Floors to Pick</h2>')
                 for label, items in groups:
