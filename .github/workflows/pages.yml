@@ -1,8 +1,10 @@
 # Publishes site/ to GitHub Pages.
 #
 # "Deploy from a branch" only offers / or /docs as the source folder, and the
-# built site lives in site/ — so Pages is driven from Actions instead. Set
-# Settings -> Pages -> Source to "GitHub Actions" for this to take effect.
+# built site lives in site/ — so Pages is driven from Actions instead.
+# configure-pages runs with enablement: true, which turns Pages on and sets
+# its source to Actions via the API, so no manual Settings step is needed.
+# Without it the first run fails with "Get Pages site failed".
 #
 # Nothing is built here: the pipeline runs locally (it needs the 112 MB
 # workbook exports, which are gitignored) and the rendered output is
@@ -31,8 +33,11 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: actions/configure-pages@v5
+        with:
+          # create the Pages site on first run instead of erroring
+          enablement: true
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
