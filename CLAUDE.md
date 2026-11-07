@@ -239,6 +239,15 @@ and an SVG paper grain over the page.
 - `<main>` also carries `.wrap`, whose `padding: 0 30px` shorthand zeroes
   block padding. Use longhands (`main.wrap { padding-top: … }`) or the
   page silently loses its top and bottom spacing.
+- **Always write `minmax(min(Npx, 100%), 1fr)` in auto-fill grids.** A bare
+  `minmax(Npx, 1fr)` keeps an N-wide track even when the container is
+  narrower, so the loadout's 392px minimum pushed the whole page into
+  horizontal scroll at 375px while the 340px rosters just fitted — which
+  is why only one section appeared broken. `body { overflow-x: hidden }`
+  is a backstop, not the fix.
+- The section index is a **scroll-spy**: it marks the current section using
+  a probe line ~30% down the viewport, not the nav bar itself. Keying off
+  the bar leaves the index one section behind all the way down.
 - Report gaps honestly. 71 gift icons have no recoverable name; they render
   as "Unidentified" rather than a guess, and that is deliberate.
 - Do not commit `_import/raw/` (226 MB) or `site/assets` PNGs that have a

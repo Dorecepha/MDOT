@@ -43,6 +43,7 @@
 
 body {
   margin: 0;
+  overflow-x: hidden;
   background: var(--brown-900);
   color: var(--ink);
   font: 16.5px/1.6 var(--body);
@@ -177,6 +178,15 @@ a { color: inherit; }
 }
 .sectionnav a:hover { color: var(--gold-hi); border-bottom-color: var(--gold); }
 
+/* the section currently being read */
+.sectionnav a.here {
+  color: var(--paper);
+  border-bottom-color: var(--gold);
+  background: color-mix(in srgb, var(--gold) 11%, transparent);
+}
+.sectionnav a:focus-visible { outline: 2px solid var(--gold); outline-offset: -2px; }
+@media (prefers-reduced-motion: reduce) { .sectionnav .wrap { scroll-behavior: auto; } }
+
 :target { scroll-margin-top: 62px; }
 
 /* ---------------------------------------------------------------- layout */
@@ -232,7 +242,7 @@ h2 + .callout { margin-top: 0; }
 
 /* --------------------------------------------------------------- footage */
 
-.footage { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 12px; }
+.footage { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(230px, 100%), 1fr)); gap: 12px; }
 .fcard {
   display: flex; align-items: flex-start; gap: 12px;
   background: var(--brown-800); border: 1px solid var(--brown-600);
@@ -265,7 +275,10 @@ a.fcard:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
 
 /* ---------------------------------------------------------------- roster */
 
-.roster { display: grid; grid-template-columns: repeat(auto-fill, minmax(392px, 1fr)); gap: 14px; }
+/* min(Npx, 100%) rather than a bare Npx: a bare minimum keeps the track
+   at that width even when the container is narrower, which put the whole
+   page into horizontal scroll on phones. */
+.roster { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(392px, 100%), 1fr)); gap: 14px; }
 
 .idcard {
   --rail: 112px;
@@ -333,7 +346,7 @@ a.fcard:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
 }
 
 /* secondary rosters read as reference, not headline */
-.roster.tight { grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 12px; }
+.roster.tight { grid-template-columns: repeat(auto-fill, minmax(min(340px, 100%), 1fr)); gap: 12px; }
 .idcard.compact { --rail: 80px; padding: 13px; gap: 14px; --chamfer: 7px; }
 .idcard.compact h4 { font-size: 16px; }
 .idcard.compact .notes li { font-size: 14.5px; }
@@ -345,7 +358,7 @@ a.fcard:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
 
 /* ----------------------------------------------------------------- gifts */
 
-.giftcols { display: grid; grid-template-columns: repeat(auto-fit, minmax(330px, 1fr)); gap: 30px; }
+.giftcols { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(330px, 100%), 1fr)); gap: 30px; }
 .giftcol > h3 { margin-top: 0; }
 
 .gifts { display: flex; flex-wrap: wrap; gap: 14px; align-items: flex-start; }
@@ -362,7 +375,7 @@ a.fcard:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
 }
 .gift.sm { width: 84px; }
 .gift.sm .art { width: 64px; height: 64px; }
-.gift.sm .kw { width: 28px; height: 28px; }
+.gift.sm .kw { width: 24px; height: 24px; }
 .gift.sm .kw img { width: 24px; height: 24px; }
 .gift.sm figcaption { font-size: 11.5px; color: var(--ink-3); }
 .gift.lg .art { border-color: var(--gold-dim); }
@@ -373,10 +386,16 @@ a.fcard:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
 /* keyword glyph, opposite the tier badge */
 .gift .kw {
   position: absolute; left: -1px; bottom: -1px;
-  width: 35px; height: 35px; display: grid; place-items: center;
-  background: var(--brown-900); border: 1px solid var(--brown-600);
+  /* No frame: the box could not shrink further without shrinking the
+     glyph, so the glyph carries its own contrast instead. */
+  width: 31px; height: 31px; display: grid; place-items: center;
+  left: -3px; bottom: -3px;
 }
-.gift .kw img { width: 31px; height: 31px; object-fit: contain; }
+.gift .kw img {
+  width: 31px; height: 31px; object-fit: contain;
+  filter: drop-shadow(0 0 2px var(--brown-900))
+          drop-shadow(0 0 3px var(--brown-900));
+}
 
 .tier {
   position: absolute; top: -1px; right: -1px;

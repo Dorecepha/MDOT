@@ -428,6 +428,59 @@ document.getElementById('copy')?.addEventListener('click', async (ev) => {
   catch { b.textContent = 'Ctrl+C'; }
   setTimeout(() => (b.textContent = 'Copy'), 1600);
 });
+
+// Mark the section currently being read in the index. The guides are long
+// enough that a static nav gives no sense of position.
+(() => {
+  const links = new Map();
+  document.querySelectorAll('.sectionnav a').forEach(a => {
+    const id = decodeURIComponent(a.getAttribute('href') || '').slice(1);
+    const sec = id && document.getElementById(id);
+    if (sec) links.set(sec, a);
+  });
+  if (!links.size) return;
+
+  const nav = document.querySelector('.sectionnav');
+  let current = null;
+  const setCurrent = (a) => {
+    if (a === current) return;
+    current?.classList.remove('here');
+    current?.removeAttribute('aria-current');
+    current = a;
+    if (!a) return;
+    a.classList.add('here');
+    a.setAttribute('aria-current', 'true');
+    // keep it in view when the index itself scrolls horizontally
+    const w = nav.querySelector('.wrap');
+    const l = a.offsetLeft, r = l + a.offsetWidth;
+    if (l < w.scrollLeft || r > w.scrollLeft + w.clientWidth) {
+      w.scrollTo({ left: l - w.clientWidth / 3, behavior: 'smooth' });
+    }
+  };
+
+  const pick = () => {
+    // Probe below the nav rather than at it: a heading sitting just under
+    // the bar is what a reader considers the current section, so keying off
+    // the bar itself leaves the index a section behind the whole way down.
+    const navH = nav.getBoundingClientRect().height || 0;
+    const probe = navH + Math.min(innerHeight * 0.3, 260);
+    let best = null;
+    for (const sec of links.keys()) {
+      if (sec.getBoundingClientRect().top <= probe) best = sec;
+    }
+    setCurrent(best ? links.get(best) : links.values().next().value);
+  };
+
+  let queued = false;
+  const onScroll = () => {
+    if (queued) return;
+    queued = true;
+    requestAnimationFrame(() => { queued = false; pick(); });
+  };
+  addEventListener('scroll', onScroll, { passive: true });
+  addEventListener('resize', onScroll);
+  pick();
+})();
 </script></body></html>""")
 
     path = os.path.join(site, slug + '.html')
