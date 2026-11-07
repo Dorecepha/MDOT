@@ -252,3 +252,10 @@ and an SVG paper grain over the page.
   as "Unidentified" rather than a guess, and that is deliberate.
 - Do not commit `_import/raw/` (226 MB) or `site/assets` PNGs that have a
   WebP sibling.
+- **`tools/prune.py` is a pre-publish step**, not part of the build. It
+  deletes every asset no rendered page references, so the public site
+  carries only the art it actually shows (475 files / 10.5 MB down to
+  117 / 1.4 MB for the single mock-up page). Everything it removes is
+  regenerable — portraits and icons via `extract.py`, pack art via
+  `fetchpacks.py` — and re-running the pipeline repopulates the full
+  library, so prune again before publishing.

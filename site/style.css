@@ -98,6 +98,7 @@ a { color: inherit; }
 }
 
 .crumbs { font: italic 400 13px/1 var(--display); color: var(--ink-3); }
+.lede { margin: 2px 0 6px; max-width: 70ch; color: var(--ink-2); font-size: 17px; }
 .crumbs a { color: var(--gold-dim); text-decoration: none; }
 .crumbs a:hover { color: var(--gold-hi); }
 .crumbs span { margin: 0 7px; opacity: .45; }
